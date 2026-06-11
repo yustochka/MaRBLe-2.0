@@ -1,0 +1,8 @@
+step: 3.0
+timestamp: 2026-05-28 15:46:22
+inputs:
+  step01_dir: results/pipelineA/2026-05-28_15-46-02/01_universe
+  step02_dir: results/pipelineA/2026-05-28_15-46-02/02_de
+outputs:
+  wp_filtered_file: results/pipelineA/2026-05-28_15-46-02/03_ora/wp/ora_wikipathways_filtered.csv
+  go_filtered_file: results/pipelineA/2026-05-28_15-46-02/03_ora/go_bp/ora_go_bp_filtered.csv

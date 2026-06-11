@@ -1,0 +1,20 @@
+# Ablation Study — B_full_uncapped: all components active, no top-N cap.
+#
+# Conceptually equivalent to B_no_topcap from the first ablation experiment.
+# Rerun fresh into results/ablation_uncapped/ for a clean self-contained
+# uncapped comparison. Variant name changed to B_full_uncapped to distinguish
+# it from the capped B_full baseline.
+#
+# The only difference from B_full: top_n_per_direction is null.
+# All other flags (fgsea, semantic collapse, overlap clustering) are active.
+#
+# Merged with config/default.yml at runtime by R/ablation/run_ablation_B.R.
+
+pipelineB:
+  ablation:
+    variant_name:           "B_full_uncapped"
+    use_fgsea:              true
+    use_semantic_collapse:  true
+    use_overlap_clustering: true
+    use_consensus:          true
+    top_n_per_direction:    ~     # null = no cap; all keep_final==TRUE rows included

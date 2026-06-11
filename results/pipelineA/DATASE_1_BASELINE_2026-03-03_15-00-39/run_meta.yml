@@ -1,0 +1,16 @@
+pipeline: pipelineA
+run_id: pipelineA_2026-03-03_15-00-39
+timestamp: 2026-03-03_15-00-39
+dataset: dataset_1
+ran_steps:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 98
+git_commit: b3b6e1b
+run_dir: results/pipelineA/2026-03-03_15-00-39
+early_stop_reason: .na.character

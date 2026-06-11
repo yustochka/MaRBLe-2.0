@@ -1,0 +1,6 @@
+[GO collapse — semantic]
+measure = Wang, threshold tau = 0.60
+input_terms = 292
+kept_reps   = 132
+DE coverage = 97.1%
+

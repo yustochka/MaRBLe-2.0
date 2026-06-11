@@ -1,0 +1,6 @@
+dataset,pipeline_a_dir,wp_file
+dataset_0,results/pipelineA/DATASE_0_BASELINE_2026-03-01_18-00-42,data/dataset_0/processed/Pathway2Gene.csv
+dataset_1,results/pipelineA/DATASE_1_BASELINE_2026-03-03_15-00-39,data/dataset_0/processed/Pathway2Gene.csv
+dataset_2,results/pipelineA/DATASET_2_BASELINE_2026-03-04_11-29-07,data/dataset_0/processed/Pathway2Gene.csv
+dataset_3,results/pipelineA/DATASET_3_BASELINE_2026-03-04_14-54-56,data/dataset_0/processed/Pathway2Gene.csv
+ACTA2KO_iVSMC,results/pipelineA/2026-05-28_15-46-02,data/dataset_0/processed/Pathway2Gene.csv

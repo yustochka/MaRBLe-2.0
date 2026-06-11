@@ -1,0 +1,9 @@
+step: 1.0
+timestamp: 2026-03-04 12:32:59
+inputs:
+  expression_file: data/dataset_3/normCounts_GSE247345.csv
+  metadata_file: data/dataset_3/meta_GSE247345.csv
+outputs:
+  universe_file: results/pipelineB/2026-03-04_12-32-56/01_camera/universe_genes.txt
+  camera_wp_file: results/pipelineB/2026-03-04_12-32-56/01_camera/camera_wikipathways.csv
+  camera_go_file: results/pipelineB/2026-03-04_12-32-56/01_camera/camera_go_bp.csv

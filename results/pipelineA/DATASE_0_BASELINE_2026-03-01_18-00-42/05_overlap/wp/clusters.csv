@@ -1,0 +1,41 @@
+ID,Description,p.adjust,k,cluster,rank_in_cluster,cluster_size
+WP2431,Spinal cord injury,1.6786098961740424e-6,43,1,1,1
+WP558,Complement and coagulation cascades,9.315016390704976e-5,21,2,1,3
+WP3896,Dengue 2 interactions with complement and coagulation cascades,9.315016390704976e-5,21,2,2,3
+WP545,Complement activation,0.03796858272260069,9,2,3,3
+WP75,Toll like receptor signaling,0.00154365033303341,29,3,1,4
+WP4136,Fibrin complement receptor 3 signaling,0.01733158023325901,15,3,2,4
+WP3858,Toll like receptor signaling related to MyD88,0.03995964125414559,13,3,3,4
+WP4329,miRNA role in immune response in sepsis,0.04205784924323236,12,3,4,4
+WP2328,Allograft rejection,0.00238783634448924,24,4,1,1
+WP3945,TYROBP causal network in microglia,0.00556757091483947,23,5,1,1
+WP5090,Complement system in neuronal development and plasticity,0.00665677166163814,31,6,1,1
+WP3612,Photodynamic therapy induced NFE2L2 NRF2 survival signaling,0.00832072049266335,12,7,1,1
+WP5491,Transcriptional regulation of memory B cell differentiation,0.00838872332229117,16,8,1,1
+WP2806,Complement system,0.00916719107335639,24,9,1,1
+WP5561,Integrative Analysis of Treg Glial Interactions,0.00972542443948605,32,10,1,1
+WP5095,Overview of proinflammatory and profibrotic mediators,0.00972542443948605,12,11,1,1
+WP3611,Photodynamic therapy induced AP 1 survival signaling,0.00972542443948605,19,12,1,1
+WP2840,Hair follicle development cytodifferentiation stage 3 of 3,0.0101038903561157,23,13,1,1
+WP3937,Microglia pathogen phagocytosis pathway,0.01209245727172539,16,14,1,1
+WP5193,Cholesterol synthesis disorders,0.01209245727172539,10,15,1,4
+WP197,Cholesterol biosynthesis pathway,0.01733158023325901,9,15,2,4
+WP5329,Cholesterol biosynthesis pathway in hepatocytes,0.03797007548521381,16,15,3,4
+WP4718,Cholesterol metabolism with Bloch and Kandutsch Russell pathways,0.04020204513153988,17,15,4,4
+WP477,Cytoplasmic ribosomal proteins,0.01617857367476309,30,16,1,1
+WP722,Serotonin HTR1 group and FOS pathway,0.02103007102628553,16,17,1,1
+WP176,Folate metabolism,0.02164101778362147,18,18,1,1
+WP5473,Cytokine cytokine receptor interaction,0.02695965993946908,34,19,1,1
+WP3591,Sleep regulation,0.02695965993946908,12,20,1,1
+WP5284,Cell interactions in pancreatic cancer microenvironment,0.02695965993946908,9,21,1,1
+WP5198,Inflammatory bowel disease signaling,0.02695965993946908,11,22,1,1
+WP2865,IL1 and megakaryocytes in obesity,0.02695965993946908,10,23,1,1
+WP5130,Th17 cell differentiation pathway,0.03265033211953775,18,24,1,1
+WP5477,Molecular pathway for oxidative stress,0.03613335406337133,17,25,1,1
+WP1528,Physiological and pathological hypertrophy of the heart,0.03681239653271216,11,26,1,1
+WP3941,Oxidative damage response,0.04020204513153988,15,27,1,1
+WP5265,Neurogenesis regulation in the olfactory epithelium,0.04556473401112624,19,28,1,1
+WP5272,LDL influence on CD14 and TLR4,0.04897618560476502,10,29,1,1
+WP2324,AGE RAGE pathway,0.0492817571141797,21,30,1,1
+WP3947,Serotonin and anxiety,0.04945937034694876,9,31,1,1
+WP5560,Lupus therapies,0.04945937034694876,8,32,1,1

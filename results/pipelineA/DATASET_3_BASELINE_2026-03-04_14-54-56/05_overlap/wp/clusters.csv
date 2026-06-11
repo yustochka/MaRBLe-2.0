@@ -1,0 +1,21 @@
+ID,Description,p.adjust,k,cluster,rank_in_cluster,cluster_size
+WP4963,p53 transcriptional gene network,6.997388458606433e-10,31,1,1,1
+WP2446,Retinoblastoma gene in cancer,3.179054783617201e-9,31,2,1,2
+WP45,G1 to S cell cycle control,0.0044652023356707,16,2,2,2
+WP466,DNA replication,1.2082088657032216e-7,19,3,1,1
+WP707,DNA damage response,9.255996684905993e-6,22,4,1,3
+WP1530,miRNA regulation of DNA damage response,1.3445889298124909e-5,22,4,2,3
+WP2516,ATM signaling,0.0044652023356707,12,4,3,3
+WP5218,Extrafollicular and follicular B cell activation by SARS CoV 2,5.959875010947866e-4,13,5,1,1
+WP2361,Gastric cancer network 1,8.515701303348957e-4,11,6,1,1
+WP619,Type II interferon signaling,8.515701303348957e-4,11,7,1,1
+WP58,Monoamine GPCRs,0.0044652023356707,8,8,1,1
+WP4016,DNA IR damage and cellular response via ATR,0.0044652023356707,19,9,1,1
+WP1971,Integrated cancer pathway,0.0044652023356707,13,10,1,1
+WP3391,Senescence associated secretory phenotype SASP,0.0044652023356707,18,11,1,1
+WP4197,Immune response to tuberculosis,0.00794342199385081,8,12,1,1
+WP5117,Cohesin complex Cornelia de Lange syndrome,0.01753231579977654,10,13,1,1
+WP455,GPCRs class A rhodopsin like,0.01855220810171735,19,14,1,1
+WP5055,Burn wound healing,0.02424427430235911,14,15,1,1
+WP5491,Transcriptional regulation of memory B cell differentiation,0.02424427430235911,10,16,1,1
+WP3982,miRNA regulation of p53 pathway in prostate cancer,0.02483542524889078,8,17,1,1

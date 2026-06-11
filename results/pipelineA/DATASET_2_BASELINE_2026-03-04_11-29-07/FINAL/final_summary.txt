@@ -1,0 +1,17 @@
+Pipeline:            pipelineA
+Dataset:             dataset_2
+Run ID:              pipelineA_2026-03-04_11-29-07
+Timestamp:           2026-03-04_11-29-07
+FINAL source:        candidates (Tier1+Tier2 empty; n=17)
+Source file:         results/pipelineA/2026-03-04_11-29-07/07_tiers/tiered_all_candidates.csv
+Pathways exported:   17
+final_fallback_mode: tier2_then_candidates
+
+Key thresholds:
+  bootstrap B:          200
+  subsample fraction:   0.85
+  TAU_STABILITY:        0.7
+  JACCARD_MIN:          0.15
+  CONS_JACCARD_MIN:     0.15
+  CONS_K_MIN:           5
+

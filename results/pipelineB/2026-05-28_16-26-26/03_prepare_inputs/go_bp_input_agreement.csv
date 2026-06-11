@@ -1,0 +1,44 @@
+ID,Description,direction,cam_FDR,fg_FDR,fgsea_NES,agreement_source,agreement_mode_used,agreement_relaxed_fdr_used,agreement_topn_used
+GO:0000278,mitotic cell cycle,Up,7.519233982907349e-5,1.9754320112991262e-10,2.605164014835102,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0000398,"mRNA splicing, via spliceosome",Up,7.519233982907349e-5,9.60472520184871e-7,2.3021664977638583,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0006270,DNA replication initiation,Up,7.519233982907349e-5,9.60472520184871e-7,2.4437905459094136,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0006260,DNA replication,Up,2.948557838079764e-4,1.010177352964912e-7,2.4738150401563206,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0051321,meiotic cell cycle,Up,3.1108826359489e-4,3.0145125177026647e-4,2.1983710317123113,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0090307,mitotic spindle assembly,Up,4.443415245474646e-4,3.2569374818616943e-4,2.2142121956942686,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0007094,mitotic spindle assembly checkpoint signaling,Up,4.454850392645474e-4,8.141763734414782e-8,2.512024163516203,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0007059,chromosome segregation,Up,4.454850392645474e-4,3.3921608429921404e-7,2.4847978000668074,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0007052,mitotic spindle organization,Up,5.049922086140032e-4,4.4735920793278226e-7,2.489246689760399,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0030174,regulation of DNA-templated DNA replication initiation,Up,8.478055181653082e-4,6.959785244535949e-4,2.1273916810561366,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0051301,cell division,Up,0.00186872419350325,3.334221358454461e-13,2.474186433805807,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0006281,DNA repair,Up,0.00220837743000533,8.141763734414782e-8,2.2121652160407295,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0000070,mitotic sister chromatid segregation,Up,0.00235517370028439,7.94577731801175e-4,2.1201358961923433,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0006913,nucleocytoplasmic transport,Up,0.00352763967176144,0.02657814962549842,1.9018576836827177,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0043484,regulation of RNA splicing,Up,0.00454030121099256,1.153605290166192e-4,2.2954305010839837,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0006397,mRNA processing,Up,0.00454030121099256,9.714520131814602e-4,1.9632028532646923,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0043588,skin development,Down,0.00454030121099256,0.00167785739444131,-2.1831402898939625,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0008380,RNA splicing,Up,0.0066886185118588,8.139360572900897e-4,2.023522423526233,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0000076,DNA replication checkpoint signaling,Up,0.00685143024808874,5.159855331754656e-5,2.210661459544209,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0006261,DNA-templated DNA replication,Up,0.00716900610853185,0.00219103581998618,2.129059653892535,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0098911,regulation of ventricular cardiac muscle cell action potential,Down,0.00766951942440374,0.01655781936713876,-1.996324450014016,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0003272,endocardial cushion formation,Down,0.01058917743770962,0.02038809404044827,-1.9781535906317929,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0002181,cytoplasmic translation,Up,0.01344088416251917,0.0011004302332177,2.012672365405637,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0036297,interstrand cross-link repair,Up,0.01885066239063509,0.00125878325890806,2.1520651477904504,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0006302,double-strand break repair,Up,0.02110588272340086,9.253386841131318e-6,2.31552696296014,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0055091,phospholipid homeostasis,Down,0.02505208779341497,0.01348731155661093,-2.0189881242472083,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0007080,mitotic metaphase chromosome alignment,Up,0.02760395972264494,0.01037257425851479,2.0189375368289726,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0000086,G2/M transition of mitotic cell cycle,Up,0.02905261105792873,2.319427947519772e-4,2.2108745143483945,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0045109,intermediate filament organization,Down,0.02905261105792873,8.426672425343303e-4,-2.1971162271106697,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0060048,cardiac muscle contraction,Down,0.02905261105792873,0.02657814962549842,-1.934722762202975,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0140588,chromatin looping,Up,0.03118328326484352,1.1503255800808937e-4,2.10260527222574,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0006310,DNA recombination,Up,0.03118328326484352,0.01348731155661093,1.9582336262758528,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0055010,ventricular cardiac muscle tissue morphogenesis,Down,0.03118328326484352,0.03629779166795273,-1.938099461419904,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0007051,spindle organization,Up,0.03361051426884951,0.01608627466337337,1.9494500399775232,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0006298,mismatch repair,Up,0.0350096839259959,0.02746949773396194,1.916173767688938,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0071168,protein localization to chromatin,Up,0.03535930616665995,0.01348731155661093,1.9619202869926595,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0086091,regulation of heart rate by cardiac conduction,Down,0.03535930616665995,0.01608627466337337,-1.921637731769462,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0006396,RNA processing,Up,0.03535930616665995,0.02035277751794306,1.9775091904336215,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0043001,Golgi to plasma membrane protein transport,Down,0.03535930616665995,0.04394086434725393,-1.86711147212507,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0000724,double-strand break repair via homologous recombination,Up,0.03609228120371131,4.640364132389349e-4,2.111250463518399,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0045214,sarcomere organization,Down,0.03609228120371131,0.0439980551270253,-1.8886712968299253,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0007017,microtubule-based process,Up,0.04815910769379521,0.00921693031521496,2.002940933046784,strict_intersection,relax_fdr_then_topn,0.2,50
+GO:0006412,translation,Up,0.04815910769379521,0.0238362936883433,1.684210000195367,strict_intersection,relax_fdr_then_topn,0.2,50

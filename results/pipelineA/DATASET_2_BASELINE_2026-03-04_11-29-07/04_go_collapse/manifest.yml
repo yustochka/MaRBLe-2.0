@@ -1,0 +1,7 @@
+step: 4.0
+timestamp: 2026-03-04 11:29:38
+inputs:
+  step03_go_bp_dir: results/pipelineA/2026-03-04_11-29-07/03_ora/go_bp
+outputs:
+  reps_file: results/pipelineA/2026-03-04_11-29-07/04_go_collapse/semantic/reps.csv
+  mapping_file: results/pipelineA/2026-03-04_11-29-07/04_go_collapse/semantic/mapping.csv

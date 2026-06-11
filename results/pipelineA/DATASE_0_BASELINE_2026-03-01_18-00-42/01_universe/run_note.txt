@@ -1,0 +1,20 @@
+Pipeline A — Universe (measured ∩ mapped)
+dataset:   dataset_0
+EXPR_FILE: data/dataset_0/processed/processedMatrix.csv
+MAP_FILE:  data/dataset_0/processed/Pathway2Gene.csv
+expr SYMBOL column used: ...1
+map  SYMBOL column used: SYMBOL
+
+Measured genes: 17453
+Mapped genes:   8884
+Universe (N):   6992
+
+Measured not mapped: 10461
+Mapped not measured: 1892
+
+Coverage (Universe / measured): 40.1%
+Coverage (Universe / mapped):   78.7%
+
+Wrote: results/pipelineA/2026-03-01_18-00-42/01_universe/universe_genes.txt
+Wrote: results/pipelineA/2026-03-01_18-00-42/01_universe/debug_measured_not_in_mapping.csv
+Wrote: results/pipelineA/2026-03-01_18-00-42/01_universe/debug_mapping_not_measured.csv

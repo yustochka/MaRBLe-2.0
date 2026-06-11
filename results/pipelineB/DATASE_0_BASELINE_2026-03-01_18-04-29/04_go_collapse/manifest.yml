@@ -1,0 +1,7 @@
+step: 4.0
+timestamp: 2026-03-01 18:04:50
+inputs:
+  step03_dir: results/pipelineB/2026-03-01_18-04-29/03_prepare_inputs
+outputs:
+  reps_file: results/pipelineB/2026-03-01_18-04-29/04_go_collapse/reps.csv
+  mapping_file: results/pipelineB/2026-03-01_18-04-29/04_go_collapse/mapping.csv

@@ -1,0 +1,18 @@
+# Ablation Study — B_no_fgsea: fgsea removed; CAMERA-only agreement.
+#
+# Effect: step02 is skipped entirely. step03 uses a CAMERA-only passthrough
+# that filters camera_wp / camera_go at FDR <= 0.05 and extracts direction.
+# Output schema is identical to normal step03, but fg_FDR = NA, fgsea_NES = NA,
+# agreement_source = "camera_only".
+# Steps 04-06 run normally with this CAMERA-only agreement list as input.
+#
+# Merged with config/default.yml at runtime by R/ablation/run_ablation_B.R.
+
+pipelineB:
+  ablation:
+    variant_name:           "B_no_fgsea"
+    use_fgsea:              false  # skip step02; step03 = CAMERA-only passthrough
+    use_semantic_collapse:  true
+    use_overlap_clustering: true
+    use_consensus:          true
+    top_n_per_direction:    5

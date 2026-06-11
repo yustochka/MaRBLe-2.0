@@ -1,0 +1,21 @@
+ID,Description,p.adjust,k,stability,selected,collection,consensus,keep_final
+GO:0030198,extracellular matrix organization,5.303057826980286e-10,91,1,TRUE,GO,FALSE,FALSE
+GO:0035987,endodermal cell differentiation,0.0133417994918401,22,0.99,TRUE,GO,FALSE,FALSE
+GO:0061436,establishment of skin barrier,0.00739734673897462,13,0.94,TRUE,GO,FALSE,FALSE
+GO:0008543,fibroblast growth factor receptor signaling pathway,0.00219841462096274,39,0.92,TRUE,GO,FALSE,FALSE
+GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,0.01831006772119147,56,0.915,TRUE,GO,FALSE,FALSE
+GO:0006805,xenobiotic metabolic process,0.00592986371482015,31,0.88,TRUE,GO,FALSE,FALSE
+GO:0048546,digestive tract morphogenesis,0.02341164141960344,18,0.825,TRUE,GO,FALSE,FALSE
+GO:0060349,bone morphogenesis,0.01885330208381824,33,0.815,TRUE,GO,FALSE,FALSE
+GO:0014850,response to muscle activity,0.0406288496289314,14,0.81,TRUE,GO,FALSE,FALSE
+GO:0045109,intermediate filament organization,0.01312186815252193,13,0.75,TRUE,GO,FALSE,FALSE
+GO:0060326,cell chemotaxis,0.00558567820629072,85,0.715,TRUE,GO,FALSE,FALSE
+WP5417,Cell lineage map for neuronal differentiation,9.324130424108609e-6,47,1,TRUE,WP,FALSE,FALSE
+WP5390,Pancreatic cancer subtypes,0.00124965045609883,15,1,TRUE,WP,FALSE,FALSE
+WP3945,TYROBP causal network in microglia,0.00357097499415764,30,0.995,TRUE,WP,FALSE,FALSE
+WP2840,Hair follicle development cytodifferentiation stage 3 of 3,0.01528781750863908,30,0.99,TRUE,WP,FALSE,FALSE
+WP5090,Complement system in neuronal development and plasticity,0.03166880934553331,38,0.98,TRUE,WP,FALSE,FALSE
+WP2911,miRNA targets in ECM and membrane receptors,0.01542402518563735,14,0.975,TRUE,WP,FALSE,FALSE
+WP2361,Gastric cancer network 1,0.03166880934553331,15,0.965,TRUE,WP,FALSE,FALSE
+WP2839,Hair follicle development organogenesis stage 2 of 3,0.03166880934553331,16,0.965,TRUE,WP,FALSE,FALSE
+WP4786,Type I collagen synthesis in the context of osteogenesis imperfecta,0.04535489815842423,16,0.95,TRUE,WP,FALSE,FALSE

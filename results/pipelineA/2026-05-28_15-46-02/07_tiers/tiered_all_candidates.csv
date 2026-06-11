@@ -1,0 +1,99 @@
+ID,Description,p.adjust,k,stability,selected,collection,consensus,keep_final,tier
+GO:0006270,DNA replication initiation,5.134484528118593e-4,10,0.86,TRUE,GO,TRUE,TRUE,Tier 1 (stable + consensus)
+WP466,DNA replication,5.386382355316237e-4,12,0.995,TRUE,WP,TRUE,TRUE,Tier 1 (stable + consensus)
+WP5095,Overview of proinflammatory and profibrotic mediators,0.02798339154073102,9,0.94,TRUE,WP,TRUE,TRUE,Tier 1 (stable + consensus)
+WP558,Complement and coagulation cascades,0.02312478054758086,9,0.9,TRUE,WP,TRUE,TRUE,Tier 1 (stable + consensus)
+GO:0051301,cell division,7.952218065721419e-5,49,0.99,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0007094,mitotic spindle assembly checkpoint signaling,1.6090004511094267e-5,11,0.985,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:2000352,negative regulation of endothelial cell apoptotic process,0.00294736682849331,8,0.95,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0008544,epidermis development,0.02840330028986975,24,0.84,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0051968,"positive regulation of synaptic transmission, glutamatergic",0.0165792895349236,7,0.835,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0007565,female pregnancy,0.00694686503075144,18,0.83,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0048146,positive regulation of fibroblast proliferation,0.00937228509359091,10,0.82,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:1902042,negative regulation of extrinsic apoptotic signaling pathway via death domain receptors,0.01310027752999793,7,0.815,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0001947,heart looping,0.01888729426570919,10,0.75,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,0.0229076990698714,18,0.725,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+WP2446,Retinoblastoma gene in cancer,1.1478195472023457e-6,23,1,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP2806,Complement system,2.153425269543807e-5,18,1,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP3624,Lung fibrosis,1.3300866888460333e-4,13,1,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP383,Striated muscle contraction pathway,0.00336538516258788,9,0.995,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP5390,Pancreatic cancer subtypes,0.00227376880726506,8,0.985,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP2406,Cardiac progenitor differentiation,0.00730276997515698,11,0.985,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP2848,Pluripotent stem cell differentiation pathway,0.01157579699771016,9,0.98,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP2431,Spinal cord injury,0.01699746921389607,15,0.98,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP1591,Heart development,0.00236312624889572,11,0.97,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP2361,Gastric cancer network 1,0.00730276997515698,8,0.97,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP3617,Photodynamic therapy induced NF kB survival signaling,0.00841310623543139,8,0.97,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP4016,DNA IR damage and cellular response via ATR,0.02779239111656727,13,0.96,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP5117,Cohesin complex Cornelia de Lange syndrome,0.01785774559065514,8,0.955,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP2064,Neural crest differentiation,0.02779239111656727,13,0.955,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP1533,Vitamin B12 metabolism,0.01157579699771016,9,0.94,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP5055,Burn wound healing,0.03162746535604851,11,0.93,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP4136,Fibrin complement receptor 3 signaling,0.02312478054758086,8,0.905,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+GO:0002009,morphogenesis of an epithelium,0.00852887118105075,40,0.675,FALSE,GO,FALSE,FALSE,Not kept
+GO:0000070,mitotic sister chromatid segregation,7.518378851431714e-10,31,0.645,FALSE,GO,FALSE,FALSE,Not kept
+GO:0007596,blood coagulation,0.00370969944830456,23,0.615,FALSE,GO,TRUE,FALSE,Not kept
+GO:0007156,homophilic cell adhesion via plasma membrane adhesion molecules,0.04584881904069977,10,0.575,FALSE,GO,FALSE,FALSE,Not kept
+GO:0035136,forelimb morphogenesis,0.00162033110068199,8,0.5,FALSE,GO,FALSE,FALSE,Not kept
+GO:1902850,microtubule cytoskeleton organization involved in mitosis,3.747576591652182e-7,25,0.465,FALSE,GO,FALSE,FALSE,Not kept
+GO:0030324,lung development,0.04151700003700425,19,0.43,FALSE,GO,FALSE,FALSE,Not kept
+GO:0007088,regulation of mitotic nuclear division,3.747576591652182e-7,21,0.405,FALSE,GO,FALSE,FALSE,Not kept
+GO:0000079,regulation of cyclin-dependent protein serine/threonine kinase activity,0.02840330028986975,9,0.3,FALSE,GO,FALSE,FALSE,Not kept
+GO:0030198,extracellular matrix organization,0.01181314500552307,23,0.21,FALSE,GO,FALSE,FALSE,Not kept
+GO:0001525,angiogenesis,0.03440676950419871,38,0.2,FALSE,GO,FALSE,FALSE,Not kept
+GO:0055008,cardiac muscle tissue morphogenesis,4.3789819335761086e-5,15,0.16,FALSE,GO,FALSE,FALSE,Not kept
+GO:0009611,response to wounding,8.163047319182455e-4,45,0.15,FALSE,GO,FALSE,FALSE,Not kept
+GO:0031032,actomyosin structure organization,0.00602360362165095,22,0.07,FALSE,GO,FALSE,FALSE,Not kept
+GO:0009612,response to mechanical stimulus,5.540011746686861e-4,25,0.06,FALSE,GO,FALSE,FALSE,Not kept
+GO:0060706,cell differentiation involved in embryonic placenta development,0.03231562889427814,5,0.035,FALSE,GO,FALSE,FALSE,Not kept
+GO:0051781,positive regulation of cell division,0.04142506952583007,10,0.02,FALSE,GO,FALSE,FALSE,Not kept
+GO:0006942,regulation of striated muscle contraction,0.02145965304012413,12,0.015,FALSE,GO,FALSE,FALSE,Not kept
+GO:0007389,pattern specification process,0.00197004168662924,36,0.01,FALSE,GO,FALSE,FALSE,Not kept
+GO:1905818,regulation of chromosome separation,3.8183664719700625e-7,17,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0014706,striated muscle tissue development,1.3110971265838911e-6,46,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0008015,blood circulation,4.668539688740115e-6,50,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0045787,positive regulation of cell cycle,1.2085985748357917e-5,35,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0051276,chromosome organization,1.2085985748357917e-5,48,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0034113,heterotypic cell-cell adhesion,3.2060304431733614e-5,13,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0003228,atrial cardiac muscle tissue development,4.38831544227898e-5,9,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0003229,ventricular cardiac muscle tissue development,8.782886287764644e-5,15,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0003012,muscle system process,9.280360167848615e-5,41,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0140694,membraneless organelle assembly,1.3834632389873148e-4,35,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0045132,meiotic chromosome segregation,2.7439137808211945e-4,12,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0044772,mitotic cell cycle phase transition,8.009710776371721e-4,37,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0051225,spindle assembly,0.00216126041908407,14,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0090329,regulation of DNA-templated DNA replication,0.00216243663267415,8,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0007517,muscle organ development,0.00291244734882755,30,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0045216,cell-cell junction organization,0.00400938877209918,23,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0044839,cell cycle G2/M phase transition,0.00405584149597198,17,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0055013,cardiac muscle cell development,0.00457756484486026,13,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0006959,humoral immune response,0.00473829682280454,18,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0007599,hemostasis,0.00502154138589469,23,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0002064,epithelial cell development,0.00551432580281352,22,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0050673,epithelial cell proliferation,0.00555093842922025,36,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:1901992,positive regulation of mitotic cell cycle phase transition,0.0068862136082094,13,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0060420,regulation of heart growth,0.00730066258944,11,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0045104,intermediate filament cytoskeleton organization,0.00766856709853549,8,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0033260,nuclear DNA replication,0.0093251145838019,8,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0002027,regulation of heart rate,0.01029046015293678,13,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0072577,endothelial cell apoptotic process,0.01065070728091498,10,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:2000147,positive regulation of cell motility,0.01155219847783865,42,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0046622,positive regulation of organ growth,0.01439809247988228,9,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0001709,cell fate determination,0.0165792895349236,7,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0097746,blood vessel diameter maintenance,0.01661464981436957,16,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0006935,chemotaxis,0.01696470000965827,31,0,FALSE,GO,TRUE,FALSE,Not kept
+GO:1900024,regulation of substrate adhesion-dependent cell spreading,0.01942846577074012,9,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0007600,sensory perception,0.01951086763146161,28,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0030195,negative regulation of blood coagulation,0.02145965304012413,8,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0061041,regulation of wound healing,0.0217435177882032,14,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0032526,response to retinoic acid,0.0229076990698714,13,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0061371,determination of heart left/right asymmetry,0.02333290888315405,10,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0043583,ear development,0.02738000787045355,19,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0010817,regulation of hormone levels,0.02752351431583559,35,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0086004,regulation of cardiac muscle cell contraction,0.02812558806821109,7,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0003197,endocardial cushion development,0.02840330028986975,9,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0048562,embryonic organ morphogenesis,0.02887843425485237,23,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0050766,positive regulation of phagocytosis,0.02908978710939225,8,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0050819,negative regulation of coagulation,0.02908978710939225,8,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0071385,cellular response to glucocorticoid stimulus,0.03217447897215891,9,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0001763,morphogenesis of a branching structure,0.03492606927437294,20,0,FALSE,GO,FALSE,FALSE,Not kept

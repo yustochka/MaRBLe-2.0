@@ -1,0 +1,9 @@
+step: 5.0
+timestamp: 2026-03-01 18:01:25
+inputs:
+  step04_dir: results/pipelineA/2026-03-01_18-00-42/04_go_collapse
+  step03_wp_dir: results/pipelineA/2026-03-01_18-00-42/03_ora/wp
+  step01_dir: results/pipelineA/2026-03-01_18-00-42/01_universe
+outputs:
+  go_reps_file: results/pipelineA/2026-03-01_18-00-42/05_overlap/go_bp/representatives.csv
+  wp_reps_file: results/pipelineA/2026-03-01_18-00-42/05_overlap/wp/representatives.csv

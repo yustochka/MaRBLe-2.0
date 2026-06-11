@@ -1,0 +1,21 @@
+dataset: dataset_2
+universe_N: 823
+de_count_n: 177
+de_fraction: 0.2151
+p_col_used: adj. p-value
+p_adjusted_preferred: yes
+final_p_cutoff: 0.05
+final_lfc_min: none
+lfc_col: log2FC
+lfc_col_available: yes
+target_de_frac_min: 0.05
+target_de_frac_max: 0.25
+target_reached: yes
+tightening_steps: []
+reason: DE fraction within target band; no tightening needed
+ladder_history:
+- step: base
+  p_cutoff: 0.05
+  lfc_min: .na.real
+  'n': 177
+  de_fraction: 0.2150668

@@ -1,0 +1,19 @@
+=== run_summary.txt ===
+dataset:                    dataset_2
+n_universe:                 823
+med_frac_in_matrix:         0.105
+max_consensus_pairs:        0
+baseline_n_tier1:           NA
+min_cons_j_achieving_tier1: NA
+classification:             LOW_COVERAGE
+confidence_flag:            unreliable
+TAU_STABILITY:              0.50
+CONS_JACCARD_MIN:           0.10
+CONS_K_MIN:                 5
+overrides_used:             NO (rule-based)
+final_source:               candidates
+n_tier1:                    0
+n_tier2:                    0
+n_consensus_pairs:          0
+n_candidates_pool:          17
+

@@ -1,0 +1,20 @@
+# Ablation Study — B_no_semantic: GO semantic collapse removed.
+#
+# Effect: step04 is bypassed. Its passthrough copies go_bp_input_agreement.csv
+# from step03 directly to step04/reps.csv, so step05 receives all
+# agreement-filtered GO terms (no redundancy reduction applied).
+# Steps 01-03 and 05-06 run normally.
+#
+# Note: for this ablation to differ from B_full, step05 must read GO from
+# step04/reps.csv (not step03 directly) — this is enforced by the step05 fix.
+#
+# Merged with config/default.yml at runtime by R/ablation/run_ablation_B.R.
+
+pipelineB:
+  ablation:
+    variant_name:           "B_no_semantic"
+    use_fgsea:              true
+    use_semantic_collapse:  false  # bypass step04; step05 sees all agreement GO terms
+    use_overlap_clustering: true
+    use_consensus:          true
+    top_n_per_direction:    5

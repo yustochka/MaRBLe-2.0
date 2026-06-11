@@ -1,0 +1,40 @@
+Pipeline:                pipelineB
+Dataset:                 dataset_3
+Run ID:                  pipelineB_2026-03-04_12-32-56
+Timestamp:               2026-03-04_12-32-56
+Steps run:               1, 2, 3, 4, 5, 6
+
+Step03 agreement:
+  WP source:             strict_intersection (14 pathways)
+  GO source:             strict_intersection (17 pathways)
+  agreement_mode:        relax_fdr_then_topn
+
+Final selection policy:
+  final_mode:            consensus_first
+  final_top_n_per_dir:   5
+
+Step 06 thresholds (from cfg):
+  CONS_JACCARD_MIN:      0.15
+  CONS_K_MIN:            5
+  solo_q_max:            0.05
+  solo_abs_nes_min:      1.5
+  optionA_enable:        TRUE
+  optionA_quality_floor: 0.2
+
+Candidate set counts (step 06 full tables):
+  UP   consensus rows:   0
+  UP   solo rows:        15
+  UP   fallback rows:    0
+  DOWN consensus rows:   0
+  DOWN solo rows:        6
+  DOWN fallback rows:    0
+
+Final selection source used:
+  UP:                    solo
+  DOWN:                  solo
+
+FINAL.csv counts (top 5 per direction):
+  n_up:                  5
+  n_down:                5
+  n_total:               10
+

@@ -1,0 +1,50 @@
+ID,Description,p.adjust,k,stability,selected
+GO:0030198,extracellular matrix organization,5.303057826980286e-10,91,1,TRUE
+GO:0051216,cartilage development,1.4504047561007198e-4,65,0.365,FALSE
+GO:0071774,response to fibroblast growth factor,2.760856161096126e-4,51,0.44,FALSE
+GO:0061448,connective tissue development,0.00124339196687665,80,0,FALSE
+GO:0032963,collagen metabolic process,0.00187958085486762,35,0.275,FALSE
+GO:0008543,fibroblast growth factor receptor signaling pathway,0.00219841462096274,39,0.92,TRUE
+GO:0061138,morphogenesis of a branching epithelium,0.00219841462096274,58,0,FALSE
+GO:0098773,skin epidermis development,0.00223044621156374,40,0,FALSE
+GO:0099565,"chemical synaptic transmission, postsynaptic",0.00396823765655233,33,0,FALSE
+GO:0042445,hormone metabolic process,0.00396823765655233,57,0.005,FALSE
+GO:0031589,cell-substrate adhesion,0.00396823765655233,84,0.005,FALSE
+GO:0022612,gland morphogenesis,0.00487951502706133,42,0.51,FALSE
+GO:0007088,regulation of mitotic nuclear division,0.00518756463514771,34,0.43,FALSE
+GO:0060326,cell chemotaxis,0.00558567820629072,85,0.715,TRUE
+GO:0006805,xenobiotic metabolic process,0.00592986371482015,31,0.88,TRUE
+GO:0060078,regulation of postsynaptic membrane potential,0.00657734498265058,36,0,FALSE
+GO:0015844,monoamine transport,0.00737009566306995,26,0.545,FALSE
+GO:0061436,establishment of skin barrier,0.00739734673897462,13,0.94,TRUE
+GO:0016486,peptide hormone processing,0.00838283106522841,12,0.52,FALSE
+GO:0018958,phenol-containing compound metabolic process,0.00957032709893778,32,0,FALSE
+GO:0098742,cell-cell adhesion via plasma-membrane adhesion molecules,0.011303951217709,45,0,FALSE
+GO:0001504,neurotransmitter uptake,0.01187675199556045,16,0.4,FALSE
+GO:0016101,diterpenoid metabolic process,0.01247607801128744,25,0,FALSE
+GO:0003014,renal system process,0.01247607801128744,35,0,FALSE
+GO:0045109,intermediate filament organization,0.01312186815252193,13,0.75,TRUE
+GO:0035987,endodermal cell differentiation,0.0133417994918401,22,0.99,TRUE
+GO:0001909,leukocyte mediated cytotoxicity,0.01486379838201261,40,0,FALSE
+GO:0060740,prostate gland epithelium morphogenesis,0.01543401993731085,12,0.035,FALSE
+GO:0045216,cell-cell junction organization,0.01701106061141062,54,0.34,FALSE
+GO:1904018,positive regulation of vasculature development,0.01816221104382268,52,0.025,FALSE
+GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,0.01831006772119147,56,0.915,TRUE
+GO:0030534,adult behavior,0.01844548661687762,37,0.445,FALSE
+GO:0006836,neurotransmitter transport,0.01844548661687762,46,0.36,FALSE
+GO:0060349,bone morphogenesis,0.01885330208381824,33,0.815,TRUE
+GO:0000070,mitotic sister chromatid segregation,0.01989260973596817,43,0.495,FALSE
+GO:0045953,negative regulation of natural killer cell mediated cytotoxicity,0.02141347717399349,13,0.285,FALSE
+GO:0060688,regulation of morphogenesis of a branching structure,0.02249605721057849,21,0,FALSE
+GO:0048546,digestive tract morphogenesis,0.02341164141960344,18,0.825,TRUE
+GO:0010463,mesenchymal cell proliferation,0.02621901187264595,19,0.01,FALSE
+GO:0006024,glycosaminoglycan biosynthetic process,0.02820206589256718,20,0.005,FALSE
+GO:0050764,regulation of phagocytosis,0.02820206589256718,30,0.015,FALSE
+GO:0009308,amine metabolic process,0.03457677057286613,31,0,FALSE
+GO:0002274,myeloid leukocyte activation,0.03681851645586462,64,0,FALSE
+GO:0097485,neuron projection guidance,0.03772868059500786,51,0,FALSE
+GO:0043491,phosphatidylinositol 3-kinase/protein kinase B signal transduction,0.03857271887371634,78,0,FALSE
+GO:0014850,response to muscle activity,0.0406288496289314,14,0.81,TRUE
+GO:0030204,chondroitin sulfate metabolic process,0.04141689048035731,12,0,FALSE
+GO:0030278,regulation of ossification,0.04358226146706926,38,0,FALSE
+GO:0035924,cellular response to vascular endothelial growth factor stimulus,0.04762111735114358,35,0,FALSE

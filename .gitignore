@@ -1,0 +1,37 @@
+.DS_Store
+
+# R / Positron
+.Rhistory
+.Rproj.user/
+.Ruserdata/
+.RData
+.Rds
+
+# renv
+renv/library/
+renv/staging/
+.Rprofile
+
+# data
+data/raw/
+# keep an empty file so the folder exists in git:
+!data/raw/.gitkeep
+
+# Pipeline outputs.
+# results/ and figures/ are git-ignored by default so local re-runs don't
+# clutter the repo. A curated subset of results/ is committed (force-added)
+# so the Shiny dashboard works straight from a clone without re-running
+# the pipelines:
+#   - run_registry.csv          (dataset -> Pipeline A run-dir map)
+#   - analysis/                 (summaries, threshold policy, cross-pipeline, policy runs)
+#   - pipelineA/ , pipelineB/   (the 5 reference + ACTA2KO baseline run dirs)
+# Heavy experiment outputs (ablation/, ablation_uncapped/) stay ignored.
+results/*
+!results/run_registry.csv
+!results/analysis/
+!results/pipelineA/
+!results/pipelineB/
+figures/
+
+# Auto-generated R output (not source files)
+Rplots.pdf

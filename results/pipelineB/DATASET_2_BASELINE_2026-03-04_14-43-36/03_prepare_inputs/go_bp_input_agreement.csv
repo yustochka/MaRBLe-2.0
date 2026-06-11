@@ -1,0 +1,79 @@
+ID,Description,direction,cam_FDR,fg_FDR,fgsea_NES,agreement_source,agreement_mode_used,agreement_relaxed_fdr_used,agreement_topn_used
+GO:0030308,negative regulation of cell growth,Down,0.04304963762839901,0.4103922190050324,-1.69573760060984,topn,relax_fdr_then_topn,0.2,50
+GO:0000398,"mRNA splicing, via spliceosome",Up,0.2835685208374495,0.3805986972076217,1.806856636985967,topn,relax_fdr_then_topn,0.2,50
+GO:0007005,mitochondrion organization,Down,0.6457629909718976,0.4914772596677201,-1.54314485155422,topn,relax_fdr_then_topn,0.2,50
+GO:0032869,cellular response to insulin stimulus,Down,0.6457629909718976,0.4914772596677201,-1.5675320120331648,topn,relax_fdr_then_topn,0.2,50
+GO:0035556,intracellular signal transduction,Down,0.6457629909718976,0.5158903597193059,-1.5401045161514018,topn,relax_fdr_then_topn,0.2,50
+GO:0006468,protein phosphorylation,Down,0.6457629909718976,0.8047197640117995,-1.4304669825639,topn,relax_fdr_then_topn,0.2,50
+GO:0042127,regulation of cell population proliferation,Down,0.6932218599711389,0.4914772596677201,-1.5547722880000736,topn,relax_fdr_then_topn,0.2,50
+GO:0006281,DNA repair,Up,0.6932218599711389,0.4914772596677201,1.6440528767275535,topn,relax_fdr_then_topn,0.2,50
+GO:0006974,DNA damage response,Up,0.6932218599711389,0.4914772596677201,1.5623733586666235,topn,relax_fdr_then_topn,0.2,50
+GO:0007166,cell surface receptor signaling pathway,Down,0.6932218599711389,0.8093767546322291,-1.4273571410822334,topn,relax_fdr_then_topn,0.2,50
+GO:0001501,skeletal system development,Down,0.6932218599711389,0.8093767546322291,-1.424100459406645,topn,relax_fdr_then_topn,0.2,50
+GO:0008283,cell population proliferation,Down,0.6932218599711389,0.8093767546322291,-1.3855014283003069,topn,relax_fdr_then_topn,0.2,50
+GO:0043065,positive regulation of apoptotic process,Up,0.6932218599711389,0.8093767546322291,1.3833152375770326,topn,relax_fdr_then_topn,0.2,50
+GO:0010628,positive regulation of gene expression,Down,0.6932218599711389,0.8641592920353982,-1.2071794052145226,topn,relax_fdr_then_topn,0.2,50
+GO:0006364,rRNA processing,Down,0.6932218599711389,0.8641592920353982,-1.3213808637579854,topn,relax_fdr_then_topn,0.2,50
+GO:0016477,cell migration,Down,0.6932218599711389,0.8641592920353982,-1.3007717837532398,topn,relax_fdr_then_topn,0.2,50
+GO:0043161,proteasome-mediated ubiquitin-dependent protein catabolic process,Down,0.6932218599711389,0.8641592920353982,-1.2068424722171769,topn,relax_fdr_then_topn,0.2,50
+GO:0034599,cellular response to oxidative stress,Down,0.6932218599711389,0.8641592920353982,-1.166050687811349,topn,relax_fdr_then_topn,0.2,50
+GO:0070374,positive regulation of ERK1 and ERK2 cascade,Down,0.6932218599711389,0.8641592920353982,-1.146246658547462,topn,relax_fdr_then_topn,0.2,50
+GO:0001525,angiogenesis,Down,0.6932218599711389,0.8641592920353982,-1.2771288625162434,topn,relax_fdr_then_topn,0.2,50
+GO:0007411,axon guidance,Down,0.6932218599711389,0.8641592920353982,-1.3458894060026785,topn,relax_fdr_then_topn,0.2,50
+GO:0006629,lipid metabolic process,Down,0.6932218599711389,0.8641592920353982,-1.168151172582418,topn,relax_fdr_then_topn,0.2,50
+GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,Down,0.6932218599711389,0.8641592920353982,-1.2129189455051452,topn,relax_fdr_then_topn,0.2,50
+GO:0030335,positive regulation of cell migration,Down,0.6932218599711389,0.8641592920353982,-1.2073926414112237,topn,relax_fdr_then_topn,0.2,50
+GO:0001558,regulation of cell growth,Down,0.6932218599711389,0.8641592920353982,-1.2295861708511109,topn,relax_fdr_then_topn,0.2,50
+GO:0016525,negative regulation of angiogenesis,Down,0.6932218599711389,0.8641592920353982,-1.1620214402797575,topn,relax_fdr_then_topn,0.2,50
+GO:0007283,spermatogenesis,Up,0.6932218599711389,0.8641592920353982,1.288257246377325,topn,relax_fdr_then_topn,0.2,50
+GO:0008380,RNA splicing,Up,0.6932218599711389,0.8785341015677343,1.122356759579499,topn,relax_fdr_then_topn,0.2,50
+GO:0042593,glucose homeostasis,Down,0.6932218599711389,0.9093155689266144,-1.0644698515536086,topn,relax_fdr_then_topn,0.2,50
+GO:0007264,small GTPase-mediated signal transduction,Up,0.6932218599711389,0.9446554015568636,1.02620053792165,topn,relax_fdr_then_topn,0.2,50
+GO:0045087,innate immune response,Up,0.6932218599711389,0.9446554015568636,1.020973435718617,topn,relax_fdr_then_topn,0.2,50
+GO:0042776,proton motive force-driven mitochondrial ATP synthesis,Up,0.6932218599711389,0.9446554015568636,1.0181370472978586,topn,relax_fdr_then_topn,0.2,50
+GO:0006357,regulation of transcription by RNA polymerase II,Up,0.6932218599711389,0.9446554015568636,0.9917603311911544,topn,relax_fdr_then_topn,0.2,50
+GO:0006954,inflammatory response,Down,0.6932218599711389,0.9824729891956784,-0.9547600771444444,topn,relax_fdr_then_topn,0.2,50
+GO:0043123,positive regulation of canonical NF-kappaB signal transduction,Down,0.6932218599711389,0.9824729891956784,-0.9488070916556012,topn,relax_fdr_then_topn,0.2,50
+GO:0007399,nervous system development,Down,0.6932218599711389,0.9824729891956784,-0.9466011456782106,topn,relax_fdr_then_topn,0.2,50
+GO:0072659,protein localization to plasma membrane,Up,0.6932218599711389,0.9824729891956784,0.8367103961875451,topn,relax_fdr_then_topn,0.2,50
+GO:0006366,transcription by RNA polymerase II,Up,0.6932218599711389,0.9824729891956784,0.7603904913745984,topn,relax_fdr_then_topn,0.2,50
+GO:0001666,response to hypoxia,Down,0.7445367165691125,0.8641592920353982,-1.1388367530765309,topn,relax_fdr_then_topn,0.2,50
+GO:0005975,carbohydrate metabolic process,Down,0.7479434987198157,0.9824729891956784,-0.844518037500061,topn,relax_fdr_then_topn,0.2,50
+GO:0009410,response to xenobiotic stimulus,Up,0.7708227884869439,0.8785341015677343,1.1084442752124404,topn,relax_fdr_then_topn,0.2,50
+GO:0016192,vesicle-mediated transport,Up,0.7708227884869439,0.9824729891956784,0.9010480375422332,topn,relax_fdr_then_topn,0.2,50
+GO:0000122,negative regulation of transcription by RNA polymerase II,Up,0.8040114248745912,0.8641592920353982,1.1870998051095902,topn,relax_fdr_then_topn,0.2,50
+GO:0008284,positive regulation of cell population proliferation,Up,0.8221927748884971,0.9824729891956784,0.8186636529174224,topn,relax_fdr_then_topn,0.2,50
+GO:0008104,protein localization,Up,0.822567512987516,0.9824729891956784,0.6383072359188775,topn,relax_fdr_then_topn,0.2,50
+GO:0002250,adaptive immune response,Up,0.822567512987516,0.9824729891956784,0.9086632893132828,topn,relax_fdr_then_topn,0.2,50
+GO:0010467,gene expression,Down,0.8233849110717631,0.8641592920353982,-1.2402625970460883,topn,relax_fdr_then_topn,0.2,50
+GO:0050821,protein stabilization,Down,0.8233849110717631,0.8845465674733968,-1.0912928588066184,topn,relax_fdr_then_topn,0.2,50
+GO:0007165,signal transduction,Up,0.8233849110717631,0.8845465674733968,1.0561659770404526,topn,relax_fdr_then_topn,0.2,50
+GO:0051607,defense response to virus,Down,0.8233849110717631,0.9093155689266144,-1.0608067049002263,topn,relax_fdr_then_topn,0.2,50
+GO:0071222,cellular response to lipopolysaccharide,Down,0.8233849110717631,0.9824729891956784,-0.7967316102898607,topn,relax_fdr_then_topn,0.2,50
+GO:0006412,translation,Down,0.8233849110717631,0.9824729891956784,-0.7837778793509206,topn,relax_fdr_then_topn,0.2,50
+GO:0002181,cytoplasmic translation,Down,0.8233849110717631,0.9824729891956784,-0.805497148946551,topn,relax_fdr_then_topn,0.2,50
+GO:0009615,response to virus,Up,0.8233849110717631,0.9824729891956784,0.9437900028530396,topn,relax_fdr_then_topn,0.2,50
+GO:0006355,regulation of DNA-templated transcription,Up,0.8233849110717631,0.9824729891956784,0.9114626672752584,topn,relax_fdr_then_topn,0.2,50
+GO:0042981,regulation of apoptotic process,Up,0.8233849110717631,0.9824729891956784,0.690669232573913,topn,relax_fdr_then_topn,0.2,50
+GO:0015031,protein transport,Up,0.8233849110717631,0.9966329966329966,0.6070571896951078,topn,relax_fdr_then_topn,0.2,50
+GO:0045944,positive regulation of transcription by RNA polymerase II,Down,0.840622438102352,0.9824729891956784,-0.7649874241896274,topn,relax_fdr_then_topn,0.2,50
+GO:0043410,positive regulation of MAPK cascade,Up,0.8486239644218265,0.9093155689266144,1.068460407477874,topn,relax_fdr_then_topn,0.2,50
+GO:0030336,negative regulation of cell migration,Down,0.9034191418173588,0.9824729891956784,-0.9284458315783944,topn,relax_fdr_then_topn,0.2,50
+GO:0120162,positive regulation of cold-induced thermogenesis,Down,0.9034191418173588,0.9824729891956784,-0.6457455946519474,topn,relax_fdr_then_topn,0.2,50
+GO:0010976,positive regulation of neuron projection development,Up,0.9034191418173588,0.9824729891956784,0.8001126595426689,topn,relax_fdr_then_topn,0.2,50
+GO:0045892,negative regulation of DNA-templated transcription,Up,0.9034191418173588,0.9824729891956784,0.8871500470538624,topn,relax_fdr_then_topn,0.2,50
+GO:0006979,response to oxidative stress,Up,0.9034191418173588,0.9966329966329966,0.507048564736952,topn,relax_fdr_then_topn,0.2,50
+GO:0030154,cell differentiation,Down,0.9322827603077068,0.9824729891956784,-0.7442273491450404,topn,relax_fdr_then_topn,0.2,50
+GO:0030036,actin cytoskeleton organization,Down,0.9322827603077068,0.9824729891956784,-0.7907728617003621,topn,relax_fdr_then_topn,0.2,50
+GO:0043433,negative regulation of DNA-binding transcription factor activity,Up,0.9322827603077068,0.9824729891956784,0.8138630619234388,topn,relax_fdr_then_topn,0.2,50
+GO:0071456,cellular response to hypoxia,Up,0.963122892342642,0.8641592920353982,1.2910533407007805,topn,relax_fdr_then_topn,0.2,50
+GO:0034976,response to endoplasmic reticulum stress,Down,0.963122892342642,0.8845465674733968,-1.0888304668797275,topn,relax_fdr_then_topn,0.2,50
+GO:0042274,ribosomal small subunit biogenesis,Down,0.963122892342642,0.9446554015568636,-1.001311837957629,topn,relax_fdr_then_topn,0.2,50
+GO:0016485,protein processing,Down,0.963122892342642,0.9824729891956784,-0.7161463533491825,topn,relax_fdr_then_topn,0.2,50
+GO:0051301,cell division,Up,0.963122892342642,0.9824729891956784,0.7148803324947952,topn,relax_fdr_then_topn,0.2,50
+GO:0001822,kidney development,Up,0.963122892342642,0.9824729891956784,0.7221301344901156,topn,relax_fdr_then_topn,0.2,50
+GO:0007155,cell adhesion,Up,0.963122892342642,0.9824729891956784,0.7510266560760326,topn,relax_fdr_then_topn,0.2,50
+GO:0006914,autophagy,Down,0.9699175461653522,0.9966329966329966,-0.4085498567780266,topn,relax_fdr_then_topn,0.2,50
+GO:0006397,mRNA processing,Down,0.9859593753053244,0.9966329966329966,-0.6237226173867981,topn,relax_fdr_then_topn,0.2,50
+GO:0016567,protein ubiquitination,Down,0.99056654168149,0.9824729891956784,-0.6505991366063756,topn,relax_fdr_then_topn,0.2,50
+GO:0045893,positive regulation of DNA-templated transcription,Up,0.99056654168149,0.9824729891956784,0.9471670333978256,topn,relax_fdr_then_topn,0.2,50

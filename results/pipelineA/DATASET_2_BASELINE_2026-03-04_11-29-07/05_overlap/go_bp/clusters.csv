@@ -1,0 +1,30 @@
+ID,Description,p.adjust,k,cluster,rank_in_cluster,cluster_size
+GO:0006493,protein O-linked glycosylation,0.5217535098046661,4,1,1,1
+GO:0046620,regulation of organ growth,0.5217535098046661,4,2,1,1
+GO:0021542,dentate gyrus development,0.5217535098046661,3,3,1,1
+GO:0035767,endothelial cell chemotaxis,0.5217535098046661,3,4,1,1
+GO:0035864,response to potassium ion,0.5217535098046661,3,5,1,1
+GO:0055010,ventricular cardiac muscle tissue morphogenesis,0.5217535098046661,3,6,1,1
+GO:0060998,regulation of dendritic spine development,0.5217535098046661,6,7,1,1
+GO:0060419,heart growth,0.5217535098046661,5,8,1,1
+GO:0003229,ventricular cardiac muscle tissue development,0.5217535098046661,4,9,1,1
+GO:0089718,amino acid import across plasma membrane,0.5217535098046661,4,10,1,1
+GO:0007193,adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway,0.5217535098046661,5,11,1,1
+GO:0051147,regulation of muscle cell differentiation,0.5217535098046661,5,12,1,1
+GO:0010594,regulation of endothelial cell migration,0.5217535098046661,8,13,1,1
+GO:0021915,neural tube development,0.5217535098046661,8,14,1,1
+GO:0048568,embryonic organ development,0.5217535098046661,11,15,1,1
+GO:0045765,regulation of angiogenesis,0.5217535098046661,13,16,1,1
+GO:0034765,regulation of monoatomic ion transmembrane transport,0.5217535098046661,10,17,1,1
+GO:0060537,muscle tissue development,0.5217535098046661,12,18,1,1
+GO:0030001,metal ion transport,0.5217535098046661,14,19,1,1
+GO:0022603,regulation of anatomical structure morphogenesis,0.5217535098046661,21,20,1,1
+GO:0051093,negative regulation of developmental process,0.5217535098046661,24,21,1,1
+GO:0098655,monoatomic cation transmembrane transport,0.5217535098046661,17,22,1,1
+GO:0035239,tube morphogenesis,0.5217535098046661,24,23,1,1
+GO:0001568,blood vessel development,0.5217535098046661,18,24,1,1
+GO:0007167,enzyme-linked receptor protein signaling pathway,0.5217535098046661,18,25,1,1
+GO:2000026,regulation of multicellular organismal development,0.5217535098046661,33,26,1,1
+GO:0051241,negative regulation of multicellular organismal process,0.5217535098046661,24,27,1,1
+GO:1901135,carbohydrate derivative metabolic process,0.5217535098046661,26,28,1,1
+GO:0016477,cell migration,0.5217535098046661,30,29,1,1

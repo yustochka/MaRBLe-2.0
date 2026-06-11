@@ -1,0 +1,9 @@
+step: 1.0
+timestamp: 2026-03-01 18:04:32
+inputs:
+  expression_file: data/dataset_0/processed/processedMatrix.csv
+  metadata_file: data/dataset_0/processed/metaData.csv
+outputs:
+  universe_file: results/pipelineB/2026-03-01_18-04-29/01_camera/universe_genes.txt
+  camera_wp_file: results/pipelineB/2026-03-01_18-04-29/01_camera/camera_wikipathways.csv
+  camera_go_file: results/pipelineB/2026-03-01_18-04-29/01_camera/camera_go_bp.csv

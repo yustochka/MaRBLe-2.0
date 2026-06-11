@@ -1,0 +1,9 @@
+[GO-BP ORA]
+N=7052, n=651, de_fraction=0.092
+DE policy: p_col=adj. p-value, p_cutoff=0.050, lfc_min=0.5, steps=L1: |log2FC| >= 0.5
+K_min..K_max=[15,370] (from GO-BP K distribution)
+Strict filters: FDR<0.05, k>=3, k/E[k]>=1.5 (mode=adaptive)
+Fallback mode: relax_fdr_then_topn  |  Fallback used: none
+Tested=6852, Kept=118 (final filtered)
+Files: results/pipelineA/2026-03-04_14-54-56/03_ora/go_bp/ora_go_bp_all.csv, results/pipelineA/2026-03-04_14-54-56/03_ora/go_bp/ora_go_bp_filtered.csv
+

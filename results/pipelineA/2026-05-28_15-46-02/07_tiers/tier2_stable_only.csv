@@ -1,0 +1,28 @@
+ID,Description,p.adjust,k,stability,selected,collection,consensus,keep_final
+GO:0051301,cell division,7.952218065721419e-5,49,0.99,TRUE,GO,FALSE,FALSE
+GO:0007094,mitotic spindle assembly checkpoint signaling,1.6090004511094267e-5,11,0.985,TRUE,GO,FALSE,FALSE
+GO:2000352,negative regulation of endothelial cell apoptotic process,0.00294736682849331,8,0.95,TRUE,GO,FALSE,FALSE
+GO:0008544,epidermis development,0.02840330028986975,24,0.84,TRUE,GO,FALSE,FALSE
+GO:0051968,"positive regulation of synaptic transmission, glutamatergic",0.0165792895349236,7,0.835,TRUE,GO,FALSE,FALSE
+GO:0007565,female pregnancy,0.00694686503075144,18,0.83,TRUE,GO,FALSE,FALSE
+GO:0048146,positive regulation of fibroblast proliferation,0.00937228509359091,10,0.82,TRUE,GO,FALSE,FALSE
+GO:1902042,negative regulation of extrinsic apoptotic signaling pathway via death domain receptors,0.01310027752999793,7,0.815,TRUE,GO,FALSE,FALSE
+GO:0001947,heart looping,0.01888729426570919,10,0.75,TRUE,GO,FALSE,FALSE
+GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,0.0229076990698714,18,0.725,TRUE,GO,FALSE,FALSE
+WP2446,Retinoblastoma gene in cancer,1.1478195472023457e-6,23,1,TRUE,WP,FALSE,FALSE
+WP2806,Complement system,2.153425269543807e-5,18,1,TRUE,WP,FALSE,FALSE
+WP3624,Lung fibrosis,1.3300866888460333e-4,13,1,TRUE,WP,FALSE,FALSE
+WP383,Striated muscle contraction pathway,0.00336538516258788,9,0.995,TRUE,WP,FALSE,FALSE
+WP5390,Pancreatic cancer subtypes,0.00227376880726506,8,0.985,TRUE,WP,FALSE,FALSE
+WP2406,Cardiac progenitor differentiation,0.00730276997515698,11,0.985,TRUE,WP,FALSE,FALSE
+WP2848,Pluripotent stem cell differentiation pathway,0.01157579699771016,9,0.98,TRUE,WP,FALSE,FALSE
+WP2431,Spinal cord injury,0.01699746921389607,15,0.98,TRUE,WP,FALSE,FALSE
+WP1591,Heart development,0.00236312624889572,11,0.97,TRUE,WP,FALSE,FALSE
+WP2361,Gastric cancer network 1,0.00730276997515698,8,0.97,TRUE,WP,FALSE,FALSE
+WP3617,Photodynamic therapy induced NF kB survival signaling,0.00841310623543139,8,0.97,TRUE,WP,FALSE,FALSE
+WP4016,DNA IR damage and cellular response via ATR,0.02779239111656727,13,0.96,TRUE,WP,FALSE,FALSE
+WP5117,Cohesin complex Cornelia de Lange syndrome,0.01785774559065514,8,0.955,TRUE,WP,FALSE,FALSE
+WP2064,Neural crest differentiation,0.02779239111656727,13,0.955,TRUE,WP,FALSE,FALSE
+WP1533,Vitamin B12 metabolism,0.01157579699771016,9,0.94,TRUE,WP,FALSE,FALSE
+WP5055,Burn wound healing,0.03162746535604851,11,0.93,TRUE,WP,FALSE,FALSE
+WP4136,Fibrin complement receptor 3 signaling,0.02312478054758086,8,0.905,TRUE,WP,FALSE,FALSE

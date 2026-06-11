@@ -1,0 +1,18 @@
+# Ablation Study — B_no_overlap: Jaccard overlap clustering removed.
+#
+# Effect: step05 is bypassed. Its passthrough merges step03 WP agreement +
+# step04 GO reps (or step03 GO if semantic collapse was also off), splits by
+# direction, and writes to step05/representatives_up.csv + representatives_down.csv
+# with the schema that step06 expects. No clustering occurs — every
+# agreement-filtered term (after optional semantic collapse) proceeds to step06.
+#
+# Merged with config/default.yml at runtime by R/ablation/run_ablation_B.R.
+
+pipelineB:
+  ablation:
+    variant_name:           "B_no_overlap"
+    use_fgsea:              true
+    use_semantic_collapse:  true
+    use_overlap_clustering: false  # bypass step05; step06 sees all step03/04 terms
+    use_consensus:          true
+    top_n_per_direction:    5

@@ -1,0 +1,47 @@
+dataset:
+  name: dataset_0
+  expression_file: data/dataset_0/processed/processedMatrix.csv
+  metadata_file: data/dataset_0/processed/metaData.csv
+  statistics_file: data/dataset_0/processed/statisticsTable.csv
+  pathway2gene_file: data/dataset_0/processed/Pathway2Gene.csv
+thresholds:
+  JACCARD_MIN: 0.15
+  MIN_INTERSECTION: 3
+  TAU_STABILITY: 0.7
+  CONS_JACCARD_MIN: 0.15
+  CONS_K_MIN: 5
+bootstrap:
+  B: 200
+  SUBSAMPLE_P: 0.85
+run:
+  seed: 123
+  overwrite: no
+pipelineA:
+  run_steps:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 98
+pipelineB:
+  run_steps:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  target_tissue: Temporal cortex
+  min_set_size: 10
+  max_set_size: 500
+  include_age: no
+  gsea_seed: 7
+  go_semantic_tau: 0.6
+  solo_q_max: 0.05
+  solo_abs_nes_min: 1.5
+  final_mode: consensus_first
+  final_top_n_per_direction: 5
+  write_theme_summary: no

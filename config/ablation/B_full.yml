@@ -1,0 +1,14 @@
+# Ablation Study — B_full (baseline): all components active.
+#
+# Merged with config/default.yml at runtime by R/ablation/run_ablation_B.R.
+# DO NOT set dataset: or thresholds: here — those come from default.yml.
+# Only pipelineB.ablation values are overridden here.
+
+pipelineB:
+  ablation:
+    variant_name:           "B_full"
+    use_fgsea:              true   # run step02; step03 = CAMERA ∩ fgsea agreement
+    use_semantic_collapse:  true   # run step04; step05 reads GO from step04/reps.csv
+    use_overlap_clustering: true   # run step05; step06 reads from step05 representatives
+    use_consensus:          true   # step06 applies GO<->WP Jaccard consensus filter
+    top_n_per_direction:    5      # hard cap on final shortlist per direction

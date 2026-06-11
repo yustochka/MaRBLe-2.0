@@ -1,0 +1,4 @@
+original_term_id,kept_term_id,pair_similarity,direction
+GO:0007052,GO:0090307,0.726,Up
+GO:0006270,GO:0030174,0.686,Up
+GO:0000724,GO:0006302,0.838,Up

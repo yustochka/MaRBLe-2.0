@@ -1,0 +1,25 @@
+# TEST VARIANT — not a production ablation
+# Purpose: validate whether Pipeline B can produce a shortlist without fgsea
+#          when the solo selection rule is relaxed to CAMERA FDR only.
+#
+# Differs from B_no_fgsea in ONE way only:
+#   solo_abs_nes_min set to 0 (effectively disabled)
+#   → solo_high_conf activates on agreement_q <= 0.05 alone
+#   → agreement_q = max(camera_FDR, fgsea_padj, na.rm=TRUE)
+#     = camera_FDR when fgsea is bypassed (fgsea_padj = NA)
+#   → selection criterion is: CAMERA FDR <= 0.05 (no NES requirement)
+#
+# Steps 01-05 are IDENTICAL to B_no_fgsea.
+# Step 06 uses the relaxed solo rule.
+# Step 04 passthrough is forced (fg_FDR=NA incompatible with step04).
+# Do NOT use this config for any comparison except B_no_fgsea.
+
+pipelineB:
+  solo_abs_nes_min: -1   # sentinel: negative = no NES requirement (step06 skips absNES guard)
+  ablation:
+    variant_name:            "B_no_fgsea_camera_only_selection"
+    use_fgsea:               false
+    use_semantic_collapse:   true
+    use_overlap_clustering:  true
+    use_consensus:           true
+    top_n_per_direction:     5

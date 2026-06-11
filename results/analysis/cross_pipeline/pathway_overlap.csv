@@ -1,0 +1,4 @@
+"ID","Description","stability","collection","p.adjust","direction","absNES","agreement_q","dataset"
+"GO:0002181","cytoplasmic translation",0.95,"GO",0.0451042109139217,"DOWN",3.42976232213527,1.79549922024437e-13,"dataset_0"
+"WP2328","Allograft rejection",1,"WP",0.00238783634448924,"DOWN",2.38073126935035,0.000247399187475898,"dataset_0"
+"WP1591","Heart development",0.97,"WP",0.00236312624889572,"DOWN",1.92540347322516,0.0113109127138043,"ACTA2KO_iVSMC"

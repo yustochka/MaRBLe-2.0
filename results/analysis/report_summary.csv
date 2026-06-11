@@ -1,0 +1,5 @@
+dataset,classification,confidence,baseline_result,recommended_result,recommended_tau,recommended_cons_j,key_change
+dataset_0,HEALTHY,high,tier1,tier1,0.7,0.15,No change — Tier1 preserved at default thresholds
+dataset_1,NO_OVERLAP,low,tier2,tier2,0.7,0.1,No change — GO↔WP overlap absent; Tier2 is the correct output
+dataset_2,LOW_COVERAGE,unreliable,candidates,candidates,0.5,0.1,No change in output — flagged as unreliable (focused panel)
+dataset_3,BORDERLINE,medium,tier2,tier1,0.7,0.1,Tier2 → Tier1: lowering CONS_J from 0.15 to 0.10 recovered 8 stable consensus pathways

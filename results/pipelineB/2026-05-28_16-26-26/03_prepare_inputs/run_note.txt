@@ -1,0 +1,14 @@
+[Pipeline B — Agreement inputs]
+
+agreement_mode: relax_fdr_then_topn
+Strict criteria:
+- CAMERA FDR ≤ 0.05
+- fgsea padj ≤ 0.05
+- Same enrichment direction
+
+WikiPathways kept: 23
+GO:BP kept:        43
+
+Outputs:
+- results/pipelineB/2026-05-28_16-26-26/03_prepare_inputs/wp_input_agreement.csv
+- results/pipelineB/2026-05-28_16-26-26/03_prepare_inputs/go_bp_input_agreement.csv

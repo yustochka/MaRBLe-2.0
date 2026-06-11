@@ -1,0 +1,18 @@
+ID,Description,p.adjust,k,stability,selected
+GO:0006493,protein O-linked glycosylation,0.5217535098046661,4,0.005,FALSE
+GO:0021542,dentate gyrus development,0.5217535098046661,3,0.005,FALSE
+GO:0035767,endothelial cell chemotaxis,0.5217535098046661,3,0,FALSE
+GO:0035864,response to potassium ion,0.5217535098046661,3,0,FALSE
+GO:0055010,ventricular cardiac muscle tissue morphogenesis,0.5217535098046661,3,0,FALSE
+GO:0060998,regulation of dendritic spine development,0.5217535098046661,6,0,FALSE
+GO:0003229,ventricular cardiac muscle tissue development,0.5217535098046661,4,0,FALSE
+GO:0007193,adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway,0.5217535098046661,5,0,FALSE
+GO:0010594,regulation of endothelial cell migration,0.5217535098046661,8,0,FALSE
+GO:0021915,neural tube development,0.5217535098046661,8,0,FALSE
+GO:0048568,embryonic organ development,0.5217535098046661,11,0,FALSE
+GO:0045765,regulation of angiogenesis,0.5217535098046661,13,0,FALSE
+GO:0034765,regulation of monoatomic ion transmembrane transport,0.5217535098046661,10,0,FALSE
+GO:0060537,muscle tissue development,0.5217535098046661,12,0,FALSE
+GO:0098655,monoatomic cation transmembrane transport,0.5217535098046661,17,0,FALSE
+GO:0001568,blood vessel development,0.5217535098046661,18,0,FALSE
+GO:0016477,cell migration,0.5217535098046661,30,0,FALSE

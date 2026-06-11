@@ -1,0 +1,19 @@
+=== run_summary.txt ===
+dataset:                    dataset_0
+n_universe:                 6992
+med_frac_in_matrix:         0.677
+max_consensus_pairs:        15
+baseline_n_tier1:           11
+min_cons_j_achieving_tier1: 0.1
+classification:             HEALTHY
+confidence_flag:            high
+TAU_STABILITY:              0.70
+CONS_JACCARD_MIN:           0.15
+CONS_K_MIN:                 5
+overrides_used:             NO (rule-based)
+final_source:               tier1
+n_tier1:                    11
+n_tier2:                    41
+n_consensus_pairs:          7
+n_candidates_pool:          85
+

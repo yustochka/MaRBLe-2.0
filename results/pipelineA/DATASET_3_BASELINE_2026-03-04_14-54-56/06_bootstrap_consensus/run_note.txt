@@ -1,0 +1,9 @@
+[Bootstrap + Consensus]
+B = 200, subsample_p = 0.85, drop_delta = 0.1, FDR_cut = 0.05
+stability_cut = 0.7
+consensus: Jaccard >= 0.15, shared genes >= 5
+
+GO reps: 31   WP reps: 17
+GO kept (stable): 7  WP kept (stable): 17
+GO consensus-supported: 1      WP consensus-supported: 1
+Final keepers (stable & consensus): 2

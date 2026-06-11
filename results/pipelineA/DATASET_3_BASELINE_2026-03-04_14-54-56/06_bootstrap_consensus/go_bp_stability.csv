@@ -1,0 +1,32 @@
+ID,Description,p.adjust,k,stability,selected
+GO:0000070,mitotic sister chromatid segregation,1.2668073930807103e-6,32,0.81,TRUE
+GO:0000086,G2/M transition of mitotic cell cycle,1.0430744174309969e-5,27,1,TRUE
+GO:0051276,chromosome organization,1.158793968824573e-5,64,0,FALSE
+GO:0006270,DNA replication initiation,3.797260472857706e-5,14,0.99,TRUE
+GO:0090068,positive regulation of cell cycle process,5.0675751342810835e-5,38,0,FALSE
+GO:0045132,meiotic chromosome segregation,7.818147317224123e-5,16,0.345,FALSE
+GO:1905818,regulation of chromosome separation,8.035509976916976e-5,17,0,FALSE
+GO:0007088,regulation of mitotic nuclear division,1.604086611797919e-4,21,0.365,FALSE
+GO:0051303,establishment of chromosome localization,2.027864720569171e-4,18,0.325,FALSE
+GO:1902850,microtubule cytoskeleton organization involved in mitosis,2.8589166854398897e-4,25,0.36,FALSE
+GO:0090329,regulation of DNA-templated DNA replication,4.741176109111913e-4,11,0,FALSE
+GO:0033260,nuclear DNA replication,6.030578857581545e-4,12,0,FALSE
+GO:0007094,mitotic spindle assembly checkpoint signaling,6.738928080957898e-4,11,0.975,TRUE
+GO:1901990,regulation of mitotic cell cycle phase transition,6.738928080957898e-4,42,0,FALSE
+GO:0032147,activation of protein kinase activity,9.11530083305508e-4,15,0.125,FALSE
+GO:0006959,humoral immune response,0.00120801562416149,23,0.235,FALSE
+GO:0042770,signal transduction in response to DNA damage,0.00167847338312247,28,0.05,FALSE
+GO:0071459,"protein localization to chromosome, centromeric region",0.00169962204486193,9,0.05,FALSE
+GO:0065004,protein-DNA complex assembly,0.0030569137388967,26,0,FALSE
+GO:0051781,positive regulation of cell division,0.01874300153505686,14,0,FALSE
+GO:0061844,antimicrobial humoral immune response mediated by antimicrobial peptide,0.01983320140688534,10,0.885,TRUE
+GO:0007131,reciprocal meiotic recombination,0.02426598343077684,10,0.62,FALSE
+GO:0007617,mating behavior,0.02811539688077048,8,0.08,FALSE
+GO:0014075,response to amine,0.03143095883758157,11,0.605,FALSE
+GO:0003073,regulation of systemic arterial blood pressure,0.03290583763925794,14,0,FALSE
+GO:0007095,mitotic G2 DNA damage checkpoint signaling,0.0334275293664158,9,0.8,TRUE
+GO:0071312,cellular response to alkaloid,0.03640477994108635,10,0.02,FALSE
+GO:0000281,mitotic cytokinesis,0.03811030666072509,14,0.9,TRUE
+GO:0007631,feeding behavior,0.04385160764507683,12,0,FALSE
+GO:0009410,response to xenobiotic stimulus,0.04489009950702698,43,0.58,FALSE
+GO:0032465,regulation of cytokinesis,0.04735136933116594,13,0,FALSE

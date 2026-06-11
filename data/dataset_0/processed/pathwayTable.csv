@@ -1,0 +1,684 @@
+ID,Description,GeneRatio,BgRatio,p-value,adj. p-value
+WP2431,Spinal cord injury,43/1363,92/6992,2.46e-09,1.68e-06
+WP382,MAPK signaling,72/1363,213/6992,4.07e-07,9.32e-05
+WP3896,Dengue 2 interactions with complement and coagu...,21/1363,37/6992,5.46e-07,9.32e-05
+WP558,Complement and coagulation cascades,21/1363,37/6992,5.46e-07,9.32e-05
+WP5115,Network map of SARS CoV 2 signaling,58/1363,174/6992,8.93e-06,0.00122
+WP75,Toll like receptor signaling,29/1363,69/6992,1.36e-05,0.00154
+WP2328,Allograft rejection,24/1363,54/6992,2.45e-05,0.00239
+WP706,Sudden infant death syndrome SIDS susceptibilit...,44/1363,126/6992,2.99e-05,0.00255
+WP4462,Platelet mediated interactions with vascular an...,9/1363,12/6992,4.93e-05,0.00374
+WP3945,TYROBP causal network in microglia,23/1363,54/6992,8.15e-05,0.00557
+WP5090,Complement system in neuronal development and p...,31/1363,83/6992,0.000107,0.00666
+WP3612,Photodynamic therapy induced NFE2L2 NRF2 surviv...,12/1363,21/6992,0.000146,0.00832
+WP5491,Transcriptional regulation of memory B cell dif...,16/1363,33/6992,0.00016,0.00839
+WP2806,Complement system,24/1363,60/6992,0.000188,0.00917
+WP5561,Integrative Analysis of Treg Glial Interactions ,32/1363,90/6992,0.000243,0.00973
+WP2877,Vitamin D receptor pathway,39/1363,117/6992,0.000257,0.00973
+WP5095,Overview of proinflammatory and profibrotic med...,12/1363,22/6992,0.000265,0.00973
+WP5083,Neuroinflammation and glutamatergic signaling,41/1363,125/6992,0.000266,0.00973
+WP3611,Photodynamic therapy induced AP 1 survival sign...,19/1363,44/6992,0.000271,0.00973
+WP2840,Hair follicle development cytodifferentiation s...,23/1363,58/6992,0.000296,0.0101
+WP3937,Microglia pathogen phagocytosis pathway,16/1363,35/6992,0.000374,0.0121
+WP5193,Cholesterol synthesis disorders,10/1363,17/6992,0.00039,0.0121
+WP477,Cytoplasmic ribosomal proteins,30/1363,86/6992,0.000545,0.0162
+WP4136,Fibrin complement receptor 3 signaling,15/1363,33/6992,0.000613,0.0173
+WP197,Cholesterol biosynthesis pathway,9/1363,15/6992,0.000634,0.0173
+WP722,Serotonin HTR1 group and FOS pathway,16/1363,37/6992,0.000801,0.021
+WP176,Folate metabolism,18/1363,44/6992,0.000856,0.0216
+WP5473,Cytokine cytokine receptor interaction,34/1363,105/6992,0.00111,0.027
+WP3591,Sleep regulation,12/1363,25/6992,0.00119,0.027
+WP5284,Cell interactions in pancreatic cancer microenv...,9/1363,16/6992,0.0012,0.027
+WP5198,Inflammatory bowel disease signaling,11/1363,22/6992,0.00125,0.027
+WP2865,IL1 and megakaryocytes in obesity,10/1363,19/6992,0.00126,0.027
+WP5130,Th17 cell differentiation pathway,18/1363,46/6992,0.00158,0.0327
+WP4919,Neuroinflammation,7/1363,11/6992,0.00166,0.0334
+WP5477,Molecular pathway for oxidative stress,17/1363,43/6992,0.00185,0.0361
+WP1528,Physiological and pathological hypertrophy of t...,11/1363,23/6992,0.00198,0.0368
+WP3944,Serotonin and anxiety related events,8/1363,14/6992,0.00199,0.0368
+WP545,Complement activation,9/1363,17/6992,0.00211,0.038
+WP5329,Cholesterol biosynthesis pathway in hepatocytes,16/1363,40/6992,0.00217,0.038
+WP3888,VEGFA VEGFR2 signaling,103/1363,410/6992,0.00236,0.04
+WP3858,Toll like receptor signaling related to MyD88,13/1363,30/6992,0.0024,0.04
+WP4718,Cholesterol metabolism with Bloch and Kandutsch...,17/1363,44/6992,0.00248,0.0402
+WP3941,Oxidative damage response,15/1363,37/6992,0.00253,0.0402
+WP4329,miRNA role in immune response in sepsis,12/1363,27/6992,0.00271,0.0421
+WP5265,Neurogenesis regulation in the olfactory epithe...,19/1363,52/6992,0.003,0.0456
+WP5272,LDL influence on CD14 and TLR4,10/1363,21/6992,0.0033,0.049
+WP2324,AGE RAGE pathway,21/1363,60/6992,0.00339,0.0493
+WP3947,Serotonin and anxiety,9/1363,18/6992,0.0035,0.0495
+WP5560,Lupus therapies,8/1363,15/6992,0.00355,0.0495
+WP2882,Nuclear receptors meta pathway,62/1363,233/6992,0.00441,0.0597
+WP5495,Targeting YAP in pancreatic ductal adenocarcino...,11/1363,25/6992,0.00445,0.0597
+WP5353,Macrophage stimulating protein MSP signaling,28/1363,89/6992,0.00466,0.0613
+WP5222,2q13 copy number variation syndrome,16/1363,43/6992,0.00509,0.0656
+WP4877,Host pathogen interaction of human coronaviruse...,14/1363,36/6992,0.00545,0.0672
+WP58,Monoamine GPCRs,12/1363,29/6992,0.00551,0.0672
+WP619,Type II interferon signaling,12/1363,29/6992,0.00551,0.0672
+WP4494,Selective expression of chemokine receptors dur...,7/1363,13/6992,0.00599,0.0718
+WP3303,RAC1 PAK1 p38 MMP2 pathway,21/1363,63/6992,0.00648,0.0742
+WP4341,Non genomic actions of 1 25 dihydroxyvitamin D3,21/1363,63/6992,0.00648,0.0742
+WP536,Calcium regulation in cardiac cells,40/1363,141/6992,0.00651,0.0742
+WP5333,Enterocyte cholesterol metabolism,12/1363,30/6992,0.00758,0.0849
+WP4559,Interactions between immune cells and microRNAs...,8/1363,17/6992,0.00926,0.0983
+WP5285,Immune infiltration in pancreatic cancer,8/1363,17/6992,0.00926,0.0983
+WP4666,Hepatitis B infection,37/1363,131/6992,0.00933,0.0983
+WP2880,Glucocorticoid receptor pathway,19/1363,57/6992,0.00936,0.0983
+WP2118,Arrhythmogenic right ventricular cardiomyopathy,21/1363,65/6992,0.0096,0.0993
+WP3,Transcriptional activation by NRF2 in response ...,7/1363,14/6992,0.00999,0.102
+WP4478,LTF danger signal response pathway,6/1363,11/6992,0.0102,0.102
+WP5501,GNAQ p R183Q drives capillary malformation,10/1363,24/6992,0.0104,0.103
+WP306,Focal adhesion,48/1363,180/6992,0.0109,0.106
+WP2911,miRNA targets in ECM and membrane receptors,9/1363,21/6992,0.0121,0.116
+WP560,TGF beta receptor signaling,16/1363,47/6992,0.0132,0.12
+WP2355,Corticotropin releasing hormone signaling,24/1363,79/6992,0.0133,0.12
+WP5347,IL26 signaling,12/1363,32/6992,0.0135,0.12
+WP474,Endochondral ossification,17/1363,51/6992,0.0136,0.12
+WP4808,Endochondral ossification with skeletal dysplasias,17/1363,51/6992,0.0136,0.12
+WP4816,TGF beta receptor signaling in skeletal dysplasias,17/1363,51/6992,0.0136,0.12
+WP2374,Oncostatin M signaling,18/1363,55/6992,0.0138,0.121
+WP2858,Ectoderm differentiation,35/1363,126/6992,0.0146,0.126
+WP2291,Deregulation of Rab and Rab effector genes in b...,7/1363,15/6992,0.0156,0.129
+WP2855,Dopaminergic neurogenesis,7/1363,15/6992,0.0156,0.129
+WP4300,Extracellular vesicles in the crosstalk of card...,7/1363,15/6992,0.0156,0.129
+WP5545,Fibrotic response of trabecular meshwork cells ...,7/1363,15/6992,0.0156,0.129
+WP4149,White fat cell differentiation,11/1363,29/6992,0.0162,0.131
+WP2637,Interleukin 1 IL 1 structural pathway,16/1363,48/6992,0.0164,0.131
+WP4357,NRF2 ARE regulation,9/1363,22/6992,0.017,0.135
+WP1533,Vitamin B12 metabolism,12/1363,33/6992,0.0176,0.138
+WP364,IL6 signaling,14/1363,41/6992,0.0193,0.148
+WP4534,Mechanoregulation and pathology of YAP TAZ via ...,14/1363,41/6992,0.0193,0.148
+WP4538,Regulatory circuits of STAT3 signaling,20/1363,65/6992,0.0197,0.148
+WP2895,Differentiation of white and brown adipocyte,8/1363,19/6992,0.0199,0.148
+WP4540,Hippo signaling regulation,26/1363,90/6992,0.0199,0.148
+WP313,Hepatocyte growth factor receptor signaling,12/1363,34/6992,0.0225,0.165
+WP3877,MYD88 distinct input output pathway,7/1363,16/6992,0.0232,0.165
+WP5088,Prostaglandin signaling,7/1363,16/6992,0.0232,0.165
+WP5142,Calcium mediated T cell apoptosis involved in i...,7/1363,16/6992,0.0232,0.165
+WP5218,Extrafollicular and follicular B cell activatio...,14/1363,42/6992,0.0239,0.166
+WP5158,Urotensin II mediated signaling,18/1363,58/6992,0.024,0.166
+WP4754,IL18 signaling,15/1363,46/6992,0.0242,0.166
+WP2864,Apoptosis related network due to altered Notch3...,16/1363,50/6992,0.0243,0.166
+WP1601,Fluoropyrimidine activity,10/1363,27/6992,0.0255,0.169
+WP408,Oxidative stress response,10/1363,27/6992,0.0255,0.169
+WP4496,Signal transduction through IL1R,10/1363,27/6992,0.0255,0.169
+WP4190,Mevalonate arm of cholesterol biosynthesis pathway,6/1363,13/6992,0.0266,0.171
+WP4585,Cancer immunotherapy by PD 1 blockade,6/1363,13/6992,0.0266,0.171
+WP5092,Interactions of natural killer cells in pancrea...,6/1363,13/6992,0.0266,0.171
+WP399,Wnt signaling and pluripotency,25/1363,88/6992,0.0271,0.172
+WP4542,Leukocyte intrinsic Hippo pathway functions,11/1363,31/6992,0.0272,0.172
+WP3929,Chemokine signaling,33/1363,123/6992,0.0285,0.177
+WP2032,Thyroid stimulating hormone TSH signaling,17/1363,55/6992,0.0289,0.177
+WP5395,Glycosaminoglycan synthesis in fibroblasts,13/1363,39/6992,0.029,0.177
+WP98,Prostaglandin synthesis and regulation,13/1363,39/6992,0.029,0.177
+WP2038,Microtubule cytoskeleton regulation,14/1363,43/6992,0.0293,0.177
+WP2513,Nanoparticle triggered regulated necrosis,5/1363,10/6992,0.0295,0.177
+WP2884,NRF2 pathway,29/1363,106/6992,0.03,0.178
+WP455,GPCRs class A rhodopsin like,34/1363,128/6992,0.0304,0.179
+WP4298,Acute viral myocarditis,20/1363,68/6992,0.0318,0.185
+WP35,G protein signaling,24/1363,85/6992,0.0321,0.185
+WP5293,Acute myeloid leukemia,19/1363,64/6992,0.0326,0.185
+WP334,GPCRs class B secretin like,7/1363,17/6992,0.033,0.185
+WP3529,Zinc homeostasis,10/1363,28/6992,0.033,0.185
+WP43,Oxidation by cytochrome P450,10/1363,28/6992,0.033,0.185
+WP5055,Burn wound healing,17/1363,56/6992,0.0341,0.19
+WP4879,Overlap between signal transduction pathways co...,16/1363,52/6992,0.0348,0.191
+WP4874,CAMKK2 pathway,25/1363,90/6992,0.0352,0.192
+WP4008,NO cGMP PKG mediated neuroprotection,13/1363,40/6992,0.0355,0.192
+WP2037,Prolactin signaling,20/1363,69/6992,0.0368,0.198
+WP5098,T cell activation SARS CoV 2,19/1363,65/6992,0.038,0.203
+WP4630,Measles virus infection,28/1363,104/6992,0.0395,0.209
+WP5304,Cholesterol metabolism,17/1363,57/6992,0.0401,0.211
+WP3972,PDGFR beta pathway,10/1363,29/6992,0.0418,0.217
+WP2018,RANKL RANK signaling,15/1363,49/6992,0.0419,0.217
+WP4875,Disruption of postsynaptic signaling by CNV,11/1363,33/6992,0.0428,0.217
+WP5424,Omega 6 fatty acids in senescence,13/1363,41/6992,0.043,0.217
+WP2849,Hematopoietic stem cell differentiation,12/1363,37/6992,0.0431,0.217
+WP4263,Pancreatic adenocarcinoma pathway,23/1363,83/6992,0.0433,0.217
+WP4533,Transcription co factors SKI and SKIL protein p...,7/1363,18/6992,0.0451,0.225
+WP1992,Genes targeted by miRNAs in adipocytes,5/1363,11/6992,0.0455,0.225
+WP4216,Chromosomal and microsatellite instability in c...,20/1363,71/6992,0.0487,0.237
+WP3668,Hypothesized pathways in pathogenesis of cardio...,8/1363,22/6992,0.0489,0.237
+WP4760,PKC gamma calcium signaling in ataxia,8/1363,22/6992,0.0489,0.237
+WP5087,Pleural mesothelioma,86/1363,375/6992,0.0503,0.242
+WP2870,Extracellular vesicle mediated signaling in rec...,9/1363,26/6992,0.0511,0.244
+WP3646,Hepatitis C and hepatocellular carcinoma,13/1363,42/6992,0.0516,0.245
+WP400,p38 MAPK signaling,11/1363,34/6992,0.0525,0.245
+WP5346,8p23 1 copy number variation syndrome,11/1363,34/6992,0.0525,0.245
+WP615,Senescence and autophagy in cancer,24/1363,89/6992,0.0528,0.246
+WP5548,Blood based neuroinflammation markers ,6/1363,15/6992,0.0546,0.252
+WP117,GPCRs other,16/1363,55/6992,0.0561,0.257
+WP5094,Orexin receptor pathway,19/1363,68/6992,0.0578,0.263
+WP734,Serotonin receptor 4 6 7 and NR3C signaling,7/1363,19/6992,0.0598,0.27
+WP5113,Antiviral and anti inflammatory effects of Nrf2...,8/1363,23/6992,0.0626,0.279
+WP727,Monoamine transport,8/1363,23/6992,0.0626,0.279
+WP289,Myometrial relaxation and contraction pathways,35/1363,140/6992,0.0633,0.279
+WP5356,Affected pathways in Duchenne muscular dystrophy,16/1363,56/6992,0.0649,0.279
+WP1425,Bone morphogenic protein signaling and regulation,5/1363,12/6992,0.0659,0.279
+WP3876,BMP2 WNT4 FOXO1 pathway in primary endometrial ...,5/1363,12/6992,0.0659,0.279
+WP4211,Transcriptional cascade regulating adipogenesis,5/1363,12/6992,0.0659,0.279
+WP4970,Galanin receptor pathway,5/1363,12/6992,0.0659,0.279
+WP5146,Lung pathology of COVID 19,5/1363,12/6992,0.0659,0.279
+WP5238,Cholestasis,5/1363,12/6992,0.0659,0.279
+WP5417,Cell lineage map for neuronal differentiation,26/1363,100/6992,0.0669,0.282
+WP2795,Cardiac hypertrophic response,15/1363,52/6992,0.0673,0.282
+WP2380,Brain derived neurotrophic factor BDNF signaling,33/1363,132/6992,0.0697,0.29
+WP4659,Gastrin signaling,27/1363,105/6992,0.0706,0.292
+WP2572,Primary focal segmental glomerulosclerosis FSGS ,17/1363,61/6992,0.0716,0.293
+WP3680,Physico chemical features and toxicity associat...,17/1363,61/6992,0.0716,0.293
+WP286,IL3 signaling,13/1363,44/6992,0.072,0.293
+WP5420,ADHD and autism ASD pathways,72/1363,315/6992,0.0728,0.293
+WP453,Inflammatory response pathway,6/1363,16/6992,0.0734,0.293
+WP5172,Iron metabolism disorders,6/1363,16/6992,0.0734,0.293
+WP185,Integrin mediated cell adhesion,24/1363,92/6992,0.0737,0.293
+WP4331,Neovascularization processes,11/1363,36/6992,0.0761,0.296
+WP4482,Vitamin D in inflammatory diseases,7/1363,20/6992,0.0771,0.296
+WP4537,Hippo YAP signaling,7/1363,20/6992,0.0771,0.296
+WP5422,IL19 signaling,7/1363,20/6992,0.0771,0.296
+WP5530,MAPK signaling and ARTD family members,10/1363,32/6992,0.0776,0.296
+WP4541,Hippo Merlin signaling dysregulation,27/1363,106/6992,0.0778,0.296
+WP4868,Type I interferon induction and signaling durin...,9/1363,28/6992,0.0785,0.296
+WP3869,Cannabinoid receptor signaling,8/1363,24/6992,0.0785,0.296
+WP5036,Angiotensin II receptor type 1 pathway,8/1363,24/6992,0.0785,0.296
+WP2272,Pathogenic Escherichia coli infection,14/1363,49/6992,0.0808,0.302
+WP23,B cell receptor signaling,22/1363,84/6992,0.0812,0.302
+WP3391,Senescence associated secretory phenotype SASP ,17/1363,62/6992,0.0815,0.302
+WP2586,Aryl hydrocarbon receptor pathway,12/1363,41/6992,0.087,0.316
+WP3624,Lung fibrosis,12/1363,41/6992,0.087,0.316
+WP4148,Splicing factor NOVA regulated synaptic proteins,12/1363,41/6992,0.087,0.316
+WP5300,TROP2 regulatory signaling,12/1363,41/6992,0.087,0.316
+WP3679,Cell type dependent selectivity of CCK2R signaling,5/1363,13/6992,0.0904,0.325
+WP5033,Genes associated with the development of rheuma...,5/1363,13/6992,0.0904,0.325
+WP2203,Thymic stromal lymphopoietin TSLP signaling,10/1363,33/6992,0.0927,0.33
+WP5490,Inhibition of GNAQ regulated signaling in uveal...,10/1363,33/6992,0.0927,0.33
+WP3853,ERK pathway in Huntington 39 s disease,6/1363,17/6992,0.0954,0.335
+WP3967,miR 509 3p alteration of YAP1 ECM axis,6/1363,17/6992,0.0954,0.335
+WP4767,FGFR3 signaling in chondrocyte proliferation an...,8/1363,25/6992,0.0966,0.335
+WP2583,T cell receptor and co stimulatory signaling,7/1363,21/6992,0.097,0.335
+WP3286,Copper homeostasis,13/1363,46/6992,0.0971,0.335
+WP395,IL4 signaling,13/1363,46/6992,0.0971,0.335
+WP4565,Neural crest cell migration in cancer,11/1363,38/6992,0.105,0.361
+WP3594,Circadian rhythm genes,39/1363,165/6992,0.106,0.361
+WP481,Insulin signaling,37/1363,156/6992,0.108,0.368
+WP673,ErbB signaling,22/1363,87/6992,0.11,0.369
+WP236,Adipogenesis,27/1363,110/6992,0.112,0.369
+WP2814,Mammary gland development puberty stage 2 of 4,4/1363,10/6992,0.112,0.369
+WP3892,Development of pulmonary dendritic cells and ma...,4/1363,10/6992,0.112,0.369
+WP5188,Retinol metabolism,4/1363,10/6992,0.112,0.369
+WP5534,Visual cycle,4/1363,10/6992,0.112,0.369
+WP2873,Aryl hydrocarbon receptor pathway,9/1363,30/6992,0.113,0.371
+WP428,Wnt signaling,25/1363,101/6992,0.114,0.371
+WP5367,Rubinstein Taybi syndrome 1,5/1363,14/6992,0.119,0.385
+WP3599,Transcription factor regulation in adipogenesis,6/1363,18/6992,0.121,0.385
+WP5181,Roles of ceramides in development of insulin re...,6/1363,18/6992,0.121,0.385
+WP732,Serotonin receptor 2 and ELK SRF GATA4 signaling,6/1363,18/6992,0.121,0.385
+WP5144,NRP1 triggered signaling in pancreatic cancer ,14/1363,52/6992,0.121,0.385
+WP2636,Common pathways underlying drug addiction,11/1363,39/6992,0.122,0.388
+WP4312,Rett syndrome,13/1363,48/6992,0.127,0.399
+WP127,IL5 signaling,10/1363,35/6992,0.128,0.399
+WP4564,Neural crest cell migration during development,10/1363,35/6992,0.128,0.399
+WP5474,Catabolism of skeletal muscle in cachexia,10/1363,35/6992,0.128,0.399
+WP3414,Initiation of transcription and translation elo...,9/1363,31/6992,0.133,0.412
+WP5283,Chronic hyperglycemia impairment of neuron func...,9/1363,31/6992,0.133,0.412
+WP2261,Glioblastoma signaling,20/1363,80/6992,0.135,0.415
+WP195,IL1 signaling,14/1363,53/6992,0.136,0.415
+WP5289,Axon guidance,18/1363,71/6992,0.136,0.415
+WP4172,PI3K Akt signaling,59/1363,265/6992,0.14,0.425
+WP4217,Ebola virus infection in host,27/1363,113/6992,0.143,0.429
+WP5470,Effect of omega 3 PUFA on Huntington 39 s disea...,27/1363,113/6992,0.143,0.429
+WP4961,STING pathway in Kawasaki like disease and COVI...,6/1363,19/6992,0.149,0.441
+WP12,Osteoclast signaling,4/1363,11/6992,0.15,0.441
+WP501,GPCRs class C metabotropic glutamate pheromone,4/1363,11/6992,0.15,0.441
+WP5409,PAFAH1B1 copy number variation,4/1363,11/6992,0.15,0.441
+WP5485,Post COVID neuroinflammation,4/1363,11/6992,0.15,0.441
+WP4790,FGF23 signaling in hypophosphatemic rickets and...,5/1363,15/6992,0.151,0.441
+WP5044,Kynurenine pathway and links to cell senescence,5/1363,15/6992,0.151,0.441
+WP4155,Endometrial cancer,16/1363,63/6992,0.152,0.442
+WP2263,Androgen receptor network in prostate cancer,24/1363,100/6992,0.154,0.446
+WP4871,Kisspeptin kisspeptin receptor system in the ovary,9/1363,32/6992,0.155,0.448
+WP5053,Development of ureteric derived collecting system,11/1363,41/6992,0.16,0.459
+WP45,G1 to S cell cycle control,15/1363,59/6992,0.161,0.459
+WP5122,Prostaglandin and leukotriene metabolism in sen...,8/1363,28/6992,0.163,0.465
+WP3676,BDNF TrkB signaling,9/1363,33/6992,0.179,0.507
+WP5373,Osteoarthritic chondrocyte hypertrophy,11/1363,42/6992,0.181,0.51
+WP2857,Mesodermal commitment pathway,28/1363,121/6992,0.181,0.51
+WP69,T cell receptor signaling,16/1363,65/6992,0.185,0.51
+WP4963,p53 transcriptional gene network,19/1363,79/6992,0.186,0.51
+WP3670,Interactions between LOXL4 and oxidative stress...,5/1363,16/6992,0.187,0.51
+WP3678,Amplification and expansion of oncogenic pathwa...,5/1363,16/6992,0.187,0.51
+WP4225,Pyrimidine metabolism and related diseases,5/1363,16/6992,0.187,0.51
+WP4928,MAPK pathway in congenital thyroid cancer,5/1363,16/6992,0.187,0.51
+WP516,Exercise and hypertrophy in skeletal muscle,5/1363,16/6992,0.187,0.51
+WP5406,13q12 12 copy number variation,8/1363,29/6992,0.189,0.515
+WP3893,Development and heterogeneity of the ILC family,4/1363,12/6992,0.192,0.52
+WP3851,TLR4 signaling and tolerance,7/1363,25/6992,0.2,0.541
+WP5236,Markers of kidney cell lineage,11/1363,43/6992,0.203,0.546
+WP4205,MET in type 1 papillary renal cell carcinoma,14/1363,57/6992,0.208,0.556
+WP5437,GNAQ pathways in port wine stain,6/1363,21/6992,0.212,0.566
+WP15,Selenium micronutrient network,15/1363,62/6992,0.215,0.568
+WP1530,miRNA regulation of DNA damage response,15/1363,62/6992,0.215,0.568
+WP2526,PDGF pathway,10/1363,39/6992,0.216,0.569
+WP5312,Metabolic pathways of fibroblasts,8/1363,30/6992,0.217,0.57
+WP5372,Involvement of secretase in neurodegenerative d...,5/1363,17/6992,0.225,0.587
+WP5434,Cancer pathways,90/1363,429/6992,0.229,0.587
+WP2371,Parkinson 39 s disease pathway,9/1363,35/6992,0.23,0.587
+WP2447,Amyotrophic lateral sclerosis ALS ,9/1363,35/6992,0.23,0.587
+WP3942,PPAR signaling,9/1363,35/6992,0.23,0.587
+WP4838,Regucalcin in proximal tubule epithelial kidney...,7/1363,26/6992,0.231,0.587
+WP5527,NF kB signaling and ARTD family members,7/1363,26/6992,0.231,0.587
+WP1772,Apoptosis modulation and signaling,18/1363,77/6992,0.231,0.587
+WP1403,AMP activated protein kinase signaling,15/1363,63/6992,0.234,0.587
+WP4222,Phosphodiesterases in neuronal function,12/1363,49/6992,0.235,0.587
+WP5348,11p11 2 copy number variation syndrome ,12/1363,49/6992,0.235,0.587
+WP2435,Quercetin and Nf kB AP 1 induced apoptosis,4/1363,13/6992,0.237,0.587
+WP3958,GPR40 role in insulin secretion,4/1363,13/6992,0.237,0.587
+WP4156,Biosynthesis and regeneration of tetrahydrobiop...,4/1363,13/6992,0.237,0.587
+WP4947,Nitric oxide metabolism in cystic fibrosis,4/1363,13/6992,0.237,0.587
+WP5061,Fatty acid transporters,4/1363,13/6992,0.237,0.587
+WP2034,Leptin signaling,16/1363,68/6992,0.24,0.592
+WP49,IL2 signaling,8/1363,31/6992,0.246,0.604
+WP3617,Photodynamic therapy induced NF kB survival sig...,6/1363,22/6992,0.247,0.605
+WP4313,Ferroptosis,14/1363,59/6992,0.249,0.605
+WP4906,3q29 copy number variation syndrome,14/1363,59/6992,0.249,0.605
+WP4829,mBDNF and proBDNF regulation of GABA neurotrans...,9/1363,36/6992,0.258,0.62
+WP4549,Fragile X syndrome,26/1363,117/6992,0.259,0.62
+WP2112,IL17 signaling,7/1363,27/6992,0.263,0.62
+WP2643,Nanoparticle mediated activation of receptor si...,7/1363,27/6992,0.263,0.62
+WP1602,Nicotine effect on dopaminergic neurons,5/1363,18/6992,0.265,0.62
+WP205,IL7 signaling,5/1363,18/6992,0.265,0.62
+WP384,Apoptosis modulation by HSP70,5/1363,18/6992,0.265,0.62
+WP3927,BMP signaling in eyelid development,5/1363,18/6992,0.265,0.62
+WP4784,Proteoglycan biosynthesis,5/1363,18/6992,0.265,0.62
+WP5407,15q11q13 copy number variation,13/1363,55/6992,0.265,0.62
+WP51,Regulation of actin cytoskeleton,29/1363,132/6992,0.265,0.62
+WP4844,Influence of laminopathies on Wnt signaling,8/1363,32/6992,0.276,0.641
+WP1539,Angiogenesis,6/1363,23/6992,0.283,0.641
+WP4925,Unfolded protein response,6/1363,23/6992,0.283,0.641
+WP5503,Albuterol and budesonide therapy for asthma,6/1363,23/6992,0.283,0.641
+WP254,Apoptosis,17/1363,75/6992,0.284,0.641
+WP3969,H19 Rb E2F1 and CDK beta catenin in colorectal ...,4/1363,14/6992,0.284,0.641
+WP4589,Major receptors targeted by epinephrine and nor...,4/1363,14/6992,0.284,0.641
+WP47,Hedgehog signaling,4/1363,14/6992,0.284,0.641
+WP4723,Omega 3 omega 6 fatty acid synthesis,4/1363,14/6992,0.284,0.641
+WP4962,Airway smooth muscle cell contraction,4/1363,14/6992,0.284,0.641
+WP5528,JAK STAT signaling and ARTD family members,4/1363,14/6992,0.284,0.641
+WP24,Peptide GPCRs,9/1363,37/6992,0.286,0.643
+WP2197,Endothelin pathways,7/1363,28/6992,0.297,0.662
+WP5323,Fatty acid and lipoprotein transport in hepatoc...,7/1363,28/6992,0.297,0.662
+WP179,Cell cycle,23/1363,105/6992,0.301,0.666
+WP1544,MicroRNAs in cardiomyocyte hypertrophy,17/1363,76/6992,0.304,0.666
+WP5331,Autophagy in pancreatic ductal adenocarcinoma,5/1363,19/6992,0.306,0.666
+WP1434,Osteopontin signaling,3/1363,10/6992,0.307,0.666
+WP2007,Iron metabolism in placenta,3/1363,10/6992,0.307,0.666
+WP3301,MFAP5 mediated ovarian cancer cell motility and...,3/1363,10/6992,0.307,0.666
+WP5050,TCA cycle in senescence,3/1363,10/6992,0.307,0.666
+WP5342,Pathophysiological roles of DUX4 in FSHD1,3/1363,10/6992,0.307,0.666
+WP2406,Cardiac progenitor differentiation,8/1363,33/6992,0.307,0.666
+WP707,DNA damage response,14/1363,62/6992,0.315,0.682
+WP3879,4 hydroxytamoxifen dexamethasone and retinoic a...,6/1363,24/6992,0.321,0.691
+WP4159,GABA receptor signaling,7/1363,29/6992,0.331,0.706
+WP5352,10q11 21q11 23 copy number variation syndrome,12/1363,53/6992,0.332,0.706
+WP1545,miRNAs involved in DNA damage response,4/1363,15/6992,0.333,0.706
+WP4560,MFAP5 effect on permeability and motility of en...,4/1363,15/6992,0.333,0.706
+WP4942,15q13 3 copy number variation syndrome,4/1363,15/6992,0.333,0.706
+WP5078,T cell modulation and desmoplasia in pancreatic...,8/1363,34/6992,0.339,0.717
+WP1981,Thyroxine thyroid hormone production,5/1363,20/6992,0.348,0.734
+WP702,Metapathway biotransformation Phase I and II,23/1363,108/6992,0.354,0.741
+WP4539,Synaptic signaling associated with autism spect...,11/1363,49/6992,0.354,0.741
+WP5221,2q11 2 copy number variation syndrome,6/1363,25/6992,0.358,0.741
+WP5523,HINT1 pathway,6/1363,25/6992,0.358,0.741
+WP2525,Trans sulfuration one carbon metabolism and rel...,13/1363,59/6992,0.36,0.741
+WP3630,NAD metabolism sirtuins and aging,3/1363,11/6992,0.366,0.741
+WP4337,ncRNAs involved in STAT3 signaling in hepatocel...,3/1363,11/6992,0.366,0.741
+WP4493,Cells and molecules involved in local acute inf...,3/1363,11/6992,0.366,0.741
+WP4582,Cancer immunotherapy by CTLA4 blockade,3/1363,11/6992,0.366,0.741
+WP5171,Leukotriene metabolic pathway,3/1363,11/6992,0.366,0.741
+WP5173,Disorders of galactose metabolism ,3/1363,11/6992,0.366,0.741
+WP5199,PtdIns 4 5 P2 in cytokinesis pathway,3/1363,11/6992,0.366,0.741
+WP5382,TGFB Smad signaling,3/1363,11/6992,0.366,0.741
+WP2516,ATM signaling,8/1363,35/6992,0.371,0.75
+WP3863,T cell antigen receptor TCR pathway during Stap...,10/1363,45/6992,0.378,0.755
+WP3878,ATM signaling in development and disease ,10/1363,45/6992,0.378,0.755
+WP107,Translation factors,11/1363,50/6992,0.381,0.755
+WP304,Kit receptor signaling,11/1363,50/6992,0.381,0.755
+WP4872,MAP3K1 role in promoting and blocking gonadal d...,4/1363,16/6992,0.382,0.755
+WP4912,SARS coronavirus and innate immunity,4/1363,16/6992,0.382,0.755
+WP4969,RAS and bradykinin pathways in COVID 19,4/1363,16/6992,0.382,0.755
+WP4255,Non small cell lung cancer,15/1363,70/6992,0.387,0.762
+WP4674,Head and neck squamous cell carcinoma,15/1363,70/6992,0.387,0.762
+WP3872,Apoptosis regulation by parathyroid hormone rel...,5/1363,21/6992,0.391,0.763
+WP4197,Immune response to tuberculosis,5/1363,21/6992,0.391,0.763
+WP5432,Omega 3 fatty acids in senescence,5/1363,21/6992,0.391,0.763
+WP4900,Purinergic signaling,6/1363,26/6992,0.397,0.772
+WP524,G13 signaling,8/1363,36/6992,0.404,0.778
+WP2332,IL11 signaling,9/1363,41/6992,0.406,0.778
+WP5408,15q25 copy number variation,9/1363,41/6992,0.406,0.778
+WP363,Wnt signaling NetPath,10/1363,46/6992,0.407,0.778
+WP4566,Translation inhibitors in chronically activated...,10/1363,46/6992,0.407,0.778
+WP4747,Netrin UNC5B signaling,10/1363,46/6992,0.407,0.778
+WP585,Interferon type I signaling,11/1363,51/6992,0.408,0.778
+WP5205,Clock controlled autophagy in bone metabolism,15/1363,71/6992,0.41,0.778
+WP2064,Neural crest differentiation,16/1363,76/6992,0.41,0.778
+WP1423,Ganglio sphingolipid metabolism,3/1363,12/6992,0.424,0.793
+WP4522,Metabolic pathway of LDL HDL and TG including d...,3/1363,12/6992,0.424,0.793
+WP5066,FOXA2 pathway,3/1363,12/6992,0.424,0.793
+WP5149,Lipid metabolism in senescent cells,3/1363,12/6992,0.424,0.793
+WP5318,Female steroid hormones in cardiomyocyte energy...,3/1363,12/6992,0.424,0.793
+WP710,DNA damage response only ATM dependent ,20/1363,97/6992,0.43,0.794
+WP4259,Disorders of folate metabolism and transport,4/1363,17/6992,0.43,0.794
+WP5027,nsp1 from SARS CoV 2 inhibits translation initi...,4/1363,17/6992,0.43,0.794
+WP5101,Congenital generalized lipodystrophy,4/1363,17/6992,0.43,0.794
+WP5398,NRXN1 deletion syndrome,4/1363,17/6992,0.43,0.794
+WP5145,COVID 19 structural coverage map,5/1363,22/6992,0.433,0.794
+WP2363,Gastric cancer network 2,6/1363,27/6992,0.435,0.794
+WP5121,Sphingolipid metabolism in senescence,6/1363,27/6992,0.435,0.794
+WP4971,Phosphoinositides metabolism,10/1363,47/6992,0.436,0.794
+WP28,Selenium metabolism and selenoproteins,9/1363,42/6992,0.436,0.794
+WP2853,Endoderm differentiation,23/1363,113/6992,0.446,0.81
+WP3931,Embryonic stem cell pluripotency pathways,20/1363,98/6992,0.45,0.814
+WP4746,Thyroid hormones production and peripheral down...,16/1363,78/6992,0.455,0.822
+WP4949,16p11 2 proximal deletion syndrome,14/1363,68/6992,0.458,0.825
+WP2003,miR targeted genes in leukocytes,25/1363,124/6992,0.461,0.829
+WP2267,Synaptic vesicle pathway,10/1363,48/6992,0.464,0.829
+WP5072,Modulators of TCR signaling and T cell activation,10/1363,48/6992,0.464,0.829
+WP5039,SARS CoV 2 innate immunity evasion and cell spe...,9/1363,43/6992,0.466,0.829
+WP4917,Proximal tubule transport,8/1363,38/6992,0.468,0.829
+WP244,Alpha 6 beta 4 signaling,7/1363,33/6992,0.47,0.829
+WP4880,Host pathogen interaction of human coronaviruse...,7/1363,33/6992,0.47,0.829
+WP5502,16p13 11 copy number variation syndrome ,6/1363,28/6992,0.472,0.829
+WP4553,FBXL10 enhancement of MAP ERK signaling in diff...,4/1363,18/6992,0.477,0.829
+WP5074,Kallmann syndrome,4/1363,18/6992,0.477,0.829
+WP4262,Breast cancer pathway,26/1363,130/6992,0.477,0.829
+WP2023,Cell differentiation expanded index,3/1363,13/6992,0.48,0.829
+WP4724,Omega 9 fatty acid synthesis,3/1363,13/6992,0.48,0.829
+WP5299,Ganglio series sphingolipid metabolism,3/1363,13/6992,0.48,0.829
+WP5314,Lactate shuttle in glial cells,3/1363,13/6992,0.48,0.829
+WP692,Sulfation biotransformation reaction,3/1363,13/6992,0.48,0.829
+WP231,TNF alpha signaling,17/1363,85/6992,0.497,0.857
+WP314,Fas ligand pathway and stress induction of heat...,8/1363,39/6992,0.5,0.86
+WP4698,Vitamin D sensitive calcium signaling in depres...,7/1363,34/6992,0.504,0.863
+WP4823,Genes controlling nephrogenesis,7/1363,34/6992,0.504,0.863
+WP4786,Type I collagen synthesis in the context of ost...,6/1363,29/6992,0.509,0.87
+WP4658,Small cell lung cancer,18/1363,91/6992,0.515,0.873
+WP3658,Wnt beta catenin signaling in leukemia,5/1363,24/6992,0.515,0.873
+WP4304,Oligodendrocyte specification and differentiati...,5/1363,24/6992,0.515,0.873
+WP167,Eicosanoid synthesis,4/1363,19/6992,0.523,0.873
+WP262,Ebstein Barr virus LMP1 signaling,4/1363,19/6992,0.523,0.873
+WP4206,Hereditary leiomyomatosis and renal cell carcin...,4/1363,19/6992,0.523,0.873
+WP4721,Eicosanoid metabolism via lipooxygenases LOX ,4/1363,19/6992,0.523,0.873
+WP4864,Host pathogen interaction of human coronaviruse...,4/1363,19/6992,0.523,0.873
+WP5376,17p13 3 YWHAE copy number variation,4/1363,19/6992,0.523,0.873
+WP410,Exercise induced circadian regulation,9/1363,45/6992,0.526,0.876
+WP4321,Thermogenesis,20/1363,102/6992,0.529,0.877
+WP5085,Vasopressin regulated water reabsorption,8/1363,40/6992,0.531,0.877
+WP22,IL9 signaling,3/1363,14/6992,0.533,0.877
+WP3935,Leptin insulin signaling overlap,3/1363,14/6992,0.533,0.877
+WP4504,Cysteine and methionine catabolism,3/1363,14/6992,0.533,0.877
+WP5475,Hallmark of cancer sustaining proliferative sig...,18/1363,92/6992,0.535,0.878
+WP1471,Target of rapamycin signaling,7/1363,35/6992,0.538,0.878
+WP2036,TNF related weak inducer of apoptosis TWEAK sig...,7/1363,35/6992,0.538,0.878
+WP170,Nuclear receptors,6/1363,30/6992,0.545,0.882
+WP3981,miRNA regulation of prostate cancer signaling,6/1363,30/6992,0.545,0.882
+WP3995,Prion disease pathway,6/1363,30/6992,0.545,0.882
+WP5269,Genetic causes of porto sinusoidal vascular dis...,6/1363,30/6992,0.545,0.882
+WP437,EGF EGFR signaling,30/1363,155/6992,0.551,0.887
+WP4787,Osteoblast differentiation and related diseases,19/1363,98/6992,0.552,0.887
+WP4336,ncRNAs in Wnt signaling in hepatocellular carci...,14/1363,72/6992,0.552,0.887
+WP26,S1P receptor signal transduction,5/1363,25/6992,0.554,0.889
+WP3932,Focal adhesion PI3K Akt mTOR signaling,50/1363,259/6992,0.557,0.891
+WP4223,Ras signaling,30/1363,156/6992,0.566,0.899
+WP430,Statin inhibition of cholesterol production,4/1363,20/6992,0.566,0.899
+WP5046,NAD metabolism in oncogene induced senescence a...,4/1363,20/6992,0.566,0.899
+WP5426,HDAC6 interactions in the central nervous system,20/1363,104/6992,0.567,0.899
+WP2828,Bladder cancer,7/1363,36/6992,0.57,0.901
+WP4545,Oxysterols derived from cholesterol,6/1363,31/6992,0.58,0.905
+WP2876,Pregnane X receptor pathway,3/1363,15/6992,0.583,0.905
+WP3287,Overview of nanoparticle effects,3/1363,15/6992,0.583,0.905
+WP3644,NAD metabolism,3/1363,15/6992,0.583,0.905
+WP4558,Interferon mediated signaling,3/1363,15/6992,0.583,0.905
+WP4842,Mammalian disorder of sexual development,3/1363,15/6992,0.583,0.905
+WP53,ID signaling,3/1363,15/6992,0.583,0.905
+WP5412,8q11 23 RB1CC1 copy number variation,3/1363,15/6992,0.583,0.905
+WP4258,lncRNA in canonical Wnt signaling and colorecta...,15/1363,79/6992,0.591,0.913
+WP241,One carbon metabolism,5/1363,26/6992,0.592,0.913
+WP5038,Mitochondrial immune response to SARS CoV 2,5/1363,26/6992,0.592,0.913
+WP3527,Pre implantation embryo,7/1363,37/6992,0.601,0.918
+WP4722,Glycerolipids and glycerophospholipids,4/1363,21/6992,0.608,0.918
+WP712,Estrogen signaling,4/1363,21/6992,0.608,0.918
+WP2333,Trans sulfuration pathway,2/1363,10/6992,0.609,0.918
+WP4157,GABA metabolism aka GHB ,2/1363,10/6992,0.609,0.918
+WP4583,Biomarkers for urea cycle disorders,2/1363,10/6992,0.609,0.918
+WP4788,Autosomal recessive osteopetrosis pathways,2/1363,10/6992,0.609,0.918
+WP5109,Familial hyperlipidemia type 2,2/1363,10/6992,0.609,0.918
+WP5150,Spina bifida,2/1363,10/6992,0.609,0.918
+WP5178,Disorders of fructose metabolism,2/1363,10/6992,0.609,0.918
+WP1433,Nucleotide binding oligomerization domain NOD p...,6/1363,32/6992,0.613,0.92
+WP4756,Renin angiotensin aldosterone system RAAS ,6/1363,32/6992,0.613,0.92
+WP4673,Male infertility,18/1363,96/6992,0.615,0.92
+WP1971,Integrated cancer pathway,8/1363,43/6992,0.62,0.926
+WP5358,JAK STAT signaling in the regulation of beta cells,5/1363,27/6992,0.628,0.928
+WP1742,TP53 network,3/1363,16/6992,0.629,0.928
+WP2011,SREBF and miR33 in cholesterol and lipid homeos...,3/1363,16/6992,0.629,0.928
+WP2878,PPAR alpha pathway,3/1363,16/6992,0.629,0.928
+WP3874,Canonical and non canonical TGF B signaling,3/1363,16/6992,0.629,0.928
+WP5176,Disorders of bile acid synthesis and biliary tr...,3/1363,16/6992,0.629,0.928
+WP1982,Sterol regulatory element binding proteins SREB...,12/1363,65/6992,0.633,0.932
+WP5287,17q12 copy number variation syndrome,11/1363,60/6992,0.642,0.934
+WP3614,Photodynamic therapy induced HIF 1 survival sig...,6/1363,33/6992,0.645,0.934
+WP422,MAPK cascade,6/1363,33/6992,0.645,0.934
+WP4241,Type 2 papillary renal cell carcinoma,6/1363,33/6992,0.645,0.934
+WP4595,Urea cycle and associated pathways,4/1363,22/6992,0.647,0.934
+WP5294,Sildenafil treatment,4/1363,22/6992,0.647,0.934
+WP5500,Bempedoic acid therapy in atherosclerosis and m...,4/1363,22/6992,0.647,0.934
+WP4535,Envelope proteins and their potential roles in ...,8/1363,44/6992,0.647,0.934
+WP5411,Phosphatidyl inositol phosphate pathway,8/1363,44/6992,0.647,0.934
+WP4239,Epithelial to mesenchymal transition in colorec...,24/1363,130/6992,0.653,0.941
+WP500,Glycogen synthesis and degradation,7/1363,39/6992,0.66,0.945
+WP5200,Dravet syndrome,5/1363,28/6992,0.662,0.945
+WP106,Alanine and aspartate metabolism,2/1363,11/6992,0.663,0.945
+WP5108,Familial hyperlipidemia type 1,2/1363,11/6992,0.663,0.945
+WP5514,DNAJB1 PRKACA fusion in fibrolamellar liver cancer,2/1363,11/6992,0.663,0.945
+WP138,Androgen receptor signaling,15/1363,83/6992,0.672,0.954
+WP368,Mitochondrial long chain fatty acid beta oxidation,3/1363,17/6992,0.672,0.954
+WP716,Vitamin A and carotenoid metabolism,6/1363,34/6992,0.675,0.956
+WP3584,MECP2 and associated Rett syndrome,12/1363,67/6992,0.677,0.957
+WP5231,Hippocampal synaptogenesis and neurogenesis,4/1363,23/6992,0.683,0.961
+WP581,EPO receptor signaling,4/1363,23/6992,0.683,0.961
+WP3959,DNA IR double strand breaks and cellular respon...,9/1363,51/6992,0.686,0.964
+WP4758,Nephrotic syndrome,7/1363,40/6992,0.687,0.964
+WP3298,Melatonin metabolism and effects,5/1363,29/6992,0.693,0.968
+WP4481,Resistin as a regulator of inflammation,5/1363,29/6992,0.693,0.968
+WP4018,Clear cell renal cell carcinoma pathways,14/1363,79/6992,0.699,0.974
+WP4685,Melanoma,11/1363,63/6992,0.708,0.981
+WP2290,RalA downstream regulated genes,2/1363,12/6992,0.711,0.981
+WP2813,Mammary gland development embryonic development...,2/1363,12/6992,0.711,0.981
+WP5223,2q21 1 copy number variation syndrome,2/1363,12/6992,0.711,0.981
+WP4141,PI3K AKT mTOR vitamin D3 signaling,3/1363,18/6992,0.711,0.981
+WP5443,Effects of MFN2 mutation,4/1363,24/6992,0.716,0.986
+WP325,Triacylglyceride synthesis,3/1363,19/6992,0.746,1
+WP3645,NAD biosynthetic pathways,3/1363,19/6992,0.746,1
+WP391,Mitochondrial gene expression,3/1363,19/6992,0.746,1
+WP4830,GDNF RET signaling axis,3/1363,19/6992,0.746,1
+WP5103,Progeria associated lipodystrophy,3/1363,19/6992,0.746,1
+WP5123,Mitochondrial fatty acid oxidation disorders,3/1363,19/6992,0.746,1
+WP3845,Canonical and non canonical Notch signaling,4/1363,25/6992,0.747,1
+WP4719,Eicosanoid metabolism via cyclooxygenases COX ,4/1363,25/6992,0.747,1
+WP4941,GPR143 in melanocytes and retinal pigment epith...,4/1363,25/6992,0.747,1
+WP5216,Warburg effect modulated by deubiquitinating en...,4/1363,25/6992,0.747,1
+WP4584,Biomarkers for pyrimidine metabolism disorders,2/1363,13/6992,0.753,1
+WP5182,Pro survival signaling of neuroprotectin D1,2/1363,13/6992,0.753,1
+WP2817,Mammary gland development pregnancy and lactati...,6/1363,37/6992,0.755,1
+WP5180,DYRK1A involvement regarding cell proliferation...,10/1363,60/6992,0.759,1
+WP2006,miR targeted genes in squamous cell,21/1363,121/6992,0.759,1
+WP1541,Energy metabolism,7/1363,43/6992,0.76,1
+WP4806,EGFR tyrosine kinase inhibitor resistance,14/1363,83/6992,0.769,1
+WP2571,Polycystic kidney disease pathway,12/1363,72/6992,0.772,1
+WP3915,Angiopoietin like protein 8 regulatory pathway,21/1363,122/6992,0.772,1
+WP4856,Intracellular trafficking proteins involved in ...,4/1363,26/6992,0.775,1
+WP5102,Familial partial lipodystrophy,4/1363,26/6992,0.775,1
+WP5344,Cardiomyocyte signaling converging on titin,4/1363,26/6992,0.775,1
+WP143,Fatty acid beta oxidation,5/1363,32/6992,0.776,1
+WP2035,Follicle stimulating hormone FSH signaling,3/1363,20/6992,0.778,1
+WP4142,Metabolism of sphingolipids in ER and Golgi app...,3/1363,20/6992,0.778,1
+WP5194,Synthesis of ceramides and 1 deoxyceramides,3/1363,20/6992,0.778,1
+WP5275,Ether lipid biosynthesis,3/1363,20/6992,0.778,1
+WP5292,Glycosphingolipid metabolism,3/1363,20/6992,0.778,1
+WP2005,miR targeted genes in muscle cell,58/1363,323/6992,0.783,1
+WP3998,Prader Willi and Angelman syndrome,14/1363,84/6992,0.784,1
+WP4657,22q11 2 copy number variation syndrome,17/1363,101/6992,0.788,1
+WP3933,Kennedy pathway from sphingolipids,2/1363,14/6992,0.789,1
+WP4705,Pathways of nucleic acid metabolism and innate ...,2/1363,14/6992,0.789,1
+WP4950,16p11 2 distal deletion syndrome,4/1363,27/6992,0.801,1
+WP2361,Gastric cancer network 1,3/1363,21/6992,0.807,1
+WP5521,SLC25A46 pathway,3/1363,21/6992,0.807,1
+WP5563,RNA Polymerase II transcription the preinitiati...,9/1363,57/6992,0.808,1
+WP5497,Cyclin dependent kinase 4 6 inhibitors in breas...,5/1363,34/6992,0.821,1
+WP3873,RIOK1 and RIOK2 in EGFR and PI3K mediated tumor...,2/1363,15/6992,0.821,1
+WP5028,Glycine metabolism including IMDs,2/1363,15/6992,0.821,1
+WP5152,Iron sulfur cluster biogenesis,2/1363,15/6992,0.821,1
+WP5483,Hallmark of cancer non mutational epigenetic re...,2/1363,15/6992,0.821,1
+WP5529,Wnt Beta catenin signaling and ARTD family members,2/1363,15/6992,0.821,1
+WP3865,Novel intracellular components of RIG I like re...,8/1363,52/6992,0.822,1
+WP61,Notch signaling,8/1363,52/6992,0.822,1
+WP465,Tryptophan metabolism,3/1363,22/6992,0.832,1
+WP5220,Metabolic reprogramming in pancreatic cancer,6/1363,41/6992,0.838,1
+WP5465,Fanconi anemia,6/1363,41/6992,0.838,1
+WP1591,Heart development,4/1363,29/6992,0.845,1
+WP4536,Genes related to primary cilium development bas...,16/1363,100/6992,0.845,1
+WP129,Matrix metalloproteinases,2/1363,16/6992,0.849,1
+WP3664,Regulation of Wnt B catenin signaling by small ...,2/1363,16/6992,0.849,1
+WP4815,Glycosaminoglycan degradation,2/1363,16/6992,0.849,1
+WP5111,Familial hyperlipidemia type 4,2/1363,16/6992,0.849,1
+WP5492,AMPK regulation of mammary milk protein synthesis,2/1363,16/6992,0.849,1
+WP3982,miRNA regulation of p53 pathway in prostate cancer,3/1363,23/6992,0.854,1
+WP4288,MTHFR deficiency,3/1363,23/6992,0.854,1
+WP4905,1q21 1 copy number variation syndrome,3/1363,23/6992,0.854,1
+WP5362,TAR syndrome,8/1363,55/6992,0.867,1
+WP5402,10q22q23 copy number variation,7/1363,49/6992,0.868,1
+WP2446,Retinoblastoma gene in cancer,12/1363,79/6992,0.869,1
+WP5355,Metabolic epileptic disorders,12/1363,79/6992,0.869,1
+WP4936,Perturbations to host cell autophagy induced by...,6/1363,43/6992,0.87,1
+WP2875,Constitutive androstane receptor pathway,2/1363,17/6992,0.872,1
+WP299,Nuclear receptors in lipid metabolism and toxicity,2/1363,17/6992,0.872,1
+WP4686,Leucine isoleucine and valine metabolism,3/1363,24/6992,0.874,1
+WP4655,Cytosolic DNA sensing pathway,7/1363,50/6992,0.881,1
+WP5510,16p12 2 copy number variation syndrome 520kb ,7/1363,50/6992,0.881,1
+WP5381,Smith Magenis and Potocki Lupski syndrome copy ...,23/1363,144/6992,0.884,1
+WP4861,Endoplasmic reticulum stress response in corona...,6/1363,44/6992,0.884,1
+WP3930,EDA signaling in hair follicle development,1/1363,10/6992,0.886,1
+WP4240,Regulation of sister chromatid separation at th...,1/1363,10/6992,0.886,1
+WP438,Non homologous end joining,1/1363,10/6992,0.886,1
+WP5104,Acquired partial lipodystrophy Barraquer Simons...,1/1363,10/6992,0.886,1
+WP5112,Familial hyperlipidemia type 5,1/1363,10/6992,0.886,1
+WP5191,Resolvin E1 and resolvin D1 signaling decrease ...,1/1363,10/6992,0.886,1
+WP5343,Abnormal calcium handling and its effects on mu...,1/1363,10/6992,0.886,1
+WP5394,UDP derived sugars synthesis in fibroblasts,1/1363,10/6992,0.886,1
+WP80,Nucleotide GPCRs,1/1363,10/6992,0.886,1
+WP4249,Hedgehog signaling,5/1363,38/6992,0.888,1
+WP5366,NF1 copy number variation syndrome ,11/1363,75/6992,0.89,1
+WP3613,Photodynamic therapy induced unfolded protein r...,3/1363,25/6992,0.891,1
+WP5496,Targeted therapy in breast cancer,3/1363,25/6992,0.891,1
+WP2507,Nanomaterial induced apoptosis,2/1363,18/6992,0.892,1
+WP3859,TGF beta signaling in thyroid cells for epithel...,2/1363,18/6992,0.892,1
+WP5360,KCNQ2 related epilepsies,2/1363,18/6992,0.892,1
+WP2848,Pluripotent stem cell differentiation pathway,4/1363,32/6992,0.896,1
+WP3844,PI3K AKT mTOR signaling and therapeutic opportu...,4/1363,32/6992,0.896,1
+WP5345,1p36 copy number variation syndrome,13/1363,88/6992,0.9,1
+WP383,Striated muscle contraction pathway,3/1363,26/6992,0.907,1
+WP4532,Intraflagellar transport proteins binding to dy...,3/1363,26/6992,0.907,1
+WP247,Small ligand GPCRs,1/1363,11/6992,0.908,1
+WP3875,ATR signaling,1/1363,11/6992,0.908,1
+WP3971,OSX and miRNAs in tooth development,1/1363,11/6992,0.908,1
+WP4792,Purine metabolism,1/1363,11/6992,0.908,1
+WP5049,Glycolysis in senescence,1/1363,11/6992,0.908,1
+WP5052,Nephrogenesis,1/1363,11/6992,0.908,1
+WP5120,Inclusion body myositis,1/1363,11/6992,0.908,1
+WP5399,NPHP1 deletion syndrome,1/1363,11/6992,0.908,1
+WP3651,Pathways affected in adenoid cystic carcinoma,8/1363,59/6992,0.912,1
+WP2004,miR targeted genes in lymphocytes,67/1363,394/6992,0.913,1
+WP4290,Metabolic reprogramming in colon cancer,5/1363,40/6992,0.913,1
+WP4656,Joubert syndrome,10/1363,72/6992,0.917,1
+WP34,Ovarian infertility,3/1363,27/6992,0.92,1
+WP3996,Ethanol effects on histone modifications,3/1363,27/6992,0.92,1
+WP3640,Imatinib and chronic myeloid leukemia,2/1363,20/6992,0.924,1
+WP4483,Relationship between inflammation COX 2 and EGFR,2/1363,20/6992,0.924,1
+WP3849,MAPK and NFkB signaling inhibited by Yersinia YopJ,1/1363,12/6992,0.926,1
+WP4210,Tryptophan catabolism leading to NAD production,1/1363,12/6992,0.926,1
+WP4236,Krebs cycle disorders,1/1363,12/6992,0.926,1
+WP5472,Phosphoinositide 3 kinase PI3K family,1/1363,12/6992,0.926,1
+WP5224,2q37 copy number variation syndrome,14/1363,98/6992,0.93,1
+WP1422,Sphingolipid pathway,3/1363,28/6992,0.931,1
+WP4224,Purine metabolism and related disorders,2/1363,21/6992,0.936,1
+WP5183,SARS CoV 2 mitochondrial chronic oxidative stre...,2/1363,21/6992,0.936,1
+WP5488,Pathways into methionine and folate cycles,4/1363,36/6992,0.94,1
+WP4318,Mitochondrial fission and fusion,1/1363,13/6992,0.94,1
+WP2839,Hair follicle development organogenesis stage 2...,3/1363,29/6992,0.941,1
+WP4204,Tumor suppressor activity of SMARCB1,3/1363,29/6992,0.941,1
+WP4752,Base excision repair,3/1363,29/6992,0.941,1
+WP5117,Cohesin complex Cornelia de Lange syndrome,3/1363,29/6992,0.941,1
+WP268,Notch signaling,5/1363,43/6992,0.941,1
+WP1984,Integrated breast cancer pathway,21/1363,143/6992,0.946,1
+WP2509,Nanoparticle triggered autophagic cell death,2/1363,22/6992,0.947,1
+WP357,Fatty acid biosynthesis,2/1363,22/6992,0.947,1
+WP5192,Modulation of PI3K Akt mTOR signaling by bioact...,1/1363,14/6992,0.952,1
+WP5433,PGK1 PKM2 KHKC KHKA acting as protein kinases,1/1363,14/6992,0.952,1
+WP5234,Bardet Biedl syndrome,11/1363,84/6992,0.954,1
+WP2359,Parkin ubiquitin proteasomal system pathway,8/1363,65/6992,0.955,1
+WP4803,Ciliopathies,25/1363,169/6992,0.955,1
+WP5064,7 oxo C and 7 beta HC pathways,2/1363,23/6992,0.955,1
+WP5385,Growth factors and hormones in beta cell prolif...,2/1363,23/6992,0.955,1
+WP4150,Wnt signaling in kidney disease,3/1363,31/6992,0.957,1
+WP183,Proteasome degradation,7/1363,59/6992,0.958,1
+WP2453,TCA cycle and deficiency of pyruvate dehydrogen...,1/1363,15/6992,0.961,1
+WP2916,Interactome of polycomb repressive complex 2 PRC2 ,1/1363,15/6992,0.961,1
+WP4320,Effect of progerin on genes involved in progeria,2/1363,24/6992,0.963,1
+WP5546,22q11 2 distal CNV,12/1363,93/6992,0.965,1
+WP100,Glutathione metabolism,1/1363,16/6992,0.969,1
+WP1584,Type II diabetes mellitus,1/1363,16/6992,0.969,1
+WP2001,miR targeted genes in adipocytes,1/1363,16/6992,0.969,1
+WP5469,Hallmark of cancer metastasis and epithelial to...,1/1363,16/6992,0.969,1
+WP5526,Age related macular degeneration,1/1363,16/6992,0.969,1
+WP4521,Glycosylation and related congenital defects,2/1363,25/6992,0.969,1
+WP5531,AKT signaling and ARTD family members,3/1363,33/6992,0.969,1
+WP4016,DNA IR damage and cellular response via ATR,9/1363,76/6992,0.973,1
+WP5380,5q35 copy number variation,12/1363,96/6992,0.975,1
+WP3850,Factors and pathways affecting insulin like gro...,3/1363,35/6992,0.978,1
+WP3965,Lipid metabolism pathway,2/1363,27/6992,0.979,1
+WP4396,Nonalcoholic fatty liver disease,18/1363,136/6992,0.98,1
+WP3657,Hematopoietic stem cell gene regulation by GABP...,1/1363,18/6992,0.98,1
+WP4301,Inhibition of exosome biogenesis and secretion ...,1/1363,18/6992,0.98,1
+WP497,Urea cycle and metabolism of amino groups,1/1363,18/6992,0.98,1
+WP5401,7q11 23 distal copy number variation,1/1363,18/6992,0.98,1
+WP78,TCA cycle aka Krebs or citric acid cycle ,1/1363,18/6992,0.98,1
+WP534,Glycolysis and gluconeogenesis,3/1363,36/6992,0.981,1
+WP4577,Neurodegeneration with brain iron accumulation ...,4/1363,44/6992,0.982,1
+WP2533,Glycerophospholipid biosynthetic pathway,2/1363,28/6992,0.982,1
+WP4863,Host pathogen interaction of human coronaviruse...,1/1363,19/6992,0.984,1
+WP466,DNA replication,3/1363,37/6992,0.984,1
+WP3925,Amino acid metabolism,8/1363,74/6992,0.985,1
+WP4923,Autophagy,2/1363,29/6992,0.985,1
+WP5351,Kleefstra syndrome,2/1363,29/6992,0.985,1
+WP5365,4p16 3 copy number variation,2/1363,29/6992,0.985,1
+WP5215,Targeted agents in triple negative breast cancer,3/1363,38/6992,0.987,1
+WP5504,Disorders of mitochondrial homeostatis dynamics...,6/1363,61/6992,0.987,1
+WP5153,N glycan biosynthesis,5/1363,56/6992,0.991,1
+WP2059,Alzheimer 39 s disease and miRNA effects,32/1363,232/6992,0.992,1
+WP5124,Alzheimer 39 s disease,32/1363,232/6992,0.992,1
+WP2369,Histone modifications,3/1363,41/6992,0.992,1
+WP405,Eukaryotic transcription initiation,3/1363,42/6992,0.993,1
+WP4932,7q11 23 copy number variation syndrome,10/1363,95/6992,0.994,1
+WP5461,Primary ovarian insufficiency,10/1363,96/6992,0.995,1
+WP4726,Sphingolipid metabolism integrated pathway,1/1363,25/6992,0.996,1
+WP5494,Tyrosine kinase inhibitors in glioblastoma,1/1363,25/6992,0.996,1
+WP5493,Effect of dasatinib on the BCR ABL signaling pa...,3/1363,45/6992,0.996,1
+WP4725,Sphingolipid metabolism overview,1/1363,26/6992,0.996,1
+WP5505,Glycosylphosphatidyl inositol anchor pathway,1/1363,26/6992,0.996,1
+WP4922,Mitochondrial complex IV assembly,1/1363,31/6992,0.999,1
+WP4753,Nucleotide excision repair,2/1363,43/6992,0.999,1
+WP4022,Pyrimidine metabolism,6/1363,79/6992,0.999,1
+WP5316,Primary ovarian insufficiency,12/1363,125/6992,0.999,1
+WP411,mRNA processing,11/1363,124/6992,1,1
+WP5114,Nucleotide excision repair in xeroderma pigment...,3/1363,63/6992,1,1
+WP4946,DNA repair pathways full network,8/1363,113/6992,1,1
+WP4352,Ciliary landscape,17/1363,205/6992,1,1
+WP111,Electron transport chain OXPHOS system in mitoc...,2/1363,89/6992,1,1

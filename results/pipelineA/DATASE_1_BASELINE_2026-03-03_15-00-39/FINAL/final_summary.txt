@@ -1,0 +1,16 @@
+Pipeline:           pipelineA
+Dataset:            dataset_1
+Run ID:             pipelineA_2026-03-03_15-00-39
+Timestamp:          2026-03-03_15-00-39
+FINAL source:       Tier 2 (Tier 1 empty)
+Source file:        results/pipelineA/2026-03-03_15-00-39/07_tiers/tier2_stable_only.csv
+Pathways exported:  20
+
+Key thresholds:
+  bootstrap B:          200
+  subsample fraction:   0.85
+  TAU_STABILITY:        0.7
+  JACCARD_MIN:          0.15
+  CONS_JACCARD_MIN:     0.15
+  CONS_K_MIN:           5
+

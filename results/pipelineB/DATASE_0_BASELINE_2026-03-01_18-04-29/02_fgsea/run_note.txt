@@ -1,0 +1,20 @@
+[Pipeline B — fgsea sensitivity run note]
+Expression: data/dataset_0/processed/processedMatrix.csv
+Metadata:   data/dataset_0/processed/metaData.csv
+Universe:   results/pipelineB/2026-03-01_18-04-29/01_camera/universe_genes.txt
+
+Samples used: 8
+Genes used (after universe restriction + duplicate collapse): 6992
+
+Design: (Intercept), GenotypeWT
+Rank statistic: limma moderated t-statistics (coef = GenotypeWT)
+Interpretation note: NES sign follows the sign of the ranking statistic.
+
+Gene set size filter: 10–500
+
+WikiPathways sets: 699
+GO:BP sets: 1841
+
+Outputs:
+- results/pipelineB/2026-03-01_18-04-29/02_fgsea/fgsea_wikipathways.csv
+- results/pipelineB/2026-03-01_18-04-29/02_fgsea/fgsea_go_bp.csv

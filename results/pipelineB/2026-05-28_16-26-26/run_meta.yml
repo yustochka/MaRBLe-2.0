@@ -1,0 +1,13 @@
+pipeline: pipelineB
+run_id: pipelineB_2026-05-28_16-26-26
+timestamp: 2026-05-28_16-26-26
+dataset: ACTA2KO_iVSMC
+ran_steps:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+git_commit: 4b6283d
+run_dir: results/pipelineB/2026-05-28_16-26-26

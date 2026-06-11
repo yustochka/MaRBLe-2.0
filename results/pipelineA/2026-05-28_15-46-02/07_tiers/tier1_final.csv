@@ -1,0 +1,5 @@
+ID,Description,p.adjust,k,stability,selected,collection,consensus,keep_final
+GO:0006270,DNA replication initiation,5.134484528118593e-4,10,0.86,TRUE,GO,TRUE,TRUE
+WP466,DNA replication,5.386382355316237e-4,12,0.995,TRUE,WP,TRUE,TRUE
+WP558,Complement and coagulation cascades,0.02312478054758086,9,0.9,TRUE,WP,TRUE,TRUE
+WP5095,Overview of proinflammatory and profibrotic mediators,0.02798339154073102,9,0.94,TRUE,WP,TRUE,TRUE

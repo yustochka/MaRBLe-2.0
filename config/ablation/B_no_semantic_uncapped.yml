@@ -1,0 +1,20 @@
+# Ablation Study — B_no_semantic_uncapped: GO semantic collapse removed, no top-N cap.
+#
+# Conceptually equivalent to B_no_semantic_no_topcap from the first ablation
+# experiment. Rerun fresh into results/ablation_uncapped/ for a clean
+# self-contained uncapped comparison.
+#
+# Effect: step04 is bypassed (passthrough). All agreement-filtered GO terms
+# pass directly to step05 without semantic redundancy reduction.
+# No top-N cap applied at the final export step.
+#
+# Merged with config/default.yml at runtime by R/ablation/run_ablation_B.R.
+
+pipelineB:
+  ablation:
+    variant_name:           "B_no_semantic_uncapped"
+    use_fgsea:              true
+    use_semantic_collapse:  false   # bypass step04; all GO terms pass to step05
+    use_overlap_clustering: true
+    use_consensus:          true
+    top_n_per_direction:    ~       # null = no cap

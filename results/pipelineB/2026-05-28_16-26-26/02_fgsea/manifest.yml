@@ -1,0 +1,9 @@
+step: 2.0
+timestamp: 2026-05-28 16:26:34
+inputs:
+  expression_file: data/ACTA2KO_iVSMC/normalizedData.csv
+  metadata_file: data/ACTA2KO_iVSMC/metadata_processed.csv
+  universe_file: results/pipelineB/2026-05-28_16-26-26/01_camera/universe_genes.txt
+outputs:
+  fgsea_wp_file: results/pipelineB/2026-05-28_16-26-26/02_fgsea/fgsea_wikipathways.csv
+  fgsea_go_file: results/pipelineB/2026-05-28_16-26-26/02_fgsea/fgsea_go_bp.csv

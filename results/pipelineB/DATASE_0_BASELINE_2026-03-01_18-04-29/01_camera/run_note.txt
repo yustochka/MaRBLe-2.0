@@ -1,0 +1,16 @@
+[Pipeline B — CAMERA run note]
+Expression: data/dataset_0/processed/processedMatrix.csv
+Universe:   results/pipelineB/2026-03-01_18-04-29/01_camera/universe_genes.txt
+Samples used: 8
+Genes used (after universe restriction): 6992
+
+Design: (Intercept), GenotypeWT
+Contrast coefficient: GenotypeWT
+Include Age covariate: FALSE
+
+WikiPathways sets kept (size 10-500): 699
+GO:BP sets kept (size 10-500): 1841
+
+Outputs:
+- results/pipelineB/2026-03-01_18-04-29/01_camera/camera_wikipathways.csv
+- results/pipelineB/2026-03-01_18-04-29/01_camera/camera_go_bp.csv

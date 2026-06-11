@@ -1,0 +1,20 @@
+# Ablation Study — B_no_topcap: final top-N cap removed.
+#
+# Effect: steps 01-06 run exactly as in B_full. The only change is in the
+# FINAL selection step: top_n_per_direction = null disables the slice_head()
+# cap, so all pathways passing the step06 keep_final criterion are written
+# to FINAL.csv regardless of count.
+#
+# This reveals how many pathways the pipeline would produce without the cap,
+# and whether the cap is binding (restricting genuinely good candidates).
+#
+# Merged with config/default.yml at runtime by R/ablation/run_ablation_B.R.
+
+pipelineB:
+  ablation:
+    variant_name:           "B_no_topcap"
+    use_fgsea:              true
+    use_semantic_collapse:  true
+    use_overlap_clustering: true
+    use_consensus:          true
+    top_n_per_direction:    ~    # null in R — no cap applied

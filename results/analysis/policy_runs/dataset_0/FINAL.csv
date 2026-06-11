@@ -1,0 +1,12 @@
+ID,Description,p.adjust,k,stability,selected,collection,consensus,keep_final
+GO:0006956,complement activation,2.74635302985528e-4,17,0.845,TRUE,GO,TRUE,TRUE
+GO:0007596,blood coagulation,0.00130470257580258,48,0.77,TRUE,GO,TRUE,TRUE
+GO:0034142,toll-like receptor 4 signaling pathway,0.00341860215520587,20,0.88,TRUE,GO,TRUE,TRUE
+GO:0019886,antigen processing and presentation of exogenous peptide antigen via MHC class II,0.03950488280015925,10,0.835,TRUE,GO,TRUE,TRUE
+GO:0002181,cytoplasmic translation,0.04510421091392166,41,0.95,TRUE,GO,TRUE,TRUE
+WP558,Complement and coagulation cascades,9.315016390704976e-5,21,1,TRUE,WP,TRUE,TRUE
+WP75,Toll like receptor signaling,0.00154365033303341,29,1,TRUE,WP,TRUE,TRUE
+WP2328,Allograft rejection,0.00238783634448924,24,1,TRUE,WP,TRUE,TRUE
+WP5095,Overview of proinflammatory and profibrotic mediators,0.00972542443948605,12,0.97,TRUE,WP,TRUE,TRUE
+WP477,Cytoplasmic ribosomal proteins,0.01617857367476309,30,0.965,TRUE,WP,TRUE,TRUE
+WP5560,Lupus therapies,0.04945937034694876,8,0.885,TRUE,WP,TRUE,TRUE

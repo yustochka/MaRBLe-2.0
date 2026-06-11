@@ -1,0 +1,64 @@
+ID,Description,p.adjust,k,supported_by_hierarchy,K,cluster,hit_frac,rank_in_cluster,cluster_size
+GO:0030198,extracellular matrix organization,5.303057826980286e-10,91,NA,NA,1,NA,1,1
+GO:0000280,nuclear division,6.910609201234948e-5,94,NA,NA,2,NA,1,1
+GO:0051216,cartilage development,1.4504047561007198e-4,65,NA,NA,3,NA,1,1
+GO:0071774,response to fibroblast growth factor,2.760856161096126e-4,51,NA,NA,4,NA,1,1
+GO:0061448,connective tissue development,0.00124339196687665,80,NA,NA,5,NA,1,1
+GO:0032963,collagen metabolic process,0.00187958085486762,35,NA,NA,6,NA,1,1
+GO:1903046,meiotic cell cycle process,0.00187958085486762,44,NA,NA,7,NA,1,1
+GO:0008543,fibroblast growth factor receptor signaling pathway,0.00219841462096274,39,NA,NA,8,NA,1,3
+GO:0061138,morphogenesis of a branching epithelium,0.00219841462096274,58,NA,NA,9,NA,1,1
+GO:0098773,skin epidermis development,0.00223044621156374,40,NA,NA,10,NA,1,1
+GO:0099565,"chemical synaptic transmission, postsynaptic",0.00396823765655233,33,NA,NA,11,NA,1,1
+GO:0042445,hormone metabolic process,0.00396823765655233,57,NA,NA,12,NA,1,1
+GO:0031589,cell-substrate adhesion,0.00396823765655233,84,NA,NA,13,NA,1,1
+GO:0022612,gland morphogenesis,0.00487951502706133,42,NA,NA,14,NA,1,1
+GO:0170035,L-amino acid catabolic process,0.0051490148972147,28,NA,NA,15,NA,1,1
+GO:0170040,proteinogenic amino acid catabolic process,0.0051490148972147,28,NA,NA,16,NA,1,1
+GO:0007088,regulation of mitotic nuclear division,0.00518756463514771,34,NA,NA,17,NA,1,1
+GO:0060326,cell chemotaxis,0.00558567820629072,85,NA,NA,18,NA,1,1
+GO:0006805,xenobiotic metabolic process,0.00592986371482015,31,NA,NA,19,NA,1,1
+GO:0060078,regulation of postsynaptic membrane potential,0.00657734498265058,36,NA,NA,20,NA,1,1
+GO:1905330,regulation of morphogenesis of an epithelium,0.0068857056927793,25,NA,NA,21,NA,1,1
+GO:0015844,monoamine transport,0.00737009566306995,26,NA,NA,22,NA,1,1
+GO:0061436,establishment of skin barrier,0.00739734673897462,13,NA,NA,23,NA,1,1
+GO:0016486,peptide hormone processing,0.00838283106522841,12,NA,NA,24,NA,1,1
+GO:0001906,cell killing,0.00838283106522841,56,NA,NA,25,NA,1,1
+GO:0018958,phenol-containing compound metabolic process,0.00957032709893778,32,NA,NA,26,NA,1,1
+GO:0098742,cell-cell adhesion via plasma-membrane adhesion molecules,0.011303951217709,45,NA,NA,27,NA,1,1
+GO:0001504,neurotransmitter uptake,0.01187675199556045,16,NA,NA,28,NA,1,1
+GO:0016101,diterpenoid metabolic process,0.01247607801128744,25,NA,NA,29,NA,1,1
+GO:0003014,renal system process,0.01247607801128744,35,NA,NA,30,NA,1,1
+GO:0045109,intermediate filament organization,0.01312186815252193,13,NA,NA,31,NA,1,1
+GO:0035987,endodermal cell differentiation,0.0133417994918401,22,NA,NA,32,NA,1,1
+GO:0001909,leukocyte mediated cytotoxicity,0.01486379838201261,40,NA,NA,33,NA,1,1
+GO:1901606,alpha-amino acid catabolic process,0.01535290352446453,32,NA,NA,34,NA,1,1
+GO:0060740,prostate gland epithelium morphogenesis,0.01543401993731085,12,NA,NA,35,NA,1,1
+GO:0045216,cell-cell junction organization,0.01701106061141062,54,NA,NA,36,NA,1,1
+GO:0098813,nuclear chromosome segregation,0.01811441517210141,64,NA,NA,37,NA,1,1
+GO:0031342,negative regulation of cell killing,0.01815262307332638,16,NA,NA,38,NA,1,1
+GO:1904018,positive regulation of vasculature development,0.01816221104382268,52,NA,NA,39,NA,1,1
+GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,0.01831006772119147,56,NA,NA,40,NA,1,1
+GO:0030534,adult behavior,0.01844548661687762,37,NA,NA,41,NA,1,1
+GO:0006836,neurotransmitter transport,0.01844548661687762,46,NA,NA,42,NA,1,1
+GO:0060349,bone morphogenesis,0.01885330208381824,33,NA,NA,43,NA,1,1
+GO:0000070,mitotic sister chromatid segregation,0.01989260973596817,43,NA,NA,44,NA,1,1
+GO:0045953,negative regulation of natural killer cell mediated cytotoxicity,0.02141347717399349,13,NA,NA,45,NA,1,1
+GO:0060688,regulation of morphogenesis of a branching structure,0.02249605721057849,21,NA,NA,46,NA,1,1
+GO:0048546,digestive tract morphogenesis,0.02341164141960344,18,NA,NA,47,NA,1,1
+GO:0010463,mesenchymal cell proliferation,0.02621901187264595,19,NA,NA,48,NA,1,1
+GO:0006024,glycosaminoglycan biosynthetic process,0.02820206589256718,20,NA,NA,49,NA,1,1
+GO:0050764,regulation of phagocytosis,0.02820206589256718,30,NA,NA,50,NA,1,1
+GO:0002065,columnar/cuboidal epithelial cell differentiation,0.02820206589256718,32,NA,NA,51,NA,1,1
+GO:0036215,response to stem cell factor,0.02889720971294097,21,NA,NA,52,NA,1,1
+GO:0009308,amine metabolic process,0.03457677057286613,31,NA,NA,53,NA,1,1
+GO:0044786,cell cycle DNA replication,0.03681851645586462,16,NA,NA,54,NA,1,1
+GO:0002274,myeloid leukocyte activation,0.03681851645586462,64,NA,NA,55,NA,1,1
+GO:0033238,regulation of amine metabolic process,0.03687451591089676,10,NA,NA,56,NA,1,1
+GO:0097485,neuron projection guidance,0.03772868059500786,51,NA,NA,57,NA,1,1
+GO:0043491,phosphatidylinositol 3-kinase/protein kinase B signal transduction,0.03857271887371634,78,NA,NA,58,NA,1,1
+GO:0014850,response to muscle activity,0.0406288496289314,14,NA,NA,59,NA,1,1
+GO:0030204,chondroitin sulfate metabolic process,0.04141689048035731,12,NA,NA,60,NA,1,1
+GO:0044282,small molecule catabolic process,0.04174617098777219,83,NA,NA,61,NA,1,1
+GO:0030278,regulation of ossification,0.04358226146706926,38,NA,NA,62,NA,1,1
+GO:0035924,cellular response to vascular endothelial growth factor stimulus,0.04762111735114358,35,NA,NA,63,NA,1,1

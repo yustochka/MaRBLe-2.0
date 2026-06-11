@@ -1,0 +1,17 @@
+[Pipeline B — GO semantic collapse (agreement input)]
+Measure: Wang
+Threshold τ: 0.60
+Collapse scope: within-direction (Up and Down separately)
+
+Input GO terms total: 43   (Up=33, Down=10)
+Representatives kept: 29 (Up=19, Down=10)
+
+Representative rule (best-first):
+1) lowest CAMERA FDR
+2) then lowest fgsea padj/FDR
+3) then shorter term name (if available)
+4) then stronger stats (|NES|, |cam_stat|) as mild tie-break
+
+Files:
+- reps.csv (representatives)
+- mapping.csv (collapsed -> representative)

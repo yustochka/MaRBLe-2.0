@@ -1,0 +1,10 @@
+step: 5.0
+timestamp: 2026-05-28 16:26:49
+inputs:
+  step01_dir: results/pipelineB/2026-05-28_16-26-26/01_camera
+  step03_dir: results/pipelineB/2026-05-28_16-26-26/03_prepare_inputs
+  step04_dir: results/pipelineB/2026-05-28_16-26-26/04_go_collapse
+outputs:
+  out_dir: results/pipelineB/2026-05-28_16-26-26/05_overlap
+  representatives_up: results/pipelineB/2026-05-28_16-26-26/05_overlap/representatives_up.csv
+  representatives_down: results/pipelineB/2026-05-28_16-26-26/05_overlap/representatives_down.csv

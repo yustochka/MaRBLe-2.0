@@ -1,0 +1,86 @@
+ID,Description,p.adjust,k,stability,selected,collection,consensus,keep_final
+WP558,Complement and coagulation cascades,9.315016390704976e-5,21,1,TRUE,WP,TRUE,TRUE
+WP75,Toll like receptor signaling,0.00154365033303341,29,1,TRUE,WP,TRUE,TRUE
+WP2328,Allograft rejection,0.00238783634448924,24,1,TRUE,WP,TRUE,TRUE
+WP5095,Overview of proinflammatory and profibrotic mediators,0.00972542443948605,12,0.97,TRUE,WP,TRUE,TRUE
+WP477,Cytoplasmic ribosomal proteins,0.01617857367476309,30,0.965,TRUE,WP,TRUE,TRUE
+GO:0002181,cytoplasmic translation,0.04510421091392166,41,0.95,TRUE,GO,TRUE,TRUE
+WP5560,Lupus therapies,0.04945937034694876,8,0.885,TRUE,WP,TRUE,TRUE
+GO:0034142,toll-like receptor 4 signaling pathway,0.00341860215520587,20,0.88,TRUE,GO,TRUE,TRUE
+GO:0006956,complement activation,2.74635302985528e-4,17,0.845,TRUE,GO,TRUE,TRUE
+GO:0019886,antigen processing and presentation of exogenous peptide antigen via MHC class II,0.03950488280015925,10,0.835,TRUE,GO,TRUE,TRUE
+GO:0007596,blood coagulation,0.00130470257580258,48,0.77,TRUE,GO,TRUE,TRUE
+GO:0032496,response to lipopolysaccharide,1.2861168907969452e-7,80,1,TRUE,GO,FALSE,FALSE
+WP2431,Spinal cord injury,1.6786098961740424e-6,43,1,TRUE,WP,FALSE,FALSE
+GO:0042742,defense response to bacterium,8.372545827289275e-6,47,0.995,TRUE,GO,FALSE,FALSE
+WP3945,TYROBP causal network in microglia,0.00556757091483947,23,0.995,TRUE,WP,FALSE,FALSE
+WP5090,Complement system in neuronal development and plasticity,0.00665677166163814,31,0.995,TRUE,WP,FALSE,FALSE
+GO:0032757,positive regulation of interleukin-8 production,2.324844096529078e-4,21,0.99,TRUE,GO,FALSE,FALSE
+GO:0071260,cellular response to mechanical stimulus,8.275615333243631e-4,26,0.99,TRUE,GO,FALSE,FALSE
+WP5491,Transcriptional regulation of memory B cell differentiation,0.00838872332229117,16,0.99,TRUE,WP,FALSE,FALSE
+WP2806,Complement system,0.00916719107335639,24,0.985,TRUE,WP,FALSE,FALSE
+WP5561,Integrative Analysis of Treg Glial Interactions,0.00972542443948605,32,0.985,TRUE,WP,FALSE,FALSE
+WP5193,Cholesterol synthesis disorders,0.01209245727172539,10,0.98,TRUE,WP,FALSE,FALSE
+WP3612,Photodynamic therapy induced NFE2L2 NRF2 survival signaling,0.00832072049266335,12,0.975,TRUE,WP,FALSE,FALSE
+WP2840,Hair follicle development cytodifferentiation stage 3 of 3,0.0101038903561157,23,0.975,TRUE,WP,FALSE,FALSE
+GO:0007528,neuromuscular junction development,0.01562614446492455,16,0.97,TRUE,GO,FALSE,FALSE
+WP3611,Photodynamic therapy induced AP 1 survival signaling,0.00972542443948605,19,0.965,TRUE,WP,FALSE,FALSE
+GO:1902895,positive regulation of miRNA transcription,0.00258679081518809,19,0.96,TRUE,GO,FALSE,FALSE
+GO:0043123,positive regulation of canonical NF-kappaB signal transduction,0.00846769879257969,46,0.96,TRUE,GO,FALSE,FALSE
+WP3937,Microglia pathogen phagocytosis pathway,0.01209245727172539,16,0.96,TRUE,WP,FALSE,FALSE
+GO:0001659,temperature homeostasis,0.001224570420449,46,0.955,TRUE,GO,FALSE,FALSE
+WP722,Serotonin HTR1 group and FOS pathway,0.02103007102628553,16,0.955,TRUE,WP,FALSE,FALSE
+WP5130,Th17 cell differentiation pathway,0.03265033211953775,18,0.955,TRUE,WP,FALSE,FALSE
+GO:1904646,cellular response to amyloid-beta,0.0057315507246034,17,0.95,TRUE,GO,FALSE,FALSE
+WP5473,Cytokine cytokine receptor interaction,0.02695965993946908,34,0.95,TRUE,WP,FALSE,FALSE
+GO:0006816,calcium ion transport,1.601903087850453e-5,84,0.945,TRUE,GO,FALSE,FALSE
+WP5198,Inflammatory bowel disease signaling,0.02695965993946908,11,0.945,TRUE,WP,FALSE,FALSE
+GO:0070371,ERK1 and ERK2 cascade,2.914540065657633e-4,63,0.94,TRUE,GO,FALSE,FALSE
+WP176,Folate metabolism,0.02164101778362147,18,0.935,TRUE,WP,FALSE,FALSE
+GO:0051607,defense response to virus,0.02553905601550399,51,0.935,TRUE,GO,FALSE,FALSE
+WP3591,Sleep regulation,0.02695965993946908,12,0.92,TRUE,WP,FALSE,FALSE
+WP5477,Molecular pathway for oxidative stress,0.03613335406337133,17,0.915,TRUE,WP,FALSE,FALSE
+WP5284,Cell interactions in pancreatic cancer microenvironment,0.02695965993946908,9,0.9,TRUE,WP,FALSE,FALSE
+GO:1902042,negative regulation of extrinsic apoptotic signaling pathway via death domain receptors,0.01918010666129407,11,0.895,TRUE,GO,FALSE,FALSE
+GO:0034341,response to type II interferon,8.37262313610812e-5,34,0.89,TRUE,GO,FALSE,FALSE
+WP2865,IL1 and megakaryocytes in obesity,0.02695965993946908,10,0.885,TRUE,WP,FALSE,FALSE
+WP1528,Physiological and pathological hypertrophy of the heart,0.03681239653271216,11,0.885,TRUE,WP,FALSE,FALSE
+WP2324,AGE RAGE pathway,0.0492817571141797,21,0.88,TRUE,WP,FALSE,FALSE
+WP5272,LDL influence on CD14 and TLR4,0.04897618560476502,10,0.845,TRUE,WP,FALSE,FALSE
+WP3941,Oxidative damage response,0.04020204513153988,15,0.84,TRUE,WP,FALSE,FALSE
+WP5265,Neurogenesis regulation in the olfactory epithelium,0.04556473401112624,19,0.82,TRUE,WP,FALSE,FALSE
+WP3947,Serotonin and anxiety,0.04945937034694876,9,0.805,TRUE,WP,FALSE,FALSE
+GO:0043524,negative regulation of neuron apoptotic process,0.03348095878563834,35,0.725,TRUE,GO,FALSE,FALSE
+GO:0061001,regulation of dendritic spine morphogenesis,0.02373159636634065,14,0.68,FALSE,GO,FALSE,FALSE
+GO:0061844,antimicrobial humoral immune response mediated by antimicrobial peptide,0.04685573129050467,12,0.68,FALSE,GO,TRUE,FALSE
+GO:0007188,adenylate cyclase-modulating G protein-coupled receptor signaling pathway,0.00554333347929871,54,0.6,FALSE,GO,FALSE,FALSE
+GO:0014059,regulation of dopamine secretion,0.01316985332542369,11,0.585,FALSE,GO,FALSE,FALSE
+GO:0043536,positive regulation of blood vessel endothelial cell migration,0.01913434553079512,19,0.44,FALSE,GO,FALSE,FALSE
+GO:0032801,receptor catabolic process,0.01918010666129407,11,0.38,FALSE,GO,FALSE,FALSE
+GO:0035249,"synaptic transmission, glutamatergic",0.01565971088971324,30,0.32,FALSE,GO,FALSE,FALSE
+GO:0001764,neuron migration,0.03776135666214644,38,0.295,FALSE,GO,FALSE,FALSE
+GO:0010976,positive regulation of neuron projection development,0.0431650631290213,32,0.27,FALSE,GO,FALSE,FALSE
+GO:0006813,potassium ion transport,8.677222456574849e-4,40,0.24,FALSE,GO,FALSE,FALSE
+GO:0060291,long-term synaptic potentiation,0.01754337021397122,25,0.235,FALSE,GO,FALSE,FALSE
+GO:0042060,wound healing,9.213771875497766e-7,89,0.18,FALSE,GO,FALSE,FALSE
+GO:0045088,regulation of innate immune response,1.6155221125926974e-5,86,0.175,FALSE,GO,FALSE,FALSE
+GO:0002437,inflammatory response to antigenic stimulus,0.03699255538394613,17,0.175,FALSE,GO,FALSE,FALSE
+GO:0051056,regulation of small GTPase mediated signal transduction,0.00934836326445558,52,0.09,FALSE,GO,FALSE,FALSE
+GO:0010043,response to zinc ion,0.03973914006134044,14,0.09,FALSE,GO,FALSE,FALSE
+GO:0007416,synapse assembly,0.01407566986559613,44,0.055,FALSE,GO,FALSE,FALSE
+GO:0043087,regulation of GTPase activity,0.00871547691114529,32,0.025,FALSE,GO,FALSE,FALSE
+GO:0030198,extracellular matrix organization,0.02761534519440904,46,0.025,FALSE,GO,FALSE,FALSE
+GO:0006909,phagocytosis,3.5568750578374956e-4,48,0.02,FALSE,GO,FALSE,FALSE
+GO:0060326,cell chemotaxis,8.275615333243631e-4,57,0.01,FALSE,GO,FALSE,FALSE
+GO:0042554,superoxide anion generation,0.01861027214446733,13,0.005,FALSE,GO,FALSE,FALSE
+GO:0006959,humoral immune response,7.441797244924399e-5,38,0,FALSE,GO,FALSE,FALSE
+GO:0050727,regulation of inflammatory response,1.1717487744472044e-4,70,0,FALSE,GO,FALSE,FALSE
+GO:0050807,regulation of synapse organization,9.791530794174628e-4,59,0,FALSE,GO,FALSE,FALSE
+GO:0017157,regulation of exocytosis,0.00411758457272751,41,0,FALSE,GO,FALSE,FALSE
+GO:0021675,nerve development,0.00790729898740572,25,0,FALSE,GO,FALSE,FALSE
+GO:0051402,neuron apoptotic process,0.01051341432910815,61,0,FALSE,GO,FALSE,FALSE
+GO:0016079,synaptic vesicle exocytosis,0.01754337021397122,25,0,FALSE,GO,FALSE,FALSE
+GO:0097028,dendritic cell differentiation,0.01861027214446733,13,0,FALSE,GO,FALSE,FALSE
+GO:2000379,positive regulation of reactive oxygen species metabolic process,0.0212903200718309,20,0,FALSE,GO,FALSE,FALSE
+GO:0060078,regulation of postsynaptic membrane potential,0.0263028956630568,35,0,FALSE,GO,FALSE,FALSE
+GO:0051259,protein complex oligomerization,0.03840431317950322,44,0,FALSE,GO,FALSE,FALSE

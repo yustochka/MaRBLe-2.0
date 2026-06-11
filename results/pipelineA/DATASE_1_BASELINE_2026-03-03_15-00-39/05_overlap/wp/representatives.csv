@@ -1,0 +1,10 @@
+ID,Description,p.adjust,k,K,cluster,hit_frac,rank_in_cluster,cluster_size
+WP5417,Cell lineage map for neuronal differentiation,9.324130424108609e-6,47,89,1,0.5280898876404494,1,1
+WP5390,Pancreatic cancer subtypes,0.00124965045609883,15,20,2,0.75,1,1
+WP3945,TYROBP causal network in microglia,0.00357097499415764,30,59,3,0.5084745762711864,1,1
+WP2840,Hair follicle development cytodifferentiation stage 3 of 3,0.01528781750863908,30,64,4,0.46875,1,1
+WP2911,miRNA targets in ECM and membrane receptors,0.01542402518563735,14,22,5,0.6363636363636364,1,1
+WP2361,Gastric cancer network 1,0.03166880934553331,15,26,6,0.5769230769230769,1,1
+WP2839,Hair follicle development organogenesis stage 2 of 3,0.03166880934553331,16,29,7,0.5517241379310345,1,1
+WP5090,Complement system in neuronal development and plasticity,0.03166880934553331,38,93,8,0.40860215053763443,1,1
+WP4786,Type I collagen synthesis in the context of osteogenesis imperfecta,0.04535489815842423,16,30,9,0.5333333333333333,1,1

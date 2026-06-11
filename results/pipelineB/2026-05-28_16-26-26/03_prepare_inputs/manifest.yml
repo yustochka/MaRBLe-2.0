@@ -1,0 +1,8 @@
+step: 3.0
+timestamp: 2026-05-28 16:26:34
+inputs:
+  step01_dir: results/pipelineB/2026-05-28_16-26-26/01_camera
+  step02_dir: results/pipelineB/2026-05-28_16-26-26/02_fgsea
+outputs:
+  wp_agree_file: results/pipelineB/2026-05-28_16-26-26/03_prepare_inputs/wp_input_agreement.csv
+  go_agree_file: results/pipelineB/2026-05-28_16-26-26/03_prepare_inputs/go_bp_input_agreement.csv

@@ -1,0 +1,24 @@
+ID,Description,p.adjust,k,cluster,rank_in_cluster,cluster_size
+WP2446,Retinoblastoma gene in cancer,1.1478195472023457e-6,23,1,1,2
+WP45,G1 to S cell cycle control,0.00202963963578246,14,1,2,2
+WP2806,Complement system,2.153425269543807e-5,18,2,1,1
+WP3624,Lung fibrosis,1.3300866888460333e-4,13,3,1,1
+WP466,DNA replication,5.386382355316237e-4,12,4,1,1
+WP5390,Pancreatic cancer subtypes,0.00227376880726506,8,5,1,1
+WP1591,Heart development,0.00236312624889572,11,6,1,1
+WP383,Striated muscle contraction pathway,0.00336538516258788,9,7,1,1
+WP2361,Gastric cancer network 1,0.00730276997515698,8,8,1,1
+WP2406,Cardiac progenitor differentiation,0.00730276997515698,11,9,1,1
+WP3617,Photodynamic therapy induced NF kB survival signaling,0.00841310623543139,8,10,1,1
+WP1533,Vitamin B12 metabolism,0.01157579699771016,9,11,1,2
+WP176,Folate metabolism,0.01785774559065514,10,11,2,2
+WP2848,Pluripotent stem cell differentiation pathway,0.01157579699771016,9,12,1,1
+WP2431,Spinal cord injury,0.01699746921389607,15,13,1,1
+WP5117,Cohesin complex Cornelia de Lange syndrome,0.01785774559065514,8,14,1,1
+WP4136,Fibrin complement receptor 3 signaling,0.02312478054758086,8,15,1,1
+WP558,Complement and coagulation cascades,0.02312478054758086,9,16,1,2
+WP3896,Dengue 2 interactions with complement and coagulation cascades,0.02649214780993195,9,16,2,2
+WP2064,Neural crest differentiation,0.02779239111656727,13,17,1,1
+WP4016,DNA IR damage and cellular response via ATR,0.02779239111656727,13,18,1,1
+WP5095,Overview of proinflammatory and profibrotic mediators,0.02798339154073102,9,19,1,1
+WP5055,Burn wound healing,0.03162746535604851,11,20,1,1

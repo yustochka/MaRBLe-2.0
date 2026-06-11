@@ -1,0 +1,6 @@
+original_term_id,kept_term_id,pair_similarity,direction
+GO:0018279,GO:0006487,0.877,Down
+GO:0061077,GO:0006457,0.788,Down
+GO:0030174,GO:0006270,0.686,Down
+GO:0090307,GO:0007052,0.726,Down
+GO:0007080,GO:0000070,0.779,Down

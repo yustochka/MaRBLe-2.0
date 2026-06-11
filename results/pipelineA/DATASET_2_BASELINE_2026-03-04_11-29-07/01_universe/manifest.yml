@@ -1,0 +1,7 @@
+step: 1.0
+timestamp: 2026-03-04 11:29:08
+inputs:
+  expression_file: data/dataset_2/normCounts_GSE243836.csv
+  pathway2gene_file: data/dataset_0/processed/Pathway2Gene.csv
+outputs:
+  universe_file: results/pipelineA/2026-03-04_11-29-07/01_universe/universe_genes.txt

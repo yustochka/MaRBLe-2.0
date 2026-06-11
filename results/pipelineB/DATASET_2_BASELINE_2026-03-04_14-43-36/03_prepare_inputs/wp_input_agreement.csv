@@ -1,0 +1,66 @@
+ID,Description,direction,cam_FDR,fg_FDR,fgsea_NES,agreement_source,agreement_mode_used,agreement_relaxed_fdr_used,agreement_topn_used
+WP4666,Hepatitis B infection,Down,0.10275430194542504,0.3073352141431498,-1.6113511094822104,topn,relax_fdr_then_topn,0.2,50
+WP5345,1p36 copy number variation syndrome,Down,0.10275430194542504,0.3073352141431498,-1.4897170027946842,topn,relax_fdr_then_topn,0.2,50
+WP5083,Neuroinflammation and glutamatergic signaling,Down,0.2612900261949675,0.3073352141431498,-1.7301750269955332,topn,relax_fdr_then_topn,0.2,50
+WP481,Insulin signaling,Down,0.2612900261949675,0.3073352141431498,-1.6478853929067034,topn,relax_fdr_then_topn,0.2,50
+WP2446,Retinoblastoma gene in cancer,Up,0.5640456364413733,0.4521413064929939,1.54409590291477,topn,relax_fdr_then_topn,0.2,50
+WP411,mRNA processing,Up,0.5640456364413733,0.5966461853558628,1.3962310927299475,topn,relax_fdr_then_topn,0.2,50
+WP2884,NRF2 pathway,Down,0.5933648942956924,0.3073352141431498,-1.6951918899313814,topn,relax_fdr_then_topn,0.2,50
+WP2882,Nuclear receptors meta pathway,Down,0.5933648942956924,0.3408656441387413,-1.5843938215794071,topn,relax_fdr_then_topn,0.2,50
+WP702,Metapathway biotransformation Phase I and II,Down,0.5933648942956924,0.4521413064929939,-1.50275588756562,topn,relax_fdr_then_topn,0.2,50
+WP35,G protein signaling,Down,0.5933648942956924,0.5966461853558628,-1.419308224697371,topn,relax_fdr_then_topn,0.2,50
+WP5546,22q11 2 distal CNV,Up,0.5933648942956924,0.5966461853558628,1.4248906511460264,topn,relax_fdr_then_topn,0.2,50
+WP4321,Thermogenesis,Down,0.5933648942956924,0.6530133859724878,-1.233053094974674,topn,relax_fdr_then_topn,0.2,50
+WP314,Fas ligand pathway and stress induction of heat shock proteins,Down,0.5933648942956924,0.6530133859724878,-1.257033720149376,topn,relax_fdr_then_topn,0.2,50
+WP3915,Angiopoietin like protein 8 regulatory pathway,Down,0.5933648942956924,0.6530133859724878,-1.3304323271844745,topn,relax_fdr_then_topn,0.2,50
+WP3932,Focal adhesion PI3K Akt mTOR signaling,Down,0.5933648942956924,0.6530133859724878,-1.2046631735916773,topn,relax_fdr_then_topn,0.2,50
+WP4205,MET in type 1 papillary renal cell carcinoma,Down,0.5933648942956924,0.6530133859724878,-1.2164999554540512,topn,relax_fdr_then_topn,0.2,50
+WP2880,Glucocorticoid receptor pathway,Down,0.5933648942956924,0.6530133859724878,-1.3003657394253871,topn,relax_fdr_then_topn,0.2,50
+WP4905,1q21 1 copy number variation syndrome,Up,0.5933648942956924,0.6530133859724878,1.3301401239175692,topn,relax_fdr_then_topn,0.2,50
+WP5115,Network map of SARS CoV 2 signaling,Down,0.5933648942956924,0.6733663053772494,-1.1653301742551505,topn,relax_fdr_then_topn,0.2,50
+WP4172,PI3K Akt signaling,Down,0.5933648942956924,0.6733663053772494,-1.1503800170939822,topn,relax_fdr_then_topn,0.2,50
+WP2004,miR targeted genes in lymphocytes,Up,0.5933648942956924,0.7084091051608452,1.0605232376818805,topn,relax_fdr_then_topn,0.2,50
+WP111,Electron transport chain OXPHOS system in mitochondria,Up,0.5933648942956924,0.7334855403348554,1.0394346653464936,topn,relax_fdr_then_topn,0.2,50
+WP5087,Pleural mesothelioma,Down,0.6413906449743496,0.6990819610070037,-1.098549315742423,topn,relax_fdr_then_topn,0.2,50
+WP5355,Metabolic epileptic disorders,Down,0.6532831319260396,0.6733663053772494,-1.1744452283357305,topn,relax_fdr_then_topn,0.2,50
+WP306,Focal adhesion,Down,0.6665817325168194,0.5966461853558628,-1.3516919585934724,topn,relax_fdr_then_topn,0.2,50
+WP437,EGF EGFR signaling,Down,0.6665817325168194,0.5966461853558628,-1.3928027689328475,topn,relax_fdr_then_topn,0.2,50
+WP4803,Ciliopathies,Down,0.6665817325168194,0.6406678592725105,-1.3745110974846997,topn,relax_fdr_then_topn,0.2,50
+WP4263,Pancreatic adenocarcinoma pathway,Down,0.6665817325168194,0.6530133859724878,-1.2366985742056156,topn,relax_fdr_then_topn,0.2,50
+WP3929,Chemokine signaling,Down,0.6665817325168194,0.6530133859724878,-1.232116765205127,topn,relax_fdr_then_topn,0.2,50
+WP2877,Vitamin D receptor pathway,Up,0.6665817325168194,0.6530133859724878,1.229438735496306,topn,relax_fdr_then_topn,0.2,50
+WP51,Regulation of actin cytoskeleton,Down,0.6665817325168194,0.6733663053772494,-1.177573378408433,topn,relax_fdr_then_topn,0.2,50
+WP4018,Clear cell renal cell carcinoma pathways,Down,0.6665817325168194,0.6759358288770053,-1.1483660123939046,topn,relax_fdr_then_topn,0.2,50
+WP2525,Trans sulfuration one carbon metabolism and related pathways,Down,0.6665817325168194,0.713685152057245,-1.1004038527962765,topn,relax_fdr_then_topn,0.2,50
+WP4262,Breast cancer pathway,Down,0.6665817325168194,0.7376283846872081,-1.0249758068426398,topn,relax_fdr_then_topn,0.2,50
+WP4630,Measles virus infection,Down,0.6665817325168194,0.7406413569204267,-0.9789174627908888,topn,relax_fdr_then_topn,0.2,50
+WP289,Myometrial relaxation and contraction pathways,Down,0.6665817325168194,0.7641142456632206,-0.9260315545202578,topn,relax_fdr_then_topn,0.2,50
+WP710,DNA damage response only ATM dependent,Down,0.6665817325168194,0.7641142456632206,-0.94958414333644,topn,relax_fdr_then_topn,0.2,50
+WP4352,Ciliary landscape,Up,0.6901168565520823,0.7388040042149631,0.9851244002913194,topn,relax_fdr_then_topn,0.2,50
+WP4217,Ebola virus infection in host,Down,0.6921801967655659,0.713685152057245,-1.105266681409972,topn,relax_fdr_then_topn,0.2,50
+WP2380,Brain derived neurotrophic factor BDNF signaling,Down,0.6921801967655659,0.728380325169788,-1.0730153660284705,topn,relax_fdr_then_topn,0.2,50
+WP1984,Integrated breast cancer pathway,Down,0.6921801967655659,0.7376283846872081,-1.0105309541934044,topn,relax_fdr_then_topn,0.2,50
+WP2005,miR targeted genes in muscle cell,Up,0.6921801967655659,0.7641142456632206,0.9253072678732746,topn,relax_fdr_then_topn,0.2,50
+WP2059,Alzheimer 39 s disease and miRNA effects,Down,0.6921801967655659,0.9016135379771744,-0.7197148018006684,topn,relax_fdr_then_topn,0.2,50
+WP5124,Alzheimer 39 s disease,Down,0.6921801967655659,0.9016135379771744,-0.7197148018006684,topn,relax_fdr_then_topn,0.2,50
+WP2003,miR targeted genes in leukocytes,Up,0.6921801967655659,0.913614858945155,0.6431628351655385,topn,relax_fdr_then_topn,0.2,50
+WP5434,Cancer pathways,Down,0.7014585047952667,0.6530133859724878,-1.2016063554740672,topn,relax_fdr_then_topn,0.2,50
+WP4290,Metabolic reprogramming in colon cancer,Down,0.7014585047952667,0.6530133859724878,-1.2291040792804215,topn,relax_fdr_then_topn,0.2,50
+WP5426,HDAC6 interactions in the central nervous system,Down,0.7014585047952667,0.7376283846872081,-1.0282257142132871,topn,relax_fdr_then_topn,0.2,50
+WP5473,Cytokine cytokine receptor interaction,Down,0.7014585047952667,0.7376283846872081,-1.0019922515108743,topn,relax_fdr_then_topn,0.2,50
+WP536,Calcium regulation in cardiac cells,Up,0.7014585047952667,0.7641142456632206,0.8857375212027349,topn,relax_fdr_then_topn,0.2,50
+WP1403,AMP activated protein kinase signaling,Down,0.7014585047952667,0.8029760936737681,-0.8401817145887043,topn,relax_fdr_then_topn,0.2,50
+WP477,Cytoplasmic ribosomal proteins,Down,0.7014585047952667,0.8047538200339559,-0.8624372114893855,topn,relax_fdr_then_topn,0.2,50
+WP4963,p53 transcriptional gene network,Up,0.7147528660594391,0.4251516159869812,1.575949195529127,topn,relax_fdr_then_topn,0.2,50
+WP138,Androgen receptor signaling,Down,0.8059448712739847,0.728380325169788,-1.0692841913843651,topn,relax_fdr_then_topn,0.2,50
+WP4673,Male infertility,Down,0.8345553443466727,0.7641142456632206,-0.882797955662198,topn,relax_fdr_then_topn,0.2,50
+WP2006,miR targeted genes in squamous cell,Up,0.8480423693048093,0.8095711869465725,0.8221754641528973,topn,relax_fdr_then_topn,0.2,50
+WP3888,VEGFA VEGFR2 signaling,Down,0.8867814691917908,0.7376283846872081,-0.9974112067029246,topn,relax_fdr_then_topn,0.2,50
+WP3391,Senescence associated secretory phenotype SASP,Down,0.9585091577685004,0.713685152057245,-1.0978461189566489,topn,relax_fdr_then_topn,0.2,50
+WP4874,CAMKK2 pathway,Down,0.9585091577685004,0.7641142456632206,-0.9105019471250329,topn,relax_fdr_then_topn,0.2,50
+WP5316,Primary ovarian insufficiency,Down,0.9585091577685004,0.8095711869465725,-0.8259132813229625,topn,relax_fdr_then_topn,0.2,50
+WP4223,Ras signaling,Down,0.9585091577685004,0.8142496184924826,-0.8205917194165719,topn,relax_fdr_then_topn,0.2,50
+WP4396,Nonalcoholic fatty liver disease,Down,0.9585091577685004,0.9016135379771744,-0.7178546563082091,topn,relax_fdr_then_topn,0.2,50
+WP2431,Spinal cord injury,Up,0.9682940011188192,0.7334855403348554,1.0468076895998606,topn,relax_fdr_then_topn,0.2,50
+WP3594,Circadian rhythm genes,Down,0.9682940011188192,0.7641142456632206,-0.897093878929081,topn,relax_fdr_then_topn,0.2,50
+WP5420,ADHD and autism ASD pathways,Up,0.9682940011188192,0.8142496184924826,0.8166122583115619,topn,relax_fdr_then_topn,0.2,50

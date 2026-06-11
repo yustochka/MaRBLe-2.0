@@ -1,0 +1,3 @@
+ID,Description,p.adjust,k,stability,selected,collection,consensus,keep_final
+GO:0006270,DNA replication initiation,3.797260472857706e-5,14,0.99,TRUE,GO,TRUE,TRUE
+WP466,DNA replication,1.2082088657032216e-7,19,1,TRUE,WP,TRUE,TRUE

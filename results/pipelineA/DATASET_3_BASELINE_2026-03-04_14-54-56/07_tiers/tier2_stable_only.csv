@@ -1,0 +1,23 @@
+ID,Description,p.adjust,k,stability,selected,collection,consensus,keep_final
+GO:0000086,G2/M transition of mitotic cell cycle,1.0430744174309969e-5,27,1,TRUE,GO,FALSE,FALSE
+GO:0007094,mitotic spindle assembly checkpoint signaling,6.738928080957898e-4,11,0.975,TRUE,GO,FALSE,FALSE
+GO:0000281,mitotic cytokinesis,0.03811030666072509,14,0.9,TRUE,GO,FALSE,FALSE
+GO:0061844,antimicrobial humoral immune response mediated by antimicrobial peptide,0.01983320140688534,10,0.885,TRUE,GO,FALSE,FALSE
+GO:0000070,mitotic sister chromatid segregation,1.2668073930807103e-6,32,0.81,TRUE,GO,FALSE,FALSE
+GO:0007095,mitotic G2 DNA damage checkpoint signaling,0.0334275293664158,9,0.8,TRUE,GO,FALSE,FALSE
+WP4963,p53 transcriptional gene network,6.997388458606431e-10,31,1,TRUE,WP,FALSE,FALSE
+WP2446,Retinoblastoma gene in cancer,3.179054783617201e-9,31,1,TRUE,WP,FALSE,FALSE
+WP707,DNA damage response,9.255996684905993e-6,22,1,TRUE,WP,FALSE,FALSE
+WP5218,Extrafollicular and follicular B cell activation by SARS CoV 2,5.959875010947866e-4,13,0.995,TRUE,WP,FALSE,FALSE
+WP2361,Gastric cancer network 1,8.515701303348957e-4,11,0.995,TRUE,WP,FALSE,FALSE
+WP58,Monoamine GPCRs,0.0044652023356707,8,0.995,TRUE,WP,FALSE,FALSE
+WP619,Type II interferon signaling,8.515701303348957e-4,11,0.99,TRUE,WP,FALSE,FALSE
+WP4016,DNA IR damage and cellular response via ATR,0.0044652023356707,19,0.99,TRUE,WP,FALSE,FALSE
+WP3391,Senescence associated secretory phenotype SASP,0.0044652023356707,18,0.99,TRUE,WP,FALSE,FALSE
+WP1971,Integrated cancer pathway,0.0044652023356707,13,0.985,TRUE,WP,FALSE,FALSE
+WP455,GPCRs class A rhodopsin like,0.01855220810171735,19,0.98,TRUE,WP,FALSE,FALSE
+WP5055,Burn wound healing,0.02424427430235911,14,0.955,TRUE,WP,FALSE,FALSE
+WP5491,Transcriptional regulation of memory B cell differentiation,0.02424427430235911,10,0.955,TRUE,WP,FALSE,FALSE
+WP5117,Cohesin complex Cornelia de Lange syndrome,0.01753231579977654,10,0.94,TRUE,WP,FALSE,FALSE
+WP4197,Immune response to tuberculosis,0.00794342199385081,8,0.92,TRUE,WP,FALSE,FALSE
+WP3982,miRNA regulation of p53 pathway in prostate cancer,0.02483542524889078,8,0.9,TRUE,WP,FALSE,FALSE

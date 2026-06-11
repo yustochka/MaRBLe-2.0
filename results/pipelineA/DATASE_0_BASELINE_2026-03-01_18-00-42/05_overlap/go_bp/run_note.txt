@@ -1,0 +1,6 @@
+[GO-BP] Jaccard clustering
+terms_in   = 53
+edges_kept = 0  (jaccard>=0.3, k>=3)
+clusters   = 53
+reps_kept  = 53
+filters    = size[10,500]

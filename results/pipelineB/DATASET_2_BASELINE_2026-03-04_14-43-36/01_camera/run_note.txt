@@ -1,0 +1,16 @@
+[Pipeline B — CAMERA run note]
+Expression: data/dataset_2/normCounts_GSE243836.csv
+Universe:   results/pipelineB/2026-03-04_14-43-36/01_camera/universe_genes.txt
+Samples used: 6
+Genes used (after universe restriction): 827
+
+Design: (Intercept), .grpKD1
+Contrast coefficient: .grpKD1
+Include Age covariate: FALSE
+
+WikiPathways sets kept (size 10-500): 79
+GO:BP sets kept (size 10-500): 93
+
+Outputs:
+- results/pipelineB/2026-03-04_14-43-36/01_camera/camera_wikipathways.csv
+- results/pipelineB/2026-03-04_14-43-36/01_camera/camera_go_bp.csv

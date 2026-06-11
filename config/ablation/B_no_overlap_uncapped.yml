@@ -1,0 +1,20 @@
+# Ablation Study — B_no_overlap_uncapped: Jaccard overlap clustering removed, no top-N cap.
+#
+# Analogous to B_no_overlap from the first ablation experiment, but without
+# the top-N cap. Every agreement-filtered + semantically-collapsed term
+# proceeds to step06 without Jaccard-based representative selection.
+#
+# Effect: step05 passthrough merges step03 WP + step04 GO by direction, with
+# no clustering. All terms are treated as their own representatives.
+# No top-N cap applied at the final export step.
+#
+# Merged with config/default.yml at runtime by R/ablation/run_ablation_B.R.
+
+pipelineB:
+  ablation:
+    variant_name:           "B_no_overlap_uncapped"
+    use_fgsea:              true
+    use_semantic_collapse:  true
+    use_overlap_clustering: false   # bypass step05; all step03/04 terms go to step06
+    use_consensus:          true
+    top_n_per_direction:    ~       # null = no cap

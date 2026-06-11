@@ -1,0 +1,10 @@
+step: 6.0
+timestamp: 2026-03-03 15:01:18
+inputs:
+  step01_dir: results/pipelineA/2026-03-03_15-00-39/01_universe
+  step05_dir: results/pipelineA/2026-03-03_15-00-39/05_overlap
+outputs:
+  go_stability_table: results/pipelineA/2026-03-03_15-00-39/06_bootstrap_consensus/go_bp_stability.csv
+  wp_stability_table: results/pipelineA/2026-03-03_15-00-39/06_bootstrap_consensus/wp_stability.csv
+  consensus_pairs: results/pipelineA/2026-03-03_15-00-39/06_bootstrap_consensus/cross_collection_pairs.csv
+  final_shortlist: results/pipelineA/2026-03-03_15-00-39/06_bootstrap_consensus/final_shortlist.csv

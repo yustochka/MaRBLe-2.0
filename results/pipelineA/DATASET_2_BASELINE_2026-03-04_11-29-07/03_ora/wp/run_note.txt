@@ -1,0 +1,8 @@
+[ORA run note]
+N = 823 (universe), n = 177 (DE), de_fraction = 0.215
+DE policy: p_col=adj. p-value, p_cutoff=0.050, lfc_min=none, steps=none
+K_min..K_max = [14, 14] (data-driven from K distribution)
+Filters: FDR < 0.05, k >= 3, k/E[k] >= 1.2 (mode=adaptive)
+Kept 0 / 77 pathways after filters.
+Files: results/pipelineA/2026-03-04_11-29-07/03_ora/wp/ora_wikipathways_all.csv, results/pipelineA/2026-03-04_11-29-07/03_ora/wp/ora_wikipathways_filtered.csv
+

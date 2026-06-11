@@ -1,0 +1,135 @@
+# ── Active dataset ───────────────────────────────────────────────
+# Exactly ONE `dataset:` block may be uncommented at a time.
+# dataset_0 (reference cohort, SYMBOL gene IDs) is the default.
+# DATASET 0
+dataset:
+  name: "dataset_0"
+  expression_file:   "data/dataset_0/processed/processedMatrix.csv"
+  metadata_file:     "data/dataset_0/processed/metaData.csv"
+  statistics_file:   "data/dataset_0/processed/statisticsTable.csv"
+  pathway2gene_file: "data/dataset_0/processed/Pathway2Gene.csv"
+  p_adjusted_preferred: true
+  p_col_adj:         "adj. p-value"
+  log2fc_col:        "log2FC"
+  abs_log2fc_min:    null
+  sample_id_col:     "SampleID"
+  group_col:         "Genotype"
+  gene_id_type:      "SYMBOL"
+
+# # ACTA2KO_iVSMC — Homozygous vs Wildtype (ENSEMBL IDs, normalised to SYMBOL)
+# dataset:
+#   name: "ACTA2KO_iVSMC"
+#   expression_file:   "data/ACTA2KO_iVSMC/normalizedData.csv"
+#   metadata_file:     "data/ACTA2KO_iVSMC/metadata_processed.csv"
+#   statistics_file:   "data/ACTA2KO_iVSMC/topTable_Homozygous - Wildtype.csv"
+#   pathway2gene_file: "data/dataset_0/processed/Pathway2Gene.csv"
+#   gene_col:          "Gene Symbol"
+#   p_adjusted_preferred: true
+#   p_col_adj:         "adj. p-value"
+#   log2fc_col:        "log2FC"
+#   abs_log2fc_min:    null
+#   sample_id_col:     "SampleID"
+#   group_col:         "Genotype"
+#   gene_id_type:      "ENSEMBL"
+
+# # DATASET 1
+# dataset:
+#   name: "dataset_1"
+#   expression_file:   "data/dataset_1/normCounts_GSE199939.csv"
+#   metadata_file:     "data/dataset_1/meta_GSE199939.csv"
+#   statistics_file:   "data/dataset_1/statistics_GSE199939.csv"
+#   pathway2gene_file: "data/dataset_0/processed/Pathway2Gene.csv"
+#   gene_col: "Gene Symbol"
+#   p_col: "p-value"
+#   p_adjusted_preferred: true
+#   p_col_adj: "adj. p-value"
+#   log2fc_col: "log2FC"
+#   abs_log2fc_min: null
+#   sample_id_col: "ID"
+#   group_col: "Group"
+#   gene_id_type: "ENTREZ"
+
+# # DATASET 2
+# dataset:
+#   name: "dataset_2"
+#   expression_file:   "data/dataset_2/normCounts_GSE243836.csv"
+#   metadata_file:     "data/dataset_2/meta_GSE243836.csv"
+#   statistics_file:   "data/dataset_2/statistics_GSE243836.csv"
+#   pathway2gene_file: "data/dataset_0/processed/Pathway2Gene.csv"
+#   gene_col: "Gene Symbol"
+#   p_col: "p-value"
+#   p_adjusted_preferred: true
+#   p_col_adj: "adj. p-value"
+#   log2fc_col: "log2FC"
+#   abs_log2fc_min: null
+#   sample_id_col: "ID"
+#   group_col: "Group"
+#   gene_id_type: "ENTREZ"
+
+# # DATASET 3
+# dataset:
+#   name: "dataset_3"
+#   expression_file:   "data/dataset_3/normCounts_GSE247345.csv"
+#   metadata_file:     "data/dataset_3/meta_GSE247345.csv"
+#   statistics_file:   "data/dataset_3/statistics_GSE247345.csv"
+#   pathway2gene_file: "data/dataset_0/processed/Pathway2Gene.csv"
+#   gene_col: "Gene Symbol"
+#   p_col: "p-value"
+#   p_adjusted_preferred: true
+#   p_col_adj: "adj. p-value"
+#   log2fc_col: "log2FC"
+#   abs_log2fc_min: null
+#   sample_id_col: "ID"
+#   group_col: "Group"
+#   gene_id_type: "ENTREZ"
+
+
+thresholds:
+  JACCARD_MIN: 0.15
+  MIN_INTERSECTION: 3
+  TAU_STABILITY: 0.70
+  CONS_JACCARD_MIN: 0.15
+  CONS_K_MIN: 5
+
+bootstrap:
+  B: 200
+  SUBSAMPLE_P: 0.85
+
+run:
+  seed: 123
+  overwrite: false
+
+pipelineA:
+  run_steps: [1, 2, 3, 4, 5, 6, 7, 98]
+  final_fallback_mode: "tier2_then_candidates"
+  final_candidates_topn: null
+  target_de_frac_min: 0.05
+  target_de_frac_max: 0.25
+  de_log2fc_ladder: [0.5, 1.0]
+  de_p_ladder: [0.05, 0.01, 0.001]
+  ora_min_enrich_ratio_mode: "adaptive"
+  ora_min_enrich_ratio: null
+  go_fdr_cutoff_strict:   0.05
+  go_fdr_cutoff_relaxed:  0.20
+  go_fallback_mode: "relax_fdr_then_topn"
+  go_fallback_topn: 50
+
+pipelineB:
+  run_steps: [1, 2, 3, 4, 5, 6]
+  target_tissue: "Temporal cortex"
+  min_set_size: 10
+  max_set_size: 500
+  include_age: false
+  gsea_seed: 7
+  go_semantic_tau: 0.60
+  solo_q_max: 0.05
+  solo_abs_nes_min: 1.5
+  final_mode: "consensus_first"
+  final_top_n_per_direction: 5
+  write_theme_summary: false
+  agreement_mode: "relax_fdr_then_topn"
+  agreement_relaxed_fdr: 0.20
+  agreement_topn: 50
+  optionA_enable: true
+  optionA_quality_floor_q: 0.20
+  optionA_allow_low_conf: false

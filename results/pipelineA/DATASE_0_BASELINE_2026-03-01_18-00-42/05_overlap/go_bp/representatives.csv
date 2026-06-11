@@ -1,0 +1,54 @@
+ID,Description,p.adjust,k,supported_by_hierarchy,K,cluster,hit_frac,rank_in_cluster,cluster_size
+GO:0032496,response to lipopolysaccharide,1.2861168907969452e-7,80,NA,NA,1,NA,1,1
+GO:0042060,wound healing,9.213771875497766e-7,89,NA,NA,2,NA,1,1
+GO:0042742,defense response to bacterium,8.372545827289275e-6,47,NA,NA,3,NA,1,1
+GO:0006816,calcium ion transport,1.601903087850453e-5,84,NA,NA,4,NA,1,1
+GO:0045088,regulation of innate immune response,1.6155221125926974e-5,86,NA,NA,5,NA,1,1
+GO:0006959,humoral immune response,7.441797244924399e-5,38,NA,NA,6,NA,1,1
+GO:0034341,response to type II interferon,8.37262313610812e-5,34,NA,NA,7,NA,1,1
+GO:0050727,regulation of inflammatory response,1.1717487744472044e-4,70,NA,NA,8,NA,1,1
+GO:0032757,positive regulation of interleukin-8 production,2.324844096529078e-4,21,NA,NA,9,NA,1,1
+GO:0006956,complement activation,2.74635302985528e-4,17,NA,NA,10,NA,1,1
+GO:0070371,ERK1 and ERK2 cascade,2.914540065657633e-4,63,NA,NA,11,NA,1,1
+GO:0006909,phagocytosis,3.5568750578374956e-4,48,NA,NA,12,NA,1,1
+GO:0071260,cellular response to mechanical stimulus,8.275615333243631e-4,26,NA,NA,13,NA,1,1
+GO:0060326,cell chemotaxis,8.275615333243631e-4,57,NA,NA,14,NA,1,1
+GO:0006813,potassium ion transport,8.677222456574849e-4,40,NA,NA,15,NA,1,1
+GO:0050807,regulation of synapse organization,9.791530794174628e-4,59,NA,NA,16,NA,1,1
+GO:0001659,temperature homeostasis,0.001224570420449,46,NA,NA,17,NA,1,1
+GO:0007596,blood coagulation,0.00130470257580258,48,NA,NA,18,NA,1,1
+GO:1902895,positive regulation of miRNA transcription,0.00258679081518809,19,NA,NA,19,NA,1,1
+GO:0034142,toll-like receptor 4 signaling pathway,0.00341860215520587,20,NA,NA,20,NA,1,1
+GO:0017157,regulation of exocytosis,0.00411758457272751,41,NA,NA,21,NA,1,1
+GO:0007188,adenylate cyclase-modulating G protein-coupled receptor signaling pathway,0.00554333347929871,54,NA,NA,22,NA,1,1
+GO:1904646,cellular response to amyloid-beta,0.0057315507246034,17,NA,NA,23,NA,1,1
+GO:0021675,nerve development,0.00790729898740572,25,NA,NA,24,NA,1,1
+GO:0043123,positive regulation of canonical NF-kappaB signal transduction,0.00846769879257969,46,NA,NA,25,NA,1,1
+GO:0043087,regulation of GTPase activity,0.00871547691114529,32,NA,NA,26,NA,1,1
+GO:0051056,regulation of small GTPase mediated signal transduction,0.00934836326445558,52,NA,NA,27,NA,1,1
+GO:0051402,neuron apoptotic process,0.01051341432910815,61,NA,NA,28,NA,1,1
+GO:0014059,regulation of dopamine secretion,0.01316985332542369,11,NA,NA,29,NA,1,1
+GO:0007416,synapse assembly,0.01407566986559613,44,NA,NA,30,NA,1,1
+GO:0007528,neuromuscular junction development,0.01562614446492455,16,NA,NA,31,NA,1,1
+GO:0035249,"synaptic transmission, glutamatergic",0.01565971088971324,30,NA,NA,32,NA,1,1
+GO:0016079,synaptic vesicle exocytosis,0.01754337021397122,25,NA,NA,33,NA,1,1
+GO:0060291,long-term synaptic potentiation,0.01754337021397122,25,NA,NA,34,NA,1,1
+GO:0042554,superoxide anion generation,0.01861027214446733,13,NA,NA,35,NA,1,1
+GO:0097028,dendritic cell differentiation,0.01861027214446733,13,NA,NA,36,NA,1,1
+GO:0043536,positive regulation of blood vessel endothelial cell migration,0.01913434553079512,19,NA,NA,37,NA,1,1
+GO:0032801,receptor catabolic process,0.01918010666129407,11,NA,NA,38,NA,1,1
+GO:1902042,negative regulation of extrinsic apoptotic signaling pathway via death domain receptors,0.01918010666129407,11,NA,NA,39,NA,1,1
+GO:2000379,positive regulation of reactive oxygen species metabolic process,0.0212903200718309,20,NA,NA,40,NA,1,1
+GO:0061001,regulation of dendritic spine morphogenesis,0.02373159636634065,14,NA,NA,41,NA,1,1
+GO:0051607,defense response to virus,0.02553905601550399,51,NA,NA,42,NA,1,1
+GO:0060078,regulation of postsynaptic membrane potential,0.0263028956630568,35,NA,NA,43,NA,1,1
+GO:0030198,extracellular matrix organization,0.02761534519440904,46,NA,NA,44,NA,1,1
+GO:0043524,negative regulation of neuron apoptotic process,0.03348095878563834,35,NA,NA,45,NA,1,1
+GO:0002437,inflammatory response to antigenic stimulus,0.03699255538394613,17,NA,NA,46,NA,1,1
+GO:0001764,neuron migration,0.03776135666214644,38,NA,NA,47,NA,1,1
+GO:0051259,protein complex oligomerization,0.03840431317950322,44,NA,NA,48,NA,1,1
+GO:0019886,antigen processing and presentation of exogenous peptide antigen via MHC class II,0.03950488280015925,10,NA,NA,49,NA,1,1
+GO:0010043,response to zinc ion,0.03973914006134044,14,NA,NA,50,NA,1,1
+GO:0010976,positive regulation of neuron projection development,0.0431650631290213,32,NA,NA,51,NA,1,1
+GO:0002181,cytoplasmic translation,0.04510421091392166,41,NA,NA,52,NA,1,1
+GO:0061844,antimicrobial humoral immune response mediated by antimicrobial peptide,0.04685573129050467,12,NA,NA,53,NA,1,1

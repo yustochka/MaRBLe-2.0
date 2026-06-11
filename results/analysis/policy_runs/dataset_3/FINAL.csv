@@ -1,0 +1,9 @@
+ID,Description,p.adjust,k,stability,selected,collection,consensus,keep_final
+GO:0000070,mitotic sister chromatid segregation,1.2668073930807103e-6,32,0.81,TRUE,GO,TRUE,TRUE
+GO:0000086,G2/M transition of mitotic cell cycle,1.0430744174309969e-5,27,1,TRUE,GO,TRUE,TRUE
+GO:0006270,DNA replication initiation,3.797260472857706e-5,14,0.99,TRUE,GO,TRUE,TRUE
+GO:0007095,mitotic G2 DNA damage checkpoint signaling,0.0334275293664158,9,0.8,TRUE,GO,TRUE,TRUE
+WP466,DNA replication,1.2082088657032216e-7,19,1,TRUE,WP,TRUE,TRUE
+WP4016,DNA IR damage and cellular response via ATR,0.0044652023356707,19,0.99,TRUE,WP,TRUE,TRUE
+WP1971,Integrated cancer pathway,0.0044652023356707,13,0.985,TRUE,WP,TRUE,TRUE
+WP5117,Cohesin complex Cornelia de Lange syndrome,0.01753231579977654,10,0.94,TRUE,WP,TRUE,TRUE

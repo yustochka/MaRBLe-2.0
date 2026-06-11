@@ -1,0 +1,15 @@
+# Ablation variant: semantic collapse off + no final cap
+# Purpose: test whether semantic collapse has a measurable effect when the
+#          top-5 cap is not masking intermediate differences.
+# Differs from B_full: use_semantic_collapse=false, top_n_per_direction=null
+# Differs from B_no_semantic: top_n_per_direction=null (cap removed)
+# Differs from B_no_topcap:   use_semantic_collapse=false
+
+pipelineB:
+  ablation:
+    variant_name:            "B_no_semantic_no_topcap"
+    use_fgsea:               true
+    use_semantic_collapse:   false
+    use_overlap_clustering:  true
+    use_consensus:           true
+    top_n_per_direction:     ~

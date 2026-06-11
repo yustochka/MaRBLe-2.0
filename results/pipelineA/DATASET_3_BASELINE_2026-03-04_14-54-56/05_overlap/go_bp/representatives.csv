@@ -1,0 +1,43 @@
+ID,Description,p.adjust,k,supported_by_hierarchy,K,cluster,hit_frac,rank_in_cluster,cluster_size
+GO:0000280,nuclear division,1.7776794532391122e-8,57,NA,NA,1,NA,1,1
+GO:0098813,nuclear chromosome segregation,1.926299545031919e-8,47,NA,NA,2,NA,1,1
+GO:0000070,mitotic sister chromatid segregation,1.2668073930807103e-6,32,NA,NA,3,NA,1,1
+GO:0000086,G2/M transition of mitotic cell cycle,1.0430744174309969e-5,27,NA,NA,4,NA,1,1
+GO:0051276,chromosome organization,1.158793968824573e-5,64,NA,NA,5,NA,1,1
+GO:0007093,mitotic cell cycle checkpoint signaling,3.1186837116228776e-5,25,NA,NA,6,NA,1,1
+GO:0061982,meiosis I cell cycle process,3.787218033237768e-5,21,NA,NA,7,NA,1,1
+GO:0006270,DNA replication initiation,3.797260472857706e-5,14,NA,NA,8,NA,1,1
+GO:0090068,positive regulation of cell cycle process,5.0675751342810835e-5,38,NA,NA,9,NA,1,1
+GO:0045132,meiotic chromosome segregation,7.818147317224123e-5,16,NA,NA,10,NA,1,1
+GO:1905818,regulation of chromosome separation,8.035509976916976e-5,17,NA,NA,11,NA,1,1
+GO:0007088,regulation of mitotic nuclear division,1.604086611797919e-4,21,NA,NA,12,NA,1,1
+GO:0051303,establishment of chromosome localization,2.027864720569171e-4,18,NA,NA,13,NA,1,1
+GO:1901988,negative regulation of cell cycle phase transition,2.7409781194738547e-4,34,NA,NA,14,NA,1,1
+GO:1902850,microtubule cytoskeleton organization involved in mitosis,2.8589166854398897e-4,25,NA,NA,15,NA,1,1
+GO:0090329,regulation of DNA-templated DNA replication,4.741176109111913e-4,11,NA,NA,16,NA,1,1
+GO:0033260,nuclear DNA replication,6.030578857581545e-4,12,NA,NA,17,NA,1,1
+GO:0007094,mitotic spindle assembly checkpoint signaling,6.738928080957898e-4,11,NA,NA,18,NA,1,1
+GO:0071173,spindle assembly checkpoint signaling,6.738928080957898e-4,11,NA,NA,19,NA,1,1
+GO:1901990,regulation of mitotic cell cycle phase transition,6.738928080957898e-4,42,NA,NA,20,NA,1,1
+GO:0051784,negative regulation of nuclear division,8.135367128493868e-4,13,NA,NA,21,NA,1,1
+GO:0033046,negative regulation of sister chromatid segregation,8.602804494597847e-4,11,NA,NA,22,NA,1,1
+GO:0032147,activation of protein kinase activity,9.11530083305508e-4,15,NA,NA,23,NA,1,1
+GO:0051347,positive regulation of transferase activity,0.00114833924282604,36,NA,NA,24,NA,1,1
+GO:0006959,humoral immune response,0.00120801562416149,23,NA,NA,25,NA,1,1
+GO:0051985,negative regulation of chromosome segregation,0.00125542197719867,11,NA,NA,26,NA,1,1
+GO:0042770,signal transduction in response to DNA damage,0.00167847338312247,28,NA,NA,27,NA,1,1
+GO:0071459,"protein localization to chromosome, centromeric region",0.00169962204486193,9,NA,NA,28,NA,1,1
+GO:0065004,protein-DNA complex assembly,0.0030569137388967,26,NA,NA,29,NA,1,1
+GO:0051781,positive regulation of cell division,0.01874300153505686,14,NA,NA,30,NA,1,1
+GO:0061844,antimicrobial humoral immune response mediated by antimicrobial peptide,0.01983320140688534,10,NA,NA,31,NA,1,1
+GO:0007131,reciprocal meiotic recombination,0.02426598343077684,10,NA,NA,32,NA,1,1
+GO:0140527,reciprocal homologous recombination,0.02426598343077684,10,NA,NA,33,NA,1,1
+GO:0007617,mating behavior,0.02811539688077048,8,NA,NA,34,NA,1,1
+GO:0014075,response to amine,0.03143095883758157,11,NA,NA,35,NA,1,1
+GO:0003073,regulation of systemic arterial blood pressure,0.03290583763925794,14,NA,NA,36,NA,1,1
+GO:0007095,mitotic G2 DNA damage checkpoint signaling,0.0334275293664158,9,NA,NA,37,NA,1,1
+GO:0071312,cellular response to alkaloid,0.03640477994108635,10,NA,NA,38,NA,1,1
+GO:0000281,mitotic cytokinesis,0.03811030666072509,14,NA,NA,39,NA,1,1
+GO:0007631,feeding behavior,0.04385160764507683,12,NA,NA,40,NA,1,1
+GO:0009410,response to xenobiotic stimulus,0.04489009950702698,43,NA,NA,41,NA,1,1
+GO:0032465,regulation of cytokinesis,0.04735136933116594,13,NA,NA,42,NA,1,1

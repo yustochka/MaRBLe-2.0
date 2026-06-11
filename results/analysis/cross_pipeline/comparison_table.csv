@@ -1,0 +1,3 @@
+"dataset","a_class","a_tier","de_pct","n_de","b_design","b_agreement","n_pipeline_a","n_pipeline_b","n_exact_overlap","agreement_level","outcome","key_observation"
+"dataset_0","HEALTHY","tier1",19.5,1363,"full","strict",11,10,2,"low","Complementary","Both find cytoplasmic translation + allograft rejection (both DOWN in B). B adds neurological UP biology invisible to ORA."
+"ACTA2KO_iVSMC","BORDERLINE","tier1_relaxed",6.3,447,"full","strict",9,10,1,"low","Complementary","Both find heart development (WP1591, DOWN in B). A gives stable themes; B shows cell cycle UP vs contractile identity DOWN. Tier-1 required CONS_J=0.10 relaxation."

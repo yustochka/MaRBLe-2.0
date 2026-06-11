@@ -1,0 +1,54 @@
+ID,Description,p.adjust,k,stability,selected
+GO:0032496,response to lipopolysaccharide,1.2861168907969452e-7,80,1,TRUE
+GO:0042060,wound healing,9.213771875497766e-7,89,0.18,FALSE
+GO:0042742,defense response to bacterium,8.372545827289275e-6,47,0.995,TRUE
+GO:0006816,calcium ion transport,1.601903087850453e-5,84,0.945,TRUE
+GO:0045088,regulation of innate immune response,1.6155221125926974e-5,86,0.175,FALSE
+GO:0006959,humoral immune response,7.441797244924399e-5,38,0,FALSE
+GO:0034341,response to type II interferon,8.37262313610812e-5,34,0.89,TRUE
+GO:0050727,regulation of inflammatory response,1.1717487744472044e-4,70,0,FALSE
+GO:0032757,positive regulation of interleukin-8 production,2.324844096529078e-4,21,0.99,TRUE
+GO:0006956,complement activation,2.74635302985528e-4,17,0.845,TRUE
+GO:0070371,ERK1 and ERK2 cascade,2.914540065657633e-4,63,0.94,TRUE
+GO:0006909,phagocytosis,3.5568750578374956e-4,48,0.02,FALSE
+GO:0071260,cellular response to mechanical stimulus,8.275615333243631e-4,26,0.99,TRUE
+GO:0060326,cell chemotaxis,8.275615333243631e-4,57,0.01,FALSE
+GO:0006813,potassium ion transport,8.677222456574849e-4,40,0.24,FALSE
+GO:0050807,regulation of synapse organization,9.791530794174628e-4,59,0,FALSE
+GO:0001659,temperature homeostasis,0.001224570420449,46,0.955,TRUE
+GO:0007596,blood coagulation,0.00130470257580258,48,0.77,TRUE
+GO:1902895,positive regulation of miRNA transcription,0.00258679081518809,19,0.96,TRUE
+GO:0034142,toll-like receptor 4 signaling pathway,0.00341860215520587,20,0.88,TRUE
+GO:0017157,regulation of exocytosis,0.00411758457272751,41,0,FALSE
+GO:0007188,adenylate cyclase-modulating G protein-coupled receptor signaling pathway,0.00554333347929871,54,0.6,FALSE
+GO:1904646,cellular response to amyloid-beta,0.0057315507246034,17,0.95,TRUE
+GO:0021675,nerve development,0.00790729898740572,25,0,FALSE
+GO:0043123,positive regulation of canonical NF-kappaB signal transduction,0.00846769879257969,46,0.96,TRUE
+GO:0043087,regulation of GTPase activity,0.00871547691114529,32,0.025,FALSE
+GO:0051056,regulation of small GTPase mediated signal transduction,0.00934836326445558,52,0.09,FALSE
+GO:0051402,neuron apoptotic process,0.01051341432910815,61,0,FALSE
+GO:0014059,regulation of dopamine secretion,0.01316985332542369,11,0.585,FALSE
+GO:0007416,synapse assembly,0.01407566986559613,44,0.055,FALSE
+GO:0007528,neuromuscular junction development,0.01562614446492455,16,0.97,TRUE
+GO:0035249,"synaptic transmission, glutamatergic",0.01565971088971324,30,0.32,FALSE
+GO:0016079,synaptic vesicle exocytosis,0.01754337021397122,25,0,FALSE
+GO:0060291,long-term synaptic potentiation,0.01754337021397122,25,0.235,FALSE
+GO:0042554,superoxide anion generation,0.01861027214446733,13,0.005,FALSE
+GO:0097028,dendritic cell differentiation,0.01861027214446733,13,0,FALSE
+GO:0043536,positive regulation of blood vessel endothelial cell migration,0.01913434553079512,19,0.44,FALSE
+GO:0032801,receptor catabolic process,0.01918010666129407,11,0.38,FALSE
+GO:1902042,negative regulation of extrinsic apoptotic signaling pathway via death domain receptors,0.01918010666129407,11,0.895,TRUE
+GO:2000379,positive regulation of reactive oxygen species metabolic process,0.0212903200718309,20,0,FALSE
+GO:0061001,regulation of dendritic spine morphogenesis,0.02373159636634065,14,0.68,FALSE
+GO:0051607,defense response to virus,0.02553905601550399,51,0.935,TRUE
+GO:0060078,regulation of postsynaptic membrane potential,0.0263028956630568,35,0,FALSE
+GO:0030198,extracellular matrix organization,0.02761534519440904,46,0.025,FALSE
+GO:0043524,negative regulation of neuron apoptotic process,0.03348095878563834,35,0.725,TRUE
+GO:0002437,inflammatory response to antigenic stimulus,0.03699255538394613,17,0.175,FALSE
+GO:0001764,neuron migration,0.03776135666214644,38,0.295,FALSE
+GO:0051259,protein complex oligomerization,0.03840431317950322,44,0,FALSE
+GO:0019886,antigen processing and presentation of exogenous peptide antigen via MHC class II,0.03950488280015925,10,0.835,TRUE
+GO:0010043,response to zinc ion,0.03973914006134044,14,0.09,FALSE
+GO:0010976,positive regulation of neuron projection development,0.0431650631290213,32,0.27,FALSE
+GO:0002181,cytoplasmic translation,0.04510421091392166,41,0.95,TRUE
+GO:0061844,antimicrobial humoral immune response mediated by antimicrobial peptide,0.04685573129050467,12,0.68,FALSE

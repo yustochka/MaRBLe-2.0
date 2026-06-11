@@ -1,0 +1,8 @@
+step: 7.0
+timestamp: 2026-03-01 18:01:30
+inputs:
+  step06_dir: results/pipelineA/2026-03-01_18-00-42/06_bootstrap_consensus
+outputs:
+  tier1_file: results/pipelineA/2026-03-01_18-00-42/07_tiers/tier1_final.csv
+  tier2_file: results/pipelineA/2026-03-01_18-00-42/07_tiers/tier2_stable_only.csv
+  final_table_file: results/pipelineA/2026-03-01_18-00-42/07_tiers/tiered_all_candidates.csv

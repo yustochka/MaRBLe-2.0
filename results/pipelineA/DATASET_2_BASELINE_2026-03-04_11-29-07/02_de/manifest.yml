@@ -1,0 +1,8 @@
+step: 2.0
+timestamp: 2026-03-04 11:29:08
+inputs:
+  step01_dir: results/pipelineA/2026-03-04_11-29-07/01_universe
+  statistics_file: data/dataset_2/statistics_GSE243836.csv
+outputs:
+  de_genes_file: results/pipelineA/2026-03-04_11-29-07/02_de/de_genes_rawp05.txt
+  de_policy_file: results/pipelineA/2026-03-04_11-29-07/02_de/de_policy.yml

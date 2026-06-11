@@ -1,0 +1,16 @@
+[Pipeline B — CAMERA run note]
+Expression: data/ACTA2KO_iVSMC/normalizedData.csv
+Universe:   results/pipelineB/2026-05-28_16-26-26/01_camera/universe_genes.txt
+Samples used: 6
+Genes used (after universe restriction): 7134
+
+Design: (Intercept), .grpWildtype
+Contrast coefficient: .grpWildtype
+Include Age covariate: FALSE
+
+WikiPathways sets kept (size 10-500): 709
+GO:BP sets kept (size 10-500): 1885
+
+Outputs:
+- results/pipelineB/2026-05-28_16-26-26/01_camera/camera_wikipathways.csv
+- results/pipelineB/2026-05-28_16-26-26/01_camera/camera_go_bp.csv

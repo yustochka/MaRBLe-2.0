@@ -1,0 +1,7 @@
+step: 1.0
+timestamp: 2026-05-28 15:46:04
+inputs:
+  expression_file: data/ACTA2KO_iVSMC/normalizedData.csv
+  pathway2gene_file: data/dataset_0/processed/Pathway2Gene.csv
+outputs:
+  universe_file: results/pipelineA/2026-05-28_15-46-02/01_universe/universe_genes.txt

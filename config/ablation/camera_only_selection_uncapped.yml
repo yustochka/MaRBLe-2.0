@@ -1,0 +1,29 @@
+# Ablation Study — camera_only_selection_uncapped: CAMERA-only selection, no top-N cap.
+#
+# Analogous to B_no_fgsea_camera_only_selection from the first ablation
+# experiment, but without the top-N cap.
+#
+# DIAGNOSTIC / TEST VARIANT — not a production ablation.
+# Purpose: understand how many CAMERA-only candidates survive without either
+# the fgsea agreement filter or the top-N cap.
+#
+# Mechanism:
+#   use_fgsea: false    → step02 skipped; step03 uses camera-only passthrough
+#                          (fg_FDR=NA for all rows)
+#   solo_abs_nes_min: -1 → sentinel: negative disables absNES guard in step06,
+#                          so solo_high_conf activates on camera_FDR <= 0.05 alone
+#   top_n_per_direction: null → all keep_final==TRUE rows included
+#
+# step04 passthrough is forced (fg_FDR=NA incompatible with step04 filter).
+#
+# Merged with config/default.yml at runtime by R/ablation/run_ablation_B.R.
+
+pipelineB:
+  solo_abs_nes_min: -1   # sentinel: negative = no NES requirement (step06 skips absNES guard)
+  ablation:
+    variant_name:           "camera_only_selection_uncapped"
+    use_fgsea:              false
+    use_semantic_collapse:  true
+    use_overlap_clustering: true
+    use_consensus:          true
+    top_n_per_direction:    ~     # null = no cap

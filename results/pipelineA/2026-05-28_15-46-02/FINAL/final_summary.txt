@@ -1,0 +1,17 @@
+Pipeline:            pipelineA
+Dataset:             ACTA2KO_iVSMC
+Run ID:              pipelineA_2026-05-28_15-46-02
+Timestamp:           2026-05-28_15-46-02
+FINAL source:        Tier 2 (Tier 1 had only 4 pathways)
+Source file:         results/pipelineA/2026-05-28_15-46-02/07_tiers/tier2_stable_only.csv
+Pathways exported:   27
+final_fallback_mode: tier2_then_candidates
+
+Key thresholds:
+  bootstrap B:          200
+  subsample fraction:   0.85
+  TAU_STABILITY:        0.7
+  JACCARD_MIN:          0.15
+  CONS_JACCARD_MIN:     0.15
+  CONS_K_MIN:           5
+

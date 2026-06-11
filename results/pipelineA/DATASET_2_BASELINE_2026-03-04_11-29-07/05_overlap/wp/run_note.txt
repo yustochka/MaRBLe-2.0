@@ -1,0 +1,6 @@
+[WikiPathways] Jaccard clustering
+terms_in   = 0
+edges_kept = 0  (jaccard>=0.3, k>=3)
+clusters   = 0
+reps_kept  = 0
+filters    = size[10,500]

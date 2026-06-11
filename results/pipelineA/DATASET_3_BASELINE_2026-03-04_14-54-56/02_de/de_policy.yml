@@ -1,0 +1,27 @@
+dataset: dataset_3
+universe_N: 7052
+de_count_n: 651
+de_fraction: 0.0923
+p_col_used: adj. p-value
+p_adjusted_preferred: yes
+final_p_cutoff: 0.05
+final_lfc_min: 0.5
+lfc_col: log2FC
+lfc_col_available: yes
+target_de_frac_min: 0.05
+target_de_frac_max: 0.25
+target_reached: yes
+tightening_steps:
+- 'L1: |log2FC| >= 0.5'
+reason: DE fraction above target_de_frac_max; tightening applied
+ladder_history:
+- step: base
+  p_cutoff: 0.05
+  lfc_min: .na.real
+  'n': 2159
+  de_fraction: 0.3061543
+- step: 'L1: |log2FC| >= 0.5'
+  p_cutoff: 0.05
+  lfc_min: 0.5
+  'n': 651
+  de_fraction: 0.0923142

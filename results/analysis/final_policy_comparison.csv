@@ -1,0 +1,5 @@
+dataset,classification,confidence,baseline_tau,baseline_cons_j,recommended_tau,recommended_cons_j,baseline_tier1,recommended_tier1,baseline_tier2,recommended_tier2,baseline_final_source,recommended_final_source,baseline_consensus_pairs,recommended_consensus_pairs,change_summary
+dataset_0,HEALTHY,high,0.7,0.15,0.7,0.15,11,11,41,41,tier1,tier1,7,7,No change; Tier1 preserved at defaults
+dataset_1,NO_OVERLAP,low,0.7,0.15,0.7,0.1,0,0,20,20,tier2,tier2,0,0,No change in source; CONS_J relaxed but overlap absent; Tier2 confirmed correct output
+dataset_2,LOW_COVERAGE,unreliable,0.7,0.15,0.5,0.1,0,0,0,0,candidates,candidates,0,0,No change in source; TAU relaxed; flagged unreliable — no artificial improvement
+dataset_3,BORDERLINE,medium,0.7,0.15,0.7,0.1,2,8,22,16,tier2,tier1,1,5,Tier2 -> Tier1 (2 -> 8); +4 consensus pairs; CONS_J relaxed from 0.15 to 0.10

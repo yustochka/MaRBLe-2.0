@@ -1,0 +1,27 @@
+[Pipeline B — Step B5: Overlap clustering]
+Direction-aware clustering (Up and Down separately)
+
+Gene set filters:
+- size 10–500
+Overlap edge rule:
+- Jaccard ≥ 0.15
+- shared genes ≥ 3
+
+Representative selection rule (biologist-safe):
+1) agreement_q = max(CAMERA_FDR, fgsea_padj) (smaller is better)
+2) maximize |NES| (if NES exists in the input; otherwise ignored)
+3) prefer smaller gene set size (avoid overly broad generic terms)
+
+Counts:
+- WP terms (after size filter): 51
+- GO terms (after size filter): 29
+
+UP:
+- clusters: 14
+- reps: 14
+DOWN:
+- clusters: 36
+- reps: 36
+
+Outputs in:
+- results/pipelineB/2026-03-04_09-54-24/05_overlap

@@ -1,0 +1,42 @@
+Pipeline:                pipelineB
+Dataset:                 ACTA2KO_iVSMC
+Run ID:                  pipelineB_2026-05-28_16-26-26
+Timestamp:               2026-05-28_16-26-26
+Steps run:               1, 2, 3, 4, 5, 6
+
+Step03 agreement:
+  WP source:             strict_intersection (23 pathways)
+  GO source:             strict_intersection (43 pathways)
+  agreement_mode:        relax_fdr_then_topn
+
+Final selection policy:
+  final_mode:            consensus_first
+  final_top_n_per_dir:   5
+
+Step 06 thresholds (from cfg):
+  CONS_JACCARD_MIN:      0.15
+  CONS_K_MIN:            5
+  solo_q_max:            0.05
+  solo_abs_nes_min:      1.5
+  optionA_enable:        TRUE
+  optionA_quality_floor: 0.2
+
+Candidate set counts (step 06 full tables):
+  UP   consensus rows:         0
+  UP   solo rows:              22
+  UP   fallback rows:          0
+  UP   last_resort rows:       0
+  DOWN consensus rows:         0
+  DOWN solo rows:              10
+  DOWN fallback rows:          0
+  DOWN last_resort rows:       0
+
+Final selection source used:
+  UP:                    solo
+  DOWN:                  solo
+
+FINAL.csv counts (top 5 per direction):
+  n_up:                  5
+  n_down:                5
+  n_total:               10
+

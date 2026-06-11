@@ -1,0 +1,111 @@
+dataset,pipeline,ID,Description,collection,direction,n_members,n_in_matrix,frac_in_matrix,frac_low_expr,mean_expr_median
+dataset_0,pipelineA,GO:0006956,complement activation,GO,NA,24,13,0.5417,0.0769,7.7008
+dataset_0,pipelineA,GO:0007596,blood coagulation,GO,NA,93,63,0.6774,0.1587,7.1456
+dataset_0,pipelineA,GO:0034142,toll-like receptor 4 signaling pathway,GO,NA,30,29,0.9667,0.069,7.5625
+dataset_0,pipelineA,GO:0019886,antigen processing and presentation of exogenous peptide antigen via MHC class II,GO,NA,31,23,0.7419,0.0435,7.299
+dataset_0,pipelineA,GO:0002181,cytoplasmic translation,GO,NA,91,90,0.989,0,11.5246
+dataset_0,pipelineA,WP558,Complement and coagulation cascades,WP,NA,58,37,0.6379,0.1622,7.0739
+dataset_0,pipelineA,WP75,Toll like receptor signaling,WP,NA,95,69,0.7263,0.0725,7.9115
+dataset_0,pipelineA,WP2328,Allograft rejection,WP,NA,89,54,0.6067,0.0741,7.3812
+dataset_0,pipelineA,WP5095,Overview of proinflammatory and profibrotic mediators,WP,NA,127,22,0.1732,0.1818,7.25
+dataset_0,pipelineA,WP477,Cytoplasmic ribosomal proteins,WP,NA,88,86,0.9773,0,11.538
+dataset_0,pipelineA,WP5560,Lupus therapies,WP,NA,29,15,0.5172,0.1333,6.0812
+dataset_0,pipelineB,GO:0007268,chemical synaptic transmission,GO,UP,215,187,0.8698,0.0428,9.1612
+dataset_0,pipelineB,WP5193,Cholesterol synthesis disorders,WP,UP,18,17,0.9444,0,9.7719
+dataset_0,pipelineB,WP3869,Cannabinoid receptor signaling,WP,UP,29,24,0.8276,0.0417,9.8842
+dataset_0,pipelineB,GO:0098703,calcium ion import across plasma membrane,GO,UP,28,25,0.8929,0.04,8.5027
+dataset_0,pipelineB,GO:0060079,excitatory postsynaptic potential,GO,UP,68,52,0.7647,0.0962,8.5838
+dataset_0,pipelineB,GO:0002181,cytoplasmic translation,GO,DOWN,91,90,0.989,0,11.5246
+dataset_0,pipelineB,WP3945,TYROBP causal network in microglia,WP,DOWN,60,54,0.9,0.0926,6.5112
+dataset_0,pipelineB,WP2328,Allograft rejection,WP,DOWN,89,54,0.6067,0.0741,7.3812
+dataset_0,pipelineB,GO:0032757,positive regulation of interleukin-8 production,GO,DOWN,65,46,0.7077,0.1522,6.8472
+dataset_0,pipelineB,WP2806,Complement system,WP,DOWN,94,60,0.6383,0.1333,6.7386
+dataset_1,pipelineA,GO:0030198,extracellular matrix organization,GO,NA,158,138,0.8734,0.0435,8.593
+dataset_1,pipelineA,GO:0035987,endodermal cell differentiation,GO,NA,34,31,0.9118,0.0645,11.1909
+dataset_1,pipelineA,GO:0061436,establishment of skin barrier,GO,NA,35,26,0.7429,0.0769,8.1865
+dataset_1,pipelineA,GO:0008543,fibroblast growth factor receptor signaling pathway,GO,NA,101,80,0.7921,0.0875,9.0991
+dataset_1,pipelineA,GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,GO,NA,190,171,0.9,0.0585,9.2477
+dataset_1,pipelineA,GO:0006805,xenobiotic metabolic process,GO,NA,110,65,0.5909,0.0769,8.2701
+dataset_1,pipelineA,GO:0048546,digestive tract morphogenesis,GO,NA,15,13,0.8667,0.1538,8.7823
+dataset_1,pipelineA,GO:0060349,bone morphogenesis,GO,NA,26,23,0.8846,0.1304,9.4679
+dataset_1,pipelineA,GO:0014850,response to muscle activity,GO,NA,29,27,0.931,0.0741,9.45
+dataset_1,pipelineA,GO:0045109,intermediate filament organization,GO,NA,70,30,0.4286,0.0667,7.0538
+dataset_1,pipelineA,GO:0060326,cell chemotaxis,GO,NA,83,65,0.7831,0.0308,8.7303
+dataset_1,pipelineA,WP5417,Cell lineage map for neuronal differentiation,WP,NA,132,89,0.6742,0.1461,7.5237
+dataset_1,pipelineA,WP5390,Pancreatic cancer subtypes,WP,NA,49,20,0.4082,0.15,5.7519
+dataset_1,pipelineA,WP3945,TYROBP causal network in microglia,WP,NA,60,59,0.9833,0,9.9515
+dataset_1,pipelineA,WP2840,Hair follicle development cytodifferentiation stage 3 of 3,WP,NA,87,64,0.7356,0.0625,8.9843
+dataset_1,pipelineA,WP5090,Complement system in neuronal development and plasticity,WP,NA,106,94,0.8868,0.0532,9.4432
+dataset_1,pipelineA,WP2911,miRNA targets in ECM and membrane receptors,WP,NA,38,22,0.5789,0.0455,13.4428
+dataset_1,pipelineA,WP2361,Gastric cancer network 1,WP,NA,28,26,0.9286,0,8.8207
+dataset_1,pipelineA,WP2839,Hair follicle development organogenesis stage 2 of 3,WP,NA,32,29,0.9062,0,9.0281
+dataset_1,pipelineA,WP4786,Type I collagen synthesis in the context of osteogenesis imperfecta,WP,NA,33,30,0.9091,0.0333,11.0887
+dataset_1,pipelineB,WP716,Vitamin A and carotenoid metabolism,WP,UP,44,30,0.6818,0.0667,8.5267
+dataset_1,pipelineB,WP5390,Pancreatic cancer subtypes,WP,UP,49,20,0.4082,0.15,5.7519
+dataset_1,pipelineB,WP4149,White fat cell differentiation,WP,UP,32,31,0.9688,0,9.9776
+dataset_1,pipelineB,WP5234,Bardet Biedl syndrome,WP,UP,88,82,0.9318,0.0122,8.4194
+dataset_1,pipelineB,GO:0045494,photoreceptor cell maintenance,GO,UP,44,30,0.6818,0.0667,8.2172
+dataset_1,pipelineB,WP2446,Retinoblastoma gene in cancer,WP,DOWN,89,87,0.9775,0,9.4727
+dataset_1,pipelineB,WP183,Proteasome degradation,WP,DOWN,62,60,0.9677,0.0167,10.856
+dataset_1,pipelineB,GO:0007094,mitotic spindle assembly checkpoint signaling,GO,DOWN,30,30,1,0.0333,7.9494
+dataset_1,pipelineB,GO:0006487,protein N-linked glycosylation,GO,DOWN,61,54,0.8852,0.037,9.5004
+dataset_1,pipelineB,GO:0006457,protein folding,GO,DOWN,163,136,0.8344,0.0074,10.1563
+dataset_2,pipelineA,GO:0006493,protein O-linked glycosylation,GO,NA,66,5,0.0758,0,11.5631
+dataset_2,pipelineA,GO:0021542,dentate gyrus development,GO,NA,26,3,0.1154,0,12.552
+dataset_2,pipelineA,GO:0035767,endothelial cell chemotaxis,GO,NA,9,2,0.2222,0,11.0697
+dataset_2,pipelineA,GO:0035864,response to potassium ion,GO,NA,6,1,0.1667,0,8.9929
+dataset_2,pipelineA,GO:0055010,ventricular cardiac muscle tissue morphogenesis,GO,NA,24,2,0.0833,0,10.2765
+dataset_2,pipelineA,GO:0060998,regulation of dendritic spine development,GO,NA,10,1,0.1,0,8.9797
+dataset_2,pipelineA,GO:0003229,ventricular cardiac muscle tissue development,GO,NA,10,1,0.1,0,12.7506
+dataset_2,pipelineA,GO:0007193,adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway,GO,NA,56,6,0.1071,0.1667,10.3165
+dataset_2,pipelineA,GO:0010594,regulation of endothelial cell migration,GO,NA,8,2,0.25,0,11.3423
+dataset_2,pipelineA,GO:0021915,neural tube development,GO,NA,30,7,0.2333,0,12.1991
+dataset_2,pipelineA,GO:0048568,embryonic organ development,GO,NA,31,3,0.0968,0,11.2612
+dataset_2,pipelineA,GO:0045765,regulation of angiogenesis,GO,NA,37,4,0.1081,0,10.7679
+dataset_2,pipelineA,GO:0034765,regulation of monoatomic ion transmembrane transport,GO,NA,24,2,0.0833,0,9.6372
+dataset_2,pipelineA,GO:0060537,muscle tissue development,GO,NA,5,1,0.2,0,14.6633
+dataset_2,pipelineA,GO:0098655,monoatomic cation transmembrane transport,GO,NA,49,4,0.0816,0,9.3038
+dataset_2,pipelineA,GO:0001568,blood vessel development,GO,NA,44,2,0.0455,0,11.7227
+dataset_2,pipelineA,GO:0016477,cell migration,GO,NA,257,27,0.1051,0.037,11.7056
+dataset_2,pipelineB,GO:0000398,"mRNA splicing, via spliceosome",GO,UP,181,28,0.1547,0,12.021
+dataset_2,pipelineB,WP2446,Retinoblastoma gene in cancer,WP,UP,89,12,0.1348,0,13.2481
+dataset_2,pipelineB,WP4905,1q21 1 copy number variation syndrome,WP,UP,27,10,0.3704,0,12.2748
+dataset_2,pipelineB,WP2877,Vitamin D receptor pathway,WP,UP,186,12,0.0645,0.0833,10.0262
+dataset_2,pipelineB,GO:0006281,DNA repair,GO,UP,244,25,0.1025,0,13.0176
+dataset_2,pipelineB,WP5083,Neuroinflammation and glutamatergic signaling,WP,DOWN,140,17,0.1214,0.0588,10.1712
+dataset_2,pipelineB,WP481,Insulin signaling,WP,DOWN,160,15,0.0938,0,12.7515
+dataset_2,pipelineB,WP4666,Hepatitis B infection,WP,DOWN,152,12,0.0789,0,11.4506
+dataset_2,pipelineB,WP5345,1p36 copy number variation syndrome,WP,DOWN,104,50,0.4808,0.04,9.1545
+dataset_2,pipelineB,GO:0030308,negative regulation of cell growth,GO,DOWN,116,14,0.1207,0.1429,11.7978
+dataset_3,pipelineA,GO:0000086,G2/M transition of mitotic cell cycle,GO,NA,50,49,0.98,0,8.8549
+dataset_3,pipelineA,GO:0007094,mitotic spindle assembly checkpoint signaling,GO,NA,30,30,1,0.0333,8.2833
+dataset_3,pipelineA,GO:0000281,mitotic cytokinesis,GO,NA,64,62,0.9688,0.0161,9.53
+dataset_3,pipelineA,GO:0061844,antimicrobial humoral immune response mediated by antimicrobial peptide,GO,NA,124,39,0.3145,0.2051,7.2801
+dataset_3,pipelineA,GO:0000070,mitotic sister chromatid segregation,GO,NA,35,34,0.9714,0,8.4355
+dataset_3,pipelineA,GO:0007095,mitotic G2 DNA damage checkpoint signaling,GO,NA,37,37,1,0,8.6029
+dataset_3,pipelineA,WP4963,p53 transcriptional gene network,WP,NA,96,81,0.8438,0.0123,9.0244
+dataset_3,pipelineA,WP2446,Retinoblastoma gene in cancer,WP,NA,89,87,0.9775,0,9.4654
+dataset_3,pipelineA,WP707,DNA damage response,WP,NA,69,67,0.971,0,8.9917
+dataset_3,pipelineA,WP5218,Extrafollicular and follicular B cell activation by SARS CoV 2,WP,NA,75,35,0.4667,0.1143,7.9476
+dataset_3,pipelineA,WP2361,Gastric cancer network 1,WP,NA,28,27,0.9643,0.0741,8.7651
+dataset_3,pipelineA,WP58,Monoamine GPCRs,WP,NA,33,18,0.5455,0.1111,6.5251
+dataset_3,pipelineA,WP619,Type II interferon signaling,WP,NA,37,27,0.7297,0.0741,7.8768
+dataset_3,pipelineA,WP4016,DNA IR damage and cellular response via ATR,WP,NA,81,81,1,0,8.6161
+dataset_3,pipelineA,WP3391,Senescence associated secretory phenotype SASP,WP,NA,113,75,0.6637,0.1067,9.2617
+dataset_3,pipelineA,WP1971,Integrated cancer pathway,WP,NA,44,44,1,0,8.9294
+dataset_3,pipelineA,WP455,GPCRs class A rhodopsin like,WP,NA,260,94,0.3615,0.1702,6.2656
+dataset_3,pipelineA,WP5055,Burn wound healing,WP,NA,75,60,0.8,0.0833,8.8331
+dataset_3,pipelineA,WP5491,Transcriptional regulation of memory B cell differentiation,WP,NA,47,35,0.7447,0.2286,8.4898
+dataset_3,pipelineA,WP5117,Cohesin complex Cornelia de Lange syndrome,WP,NA,34,33,0.9706,0,9.5412
+dataset_3,pipelineA,WP4197,Immune response to tuberculosis,WP,NA,22,20,0.9091,0,8.68
+dataset_3,pipelineA,WP3982,miRNA regulation of p53 pathway in prostate cancer,WP,NA,31,24,0.7742,0.0417,9.385
+dataset_3,pipelineB,WP2446,Retinoblastoma gene in cancer,WP,UP,89,87,0.9775,0,9.4654
+dataset_3,pipelineB,WP466,DNA replication,WP,UP,42,41,0.9762,0,8.7005
+dataset_3,pipelineB,GO:0007094,mitotic spindle assembly checkpoint signaling,GO,UP,30,30,1,0.0333,8.2833
+dataset_3,pipelineB,GO:0007059,chromosome segregation,GO,UP,93,92,0.9892,0,8.694
+dataset_3,pipelineB,WP4016,DNA IR damage and cellular response via ATR,WP,UP,81,81,1,0,8.6161
+dataset_3,pipelineB,WP4963,p53 transcriptional gene network,WP,DOWN,96,81,0.8438,0.0123,9.0244
+dataset_3,pipelineB,WP5344,Cardiomyocyte signaling converging on titin,WP,DOWN,33,29,0.8788,0.0345,10.7906
+dataset_3,pipelineB,WP623,Oxidative phosphorylation,WP,DOWN,60,59,0.9833,0,11.4296
+dataset_3,pipelineB,GO:0006091,generation of precursor metabolites and energy,GO,DOWN,45,40,0.8889,0.05,9.7685
+dataset_3,pipelineB,GO:0032200,telomere organization,GO,DOWN,27,12,0.4444,0.3333,5.584

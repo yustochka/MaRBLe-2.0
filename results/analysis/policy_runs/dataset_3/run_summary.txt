@@ -1,0 +1,19 @@
+=== run_summary.txt ===
+dataset:                    dataset_3
+n_universe:                 7052
+med_frac_in_matrix:         0.937
+max_consensus_pairs:        5
+baseline_n_tier1:           2
+min_cons_j_achieving_tier1: 0.1
+classification:             BORDERLINE
+confidence_flag:            medium
+TAU_STABILITY:              0.70
+CONS_JACCARD_MIN:           0.10
+CONS_K_MIN:                 5
+overrides_used:             NO (rule-based)
+final_source:               tier1
+n_tier1:                    8
+n_tier2:                    16
+n_consensus_pairs:          5
+n_candidates_pool:          48
+

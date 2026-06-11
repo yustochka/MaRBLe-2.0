@@ -1,0 +1,7 @@
+[ORA run note]
+N = 6992 (universe), n = 1363 (DE)
+K_min..K_max = [15, 110] (data-driven from K distribution)
+Filters: FDR < 0.05, k >= 3, k/E[k] >= 1.5
+Kept 40 / 683 pathways after filters.
+Files: results/pipelineA/2026-03-01_18-00-42/03_ora/wp/ora_wikipathways_all.csv, results/pipelineA/2026-03-01_18-00-42/03_ora/wp/ora_wikipathways_filtered.csv
+

@@ -1,0 +1,49 @@
+ID,Description,p.adjust,k,stability,selected,collection,consensus,keep_final,tier
+GO:0006270,DNA replication initiation,3.797260472857706e-5,14,0.99,TRUE,GO,TRUE,TRUE,Tier 1 (stable + consensus)
+WP466,DNA replication,1.2082088657032216e-7,19,1,TRUE,WP,TRUE,TRUE,Tier 1 (stable + consensus)
+GO:0000086,G2/M transition of mitotic cell cycle,1.0430744174309969e-5,27,1,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0007094,mitotic spindle assembly checkpoint signaling,6.738928080957898e-4,11,0.975,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0000281,mitotic cytokinesis,0.03811030666072509,14,0.9,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0061844,antimicrobial humoral immune response mediated by antimicrobial peptide,0.01983320140688534,10,0.885,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0000070,mitotic sister chromatid segregation,1.2668073930807103e-6,32,0.81,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+GO:0007095,mitotic G2 DNA damage checkpoint signaling,0.0334275293664158,9,0.8,TRUE,GO,FALSE,FALSE,Tier 2 (stable only)
+WP4963,p53 transcriptional gene network,6.997388458606431e-10,31,1,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP2446,Retinoblastoma gene in cancer,3.179054783617201e-9,31,1,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP707,DNA damage response,9.255996684905993e-6,22,1,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP5218,Extrafollicular and follicular B cell activation by SARS CoV 2,5.959875010947866e-4,13,0.995,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP2361,Gastric cancer network 1,8.515701303348957e-4,11,0.995,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP58,Monoamine GPCRs,0.0044652023356707,8,0.995,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP619,Type II interferon signaling,8.515701303348957e-4,11,0.99,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP4016,DNA IR damage and cellular response via ATR,0.0044652023356707,19,0.99,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP3391,Senescence associated secretory phenotype SASP,0.0044652023356707,18,0.99,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP1971,Integrated cancer pathway,0.0044652023356707,13,0.985,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP455,GPCRs class A rhodopsin like,0.01855220810171735,19,0.98,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP5055,Burn wound healing,0.02424427430235911,14,0.955,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP5491,Transcriptional regulation of memory B cell differentiation,0.02424427430235911,10,0.955,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP5117,Cohesin complex Cornelia de Lange syndrome,0.01753231579977654,10,0.94,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP4197,Immune response to tuberculosis,0.00794342199385081,8,0.92,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+WP3982,miRNA regulation of p53 pathway in prostate cancer,0.02483542524889078,8,0.9,TRUE,WP,FALSE,FALSE,Tier 2 (stable only)
+GO:0007131,reciprocal meiotic recombination,0.02426598343077684,10,0.62,FALSE,GO,FALSE,FALSE,Not kept
+GO:0014075,response to amine,0.03143095883758157,11,0.605,FALSE,GO,FALSE,FALSE,Not kept
+GO:0009410,response to xenobiotic stimulus,0.04489009950702698,43,0.58,FALSE,GO,FALSE,FALSE,Not kept
+GO:0007088,regulation of mitotic nuclear division,1.604086611797919e-4,21,0.365,FALSE,GO,FALSE,FALSE,Not kept
+GO:1902850,microtubule cytoskeleton organization involved in mitosis,2.8589166854398897e-4,25,0.36,FALSE,GO,FALSE,FALSE,Not kept
+GO:0045132,meiotic chromosome segregation,7.818147317224123e-5,16,0.345,FALSE,GO,FALSE,FALSE,Not kept
+GO:0051303,establishment of chromosome localization,2.027864720569171e-4,18,0.325,FALSE,GO,FALSE,FALSE,Not kept
+GO:0006959,humoral immune response,0.00120801562416149,23,0.235,FALSE,GO,FALSE,FALSE,Not kept
+GO:0032147,activation of protein kinase activity,9.11530083305508e-4,15,0.125,FALSE,GO,FALSE,FALSE,Not kept
+GO:0007617,mating behavior,0.02811539688077048,8,0.08,FALSE,GO,FALSE,FALSE,Not kept
+GO:0042770,signal transduction in response to DNA damage,0.00167847338312247,28,0.05,FALSE,GO,FALSE,FALSE,Not kept
+GO:0071459,"protein localization to chromosome, centromeric region",0.00169962204486193,9,0.05,FALSE,GO,FALSE,FALSE,Not kept
+GO:0071312,cellular response to alkaloid,0.03640477994108635,10,0.02,FALSE,GO,FALSE,FALSE,Not kept
+GO:0051276,chromosome organization,1.158793968824573e-5,64,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0090068,positive regulation of cell cycle process,5.0675751342810835e-5,38,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:1905818,regulation of chromosome separation,8.035509976916976e-5,17,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0090329,regulation of DNA-templated DNA replication,4.741176109111913e-4,11,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0033260,nuclear DNA replication,6.030578857581545e-4,12,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:1901990,regulation of mitotic cell cycle phase transition,6.738928080957898e-4,42,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0065004,protein-DNA complex assembly,0.0030569137388967,26,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0051781,positive regulation of cell division,0.01874300153505686,14,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0003073,regulation of systemic arterial blood pressure,0.03290583763925794,14,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0007631,feeding behavior,0.04385160764507683,12,0,FALSE,GO,FALSE,FALSE,Not kept
+GO:0032465,regulation of cytokinesis,0.04735136933116594,13,0,FALSE,GO,FALSE,FALSE,Not kept
