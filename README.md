@@ -26,25 +26,54 @@ Supervisors: Rachel Cavill · Jarno Koetsier · Pepijn Saraber
 
 ## Overview
 
-Pathway enrichment analysis is widely used to interpret RNA-seq experiments, but
-it has two well-known weaknesses: enriched-pathway lists are often **long and
-redundant** (overlapping gene sets, hierarchical GO terms), and many methods
-**ignore gene–gene correlation**, which inflates pathway-level significance and
-produces false positives.
+RNA sequencing produces long lists of differentially expressed genes that are
+difficult to interpret directly. Pathway and Gene Ontology (GO) enrichment
+analysis makes these results more interpretable by summarising gene-level changes
+into biological processes and pathways — but it carries two well-known
+weaknesses. First, enriched-pathway lists are often **long and redundant**: many
+pathways and GO terms share genes or describe closely related processes, which
+produces near-duplicate results that are hard to read. Second, many enrichment
+methods implicitly **assume genes are independent**, even though genes in the
+same pathway are frequently co-expressed; ignoring this gene–gene correlation
+inflates pathway-level significance and increases false positives.
 
 This project develops and compares **two complementary pathway-analysis
 pipelines** that reduce redundancy and false positives while preserving
-biologically meaningful signal, and wraps the final outputs in an **interactive
-Shiny dashboard** for inspection and comparison.
+biologically meaningful signal. Both operate on the same RNA-seq input and the
+same measured-gene background, but differ in their enrichment strategy and in how
+pathway-level results are filtered and summarised. **Pipeline A** follows a
+traditional over-representation approach combined with semantic and overlap-based
+redundancy reduction, bootstrap stability, and cross-collection consensus.
+**Pipeline B** combines a correlation-aware competitive gene-set test (CAMERA)
+with a ranked, cutoff-free enrichment analysis (fgsea), followed by
+agreement-based filtering and redundancy reduction. Explicitly accounting for
+gene–gene correlation and pathway redundancy leads to more compact and
+interpretable enrichment results.
 
-It was carried out over two semesters of the MaRBLe honours programme:
+The framework was then **evaluated across multiple RNA-seq datasets** that differ
+in differential-expression signal, pathway coverage, and overlap between GO and
+WikiPathways. It generalised across datasets, but the reliability of the final
+shortlist depended strongly on dataset properties. A **dataset-aware threshold
+policy** improved Pipeline A in borderline cases — relaxing the consensus
+threshold while keeping the stability requirement strict — though it also showed
+that low coverage or missing cross-collection overlap cannot be solved by
+thresholds alone. A **Pipeline B ablation study** found that overlap clustering
+had the strongest effect on the candidate pool, while the final top-N cap mainly
+acts as a presentation choice. Throughout, the two pipelines proved
+**complementary rather than redundant**: Pipeline A is strongest when a reliable
+DE gene list is available, while Pipeline B adds directionality and stays useful
+when differential expression is weak. Finally, an **interactive Shiny dashboard**
+was built to make the final results easy to inspect, compare, and interpret.
 
-- **Semester 1** — designed and validated the two pipelines on a reference RNA-seq dataset (proof of concept).
-- **Semester 2** — generalised the framework across multiple datasets, added a dataset-aware threshold policy, simulation studies, a Pipeline B ablation study, a cross-pipeline comparison, and the dashboard.
+This work was carried out over two semesters of the MaRBLe honours programme:
+Semester 1 designed and validated the two pipelines on a reference dataset;
+Semester 2 generalised the framework across datasets and added the threshold
+policy, simulation studies, ablation, cross-pipeline comparison, and dashboard.
 
-> 📄 The work is written up in two reports (*Semester 1* and *Semester 2*). This
-> repository contains the code, the publicly shareable datasets, and the
-> precomputed results that back those reports.
+> 📄 **Full write-up:** [Semester 1 report](reports/marble_report_semester1.pdf) ·
+> [Semester 2 report](reports/marble_report_semester_2.pdf). This repository holds
+> the code, the publicly shareable datasets, and the precomputed results behind
+> those reports.
 
 ---
 
@@ -226,6 +255,69 @@ Outputs are written to `results/pipelineA/<run_dir>/` or `results/pipelineB/<run
 - `TAU_STABILITY:` — bootstrap stability threshold (Pipeline A, default `0.70`)
 - `CONS_JACCARD_MIN:` — cross-collection consensus Jaccard threshold (default `0.15`)
 - `agreement_mode:` — `intersection` | `relax_fdr_then_topn` (Pipeline B step 03)
+
+---
+
+## Run it on your own data
+
+The pipelines are config-driven, so analysing a new dataset means dropping in
+three files and editing one block of `config/default.yml`.
+
+**1 · Add the data.** Create a folder under `data/`, e.g. `data/my_dataset/`, with:
+
+| File | What it is |
+|---|---|
+| **expression matrix** | normalised expression values, genes × samples (CSV; gene IDs in the first column / row names) |
+| **sample metadata** | one row per sample, with a sample-ID column and a group / condition column |
+| **DE statistics** | gene-level differential-expression table (e.g. a limma `topTable`): gene, log2 fold change, p-value, adjusted p-value |
+
+Pathway annotations are shared — every dataset reuses
+`data/dataset_0/processed/Pathway2Gene.csv` (GO-BP + WikiPathways), so you don't
+need to supply your own.
+
+**2 · Point the config at it.** In `config/default.yml`, comment out the active
+`dataset:` block and add one for your data (only one may be uncommented at a time):
+
+```yaml
+dataset:
+  name:                 "my_dataset"
+  expression_file:      "data/my_dataset/expression.csv"
+  metadata_file:        "data/my_dataset/metadata.csv"
+  statistics_file:      "data/my_dataset/topTable.csv"
+  pathway2gene_file:    "data/dataset_0/processed/Pathway2Gene.csv"
+  gene_col:             "Gene Symbol"   # gene-name column in the statistics file
+  p_adjusted_preferred: true
+  p_col_adj:            "adj. p-value"  # adjusted p-value column
+  log2fc_col:           "log2FC"
+  abs_log2fc_min:       null
+  sample_id_col:        "SampleID"      # sample-ID column in the metadata
+  group_col:            "Genotype"      # group / condition column in the metadata
+  gene_id_type:         "SYMBOL"        # SYMBOL | ENTREZ | ENSEMBL
+```
+
+Set `gene_id_type` to match your gene IDs — Pipeline B converts `ENTREZ` /
+`ENSEMBL` to gene symbols automatically. Adjust the column names to match your
+files (the pipeline validates them on startup and tells you if one is missing).
+
+**3 · Run.** After restoring the environment (`renv::restore()`):
+
+```bash
+Rscript R/run_pipelineA.R   # and / or
+Rscript R/run_pipelineB.R
+```
+
+Each run creates a timestamped folder `results/pipelineA/<timestamp>/`; the final
+shortlist is `FINAL/FINAL.csv` inside it.
+
+**4 · View it in the dashboard (optional).** The dashboard auto-detects any
+folder under `data/`. To make it load your Pipeline A run, add one row to
+`results/run_registry.csv`:
+
+```csv
+my_dataset,results/pipelineA/<your-timestamp>,data/dataset_0/processed/Pathway2Gene.csv
+```
+
+Then launch the dashboard (`Rscript run_dashboard.R`) and select `my_dataset`.
 
 ---
 
