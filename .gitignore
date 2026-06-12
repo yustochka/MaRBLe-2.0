@@ -35,3 +35,8 @@ figures/
 
 # Auto-generated R output (not source files)
 Rplots.pdf
+
+# Quarto / R Markdown render artifacts (e.g. from previewing a README.md)
+**/README.html
+**/*_files/
+.quarto/

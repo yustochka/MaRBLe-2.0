@@ -14,43 +14,49 @@ first.
 
 ---
 
-## Quick start
+## Quick start — view the dashboard
 
-### 1. Restore the R environment
+The dashboard runs from a fresh clone with **only three packages**
+(`shiny`, `DT`, `ggplot2`) — you do **not** need `renv` or the heavy
+Bioconductor pipeline stack just to view the results.
 
-The project uses [renv](https://rstudio.github.io/renv/) to pin package versions.
+From the **project root**, one command:
 
-```r
-# Install renv if it isn't already available
-if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
-
-# Restore all locked packages (CRAN + Bioconductor binaries)
-renv::restore()
+```bash
+Rscript run_dashboard.R
 ```
 
-> **Note:** if `renv::restore()` fails on `RcppArmadillo` (a gfortran compile
-> error on newer macOS), install the affected CRAN packages as binaries:
-> `install.packages(<pkg>, type = "binary")`.
-
-The dashboard alone needs only `shiny`, `DT`, and `ggplot2`; the full pipelines
-additionally require Bioconductor packages (`clusterProfiler`, `fgsea`,
-`limma`, `org.Hs.eg.db`, `AnnotationDbi`, …), all captured in `renv.lock`.
-
-### 2. Launch the dashboard
-
-From the **project root**:
+This installs the three packages if they are missing and opens the app in your
+browser. Equivalently, from an R session:
 
 ```r
+install.packages(c("shiny", "DT", "ggplot2"))
 shiny::runApp("shiny")
 ```
 
 Pick a dataset and a pipeline, click **Load shortlist**, and explore the dot
 plot, selection funnel, overlap network, and the A ↔ B comparison tab.
 
-### 3. (Optional) Re-run a pipeline
+> Optional: installing `org.Hs.eg.db` + `AnnotationDbi` (Bioconductor) also
+> shows the gene members behind each GO term. The dashboard works fine without
+> them — it just skips that lookup.
 
-Edit `config/default.yml` to select a dataset (exactly one `dataset:` block
-uncommented — `dataset_0` is the default), then:
+## Re-running the pipelines (optional)
+
+Re-running Pipeline A/B needs the full analysis stack, pinned with
+[renv](https://rstudio.github.io/renv/):
+
+```r
+if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+renv::restore()   # heavy: CRAN + Bioconductor (clusterProfiler, fgsea, limma, …)
+```
+
+> **Note:** if `renv::restore()` fails on `RcppArmadillo` (a gfortran compile
+> error on newer macOS), install the affected CRAN packages as binaries:
+> `install.packages(<pkg>, type = "binary")`.
+
+Then edit `config/default.yml` to select a dataset (exactly one `dataset:`
+block uncommented — `dataset_0` is the default) and run:
 
 ```bash
 Rscript R/run_pipelineA.R   # ORA + redundancy reduction + bootstrap + tiers
@@ -83,6 +89,7 @@ direction.
 ## Repository structure
 
 ```
+run_dashboard.R            # One-command dashboard launcher
 R/
   run_pipelineA.R          # Pipeline A entry point
   run_pipelineB.R          # Pipeline B entry point
