@@ -918,6 +918,22 @@ html, body {
   line-height: 1.4;
 }
 
+/* Expandable "+N more" gene toggle (pure <details>, no JS) */
+.gene-more {
+  width: 100%;            /* drop the toggle + expanded list onto their own row */
+}
+.gene-more > summary {
+  cursor: pointer;
+  list-style: none;       /* hide the default disclosure triangle */
+  width: fit-content;
+}
+.gene-more > summary::-webkit-details-marker { display: none; }
+.gene-more > summary:hover { border-color: var(--blue); color: var(--blue); }
+.gene-more > summary .more-expanded { display: none; }
+.gene-more[open] > summary .more-collapsed { display: none; }
+.gene-more[open] > summary .more-expanded { display: inline; }
+.gene-more-list { margin-top: 6px; }
+
 .gene-source-note {
   font-size: 10px;
   color: var(--ink-lt);

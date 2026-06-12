@@ -284,8 +284,9 @@ make_gene_preview <- function(genes, source_label = "Pathway2Gene.csv") {
     ))
   }
 
-  show   <- head(genes, max_show)
-  n_more <- length(genes) - length(show)
+  show <- head(genes, max_show)
+  rest <- if (length(genes) > max_show)
+            genes[(max_show + 1L):length(genes)] else character(0)
 
   tagList(
     tags$div(class = "detail-gene-label",
@@ -293,7 +294,19 @@ make_gene_preview <- function(genes, source_label = "Pathway2Gene.csv") {
     tags$div(
       class = "gene-chips",
       lapply(show, function(g) tags$span(class = "gene-chip", g)),
-      if (n_more > 0L) tags$span(class = "gene-chip-more", paste0("+", n_more, " more"))
+      # Overflow genes live in a <details> toggle — click "+N more" to expand.
+      if (length(rest) > 0L) tags$details(
+        class = "gene-more",
+        tags$summary(
+          class = "gene-chip-more",
+          tags$span(class = "more-collapsed", paste0("+", length(rest), " more")),
+          tags$span(class = "more-expanded", "Show fewer")
+        ),
+        tags$div(
+          class = "gene-chips gene-more-list",
+          lapply(rest, function(g) tags$span(class = "gene-chip", g))
+        )
+      )
     ),
     tags$div(class = "gene-source-note", paste0("Source: ", source_label))
   )
