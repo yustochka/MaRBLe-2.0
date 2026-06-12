@@ -1,24 +1,53 @@
-# MaRBLe 2.0 — Pathway Redundancy & False-Positive Reduction
+<div align="center">
+
+# MaRBLe 2.0 — Pathway Analysis of RNA-seq Data
+### Reducing Redundancy and False Positives
 
 **Yustyna Babichuk**
+BSc Data Science & Artificial Intelligence · Maastricht University
+Honours research project — *Maastricht Research Based Learning (MaRBLe 2.0)*
 
-A reproducible R project that turns gene-level differential-expression statistics
-into a concise, de-duplicated, and stable shortlist of enriched pathways. It
-provides two complementary enrichment pipelines, a threshold-optimisation and
-simulation analysis, and an interactive Shiny dashboard for exploring the
-results.
+Supervisors: Rachel Cavill · Jarno Koetsier · Pepijn Saraber
 
-The repository ships with precomputed results for every bundled dataset, so the
-**dashboard runs straight from a fresh clone** — no need to re-run the pipelines
-first.
+![R](https://img.shields.io/badge/R-%E2%89%A5%204.5-276DC3?logo=r&logoColor=white)
+![Dashboard](https://img.shields.io/badge/dashboard-Shiny-1BA39C?logo=rstudio&logoColor=white)
+![Reproducible](https://img.shields.io/badge/environment-renv-F46800)
+![Programme](https://img.shields.io/badge/Maastricht-MaRBLe%202.0%20Honours-002b5c)
+
+</div>
 
 ---
 
-## Quick start — view the dashboard
+## Overview
 
-The dashboard runs from a fresh clone with **only three packages**
-(`shiny`, `DT`, `ggplot2`) — you do **not** need `renv` or the heavy
-Bioconductor pipeline stack just to view the results.
+Pathway enrichment analysis is widely used to interpret RNA-seq experiments, but
+it has two well-known weaknesses: enriched-pathway lists are often **long and
+redundant** (overlapping gene sets, hierarchical GO terms), and many methods
+**ignore gene–gene correlation**, which inflates pathway-level significance and
+produces false positives.
+
+This project develops and compares **two complementary pathway-analysis
+pipelines** that reduce redundancy and false positives while preserving
+biologically meaningful signal, and wraps the final outputs in an **interactive
+Shiny dashboard** for inspection and comparison.
+
+It was carried out over two semesters of the MaRBLe honours programme:
+
+- **Semester 1** — designed and validated the two pipelines on a reference RNA-seq dataset (proof of concept).
+- **Semester 2** — generalised the framework across multiple datasets, added a dataset-aware threshold policy, simulation studies, a Pipeline B ablation study, a cross-pipeline comparison, and the dashboard.
+
+> 📄 The work is written up in two reports (*Semester 1* and *Semester 2*). This
+> repository contains the code, the publicly shareable datasets, and the
+> precomputed results that back those reports.
+
+---
+
+## ▶️ Run the dashboard
+
+The dashboard runs **straight from a fresh clone** — the precomputed results are
+included, so there is nothing to recompute. You only need three R packages
+(`shiny`, `DT`, `ggplot2`); the heavy Bioconductor pipeline stack is **not**
+required just to view results.
 
 From the **project root**, one command:
 
@@ -34,16 +63,112 @@ install.packages(c("shiny", "DT", "ggplot2"))
 shiny::runApp("shiny")
 ```
 
-Pick a dataset and a pipeline, click **Load shortlist**, and explore the dot
-plot, selection funnel, overlap network, and the A ↔ B comparison tab.
+In the app: pick a **dataset** and a **pipeline**, click **Load shortlist**, and
+explore the dot plot, selection funnel, overlap network, per-pathway detail
+panel, and the **A ↔ B comparison** tab. The displayed shortlist can be exported
+as CSV.
 
-> Optional: installing `org.Hs.eg.db` + `AnnotationDbi` (Bioconductor) also
+> Optional: installing `org.Hs.eg.db` + `AnnotationDbi` (Bioconductor) additionally
 > shows the gene members behind each GO term. The dashboard works fine without
 > them — it just skips that lookup.
 
+---
+
+## Methods at a glance
+
+**Pipeline A — trust-first over-representation analysis**
+
+```
+DE gene list ─▶ ORA (GO-BP + WikiPathways) ─▶ semantic collapse (GO, Wang)
+            ─▶ overlap clustering (Jaccard) ─▶ bootstrap stability (B = 200)
+            ─▶ GO↔WP consensus ─▶ Tier 1 / Tier 2 / candidates
+```
+
+**Pipeline B — correlation-aware, ranked, cutoff-free**
+
+```
+expression matrix ─▶ CAMERA  +  fgsea ─▶ agreement filter (both, same direction)
+                  ─▶ semantic collapse ─▶ overlap clustering
+                  ─▶ top-N per direction (UP / DOWN shortlist)
+```
+
+| | **Pipeline A** | **Pipeline B** |
+|---|---|---|
+| **Strategy** | ORA (over-representation) | CAMERA + fgsea (competitive / ranked) |
+| **Input** | DE gene list + measured-gene universe | full expression matrix |
+| **Handles gene–gene correlation** | indirectly | **yes** (CAMERA) |
+| **Redundancy reduction** | semantic collapse + Jaccard clustering | semantic collapse + Jaccard clustering |
+| **Stability** | bootstrap resampling (B = 200) | — |
+| **Direction (UP/DOWN)** | — | **yes** |
+| **Output** | Tier 1 (stable + consensus) → Tier 2 (stable) → candidates | top-N per direction (default 5 UP + 5 DOWN) |
+| **Entry point** | `R/run_pipelineA.R` | `R/run_pipelineB.R` |
+
+The two pipelines are **complementary, not competing**: Pipeline A is strongest
+when a reliable DE gene list is available, while Pipeline B adds directionality
+and stays informative when gene-level differential expression is weak.
+
+---
+
+## Key findings
+
+- **The framework generalises across datasets**, but the reliability of the final shortlist tracks dataset properties — DE signal strength, pathway coverage, and GO↔WP overlap — rather than failing in one uniform way.
+- **Dataset-aware thresholds recover borderline cases.** Relaxing the consensus Jaccard threshold while keeping the stability requirement strict raised `dataset_3` from 2 → 8 Tier-1 pathways, and `ACTA2KO` from 4 → 9, without weakening stability.
+- **Redundancy reduction is not cosmetic.** A Pipeline B ablation showed that *overlap clustering* most strongly shapes the candidate pool, while the final top-N cap is mainly a presentation choice.
+- **A and B agree rarely but usefully.** Exact pathway-ID overlap is low (0–2 per dataset); where it occurs it carries extra confidence because two different designs converge.
+- **A dashboard ties it together**, turning multiple output files into one interactive inspection and comparison layer.
+
+---
+
+## Repository layout
+
+```
+run_dashboard.R            One-command dashboard launcher
+R/
+  run_pipelineA.R          Pipeline A entry point
+  run_pipelineB.R          Pipeline B entry point
+  pipelineA/steps/         Step scripts 01–07 + step98 (final export)
+  pipelineB/steps/         Step scripts 01–06
+  analysis/                Diagnostics, threshold sweep & policy, simulations, plots
+  ablation/                Pipeline B component-ablation experiment
+  utils/                   Shared utilities (config, gene-ID conversion, …)
+config/
+  default.yml              Active dataset, pipeline parameters, thresholds
+  ablation/                Ablation variant configs
+data/                      Publicly shareable datasets (expression + metadata + DE stats)
+results/                   Precomputed pipeline + analysis outputs (curated, dashboard-ready)
+report_assets/             Publication-ready figures (PNG) and source tables
+shiny/                     Interactive dashboard  (see shiny/README.md)
+renv.lock                  Locked package versions for full reproducibility
+```
+
+---
+
+## Datasets
+
+| Dataset | Description | Gene IDs |
+|---|---|---|
+| `dataset_0` | Reference cohort — full transcriptome (Semester-1 baseline) | SYMBOL |
+| `dataset_1` | GSE199939 | ENTREZ |
+| `dataset_2` | GSE243836 — focused panel (~2,200 genes; low-coverage case) | ENTREZ |
+| `dataset_3` | GSE247345 | ENTREZ |
+| `ACTA2KO_iVSMC` | ACTA2 knockout vs wild-type in iVSMC (Biochemistry collaboration) | ENSEMBL → SYMBOL |
+
+All datasets share one pathway annotation,
+`data/dataset_0/processed/Pathway2Gene.csv` (GO Biological Process + WikiPathways).
+The enrichment universe is always the intersection of measured genes and
+annotated pathway genes, so enrichment is only tested against genes that could
+have been observed.
+
+> Additional vascular smooth-muscle-cell datasets from the Biochemistry
+> collaboration (`Aneurysm_pVSMC`, `PAR1KO_iVSMC`, `Lineages_iVSMC`) were part of
+> the study but are **withheld pending publication** and are intentionally not
+> included in this public repository.
+
+---
+
 ## Re-running the pipelines (optional)
 
-Re-running Pipeline A/B needs the full analysis stack, pinned with
+Re-running Pipeline A/B requires the full analysis stack, pinned with
 [renv](https://rstudio.github.io/renv/):
 
 ```r
@@ -55,83 +180,17 @@ renv::restore()   # heavy: CRAN + Bioconductor (clusterProfiler, fgsea, limma, �
 > error on newer macOS), install the affected CRAN packages as binaries:
 > `install.packages(<pkg>, type = "binary")`.
 
-Then edit `config/default.yml` to select a dataset (exactly one `dataset:`
-block uncommented — `dataset_0` is the default) and run:
+Then edit `config/default.yml` to select a dataset (exactly one `dataset:` block
+uncommented — `dataset_0` is the default) and run:
 
 ```bash
 Rscript R/run_pipelineA.R   # ORA + redundancy reduction + bootstrap + tiers
 Rscript R/run_pipelineB.R   # CAMERA + fgsea + semantic collapse + top-N shortlist
 ```
 
-Results are written to `results/pipelineA/<run_dir>/` or
-`results/pipelineB/<run_dir>/`.
+Outputs are written to `results/pipelineA/<run_dir>/` or `results/pipelineB/<run_dir>/`.
 
----
-
-## The two pipelines
-
-| | Pipeline A | Pipeline B |
-|---|---|---|
-| **Method** | ORA (over-representation) | CAMERA + fgsea (competitive enrichment) |
-| **Input** | DE gene list + universe | Full expression matrix |
-| **Redundancy reduction** | Semantic collapse (GO) + Jaccard clustering | Semantic collapse + Jaccard clustering |
-| **Stability** | Bootstrap resampling (B = 200) | — |
-| **Output** | Tier 1 (stable + consensus) → Tier 2 (stable) → candidates | Top-N per direction (default 5 UP + 5 DOWN) |
-| **Entry point** | `R/run_pipelineA.R` | `R/run_pipelineB.R` |
-
-The two methods look at the data through different lenses and are meant to be
-read together: Pipeline A gives a stable ORA consensus (it needs a robust DE
-list), while Pipeline B works without a DE pre-filter and adds an UP/DOWN
-direction.
-
----
-
-## Repository structure
-
-```
-run_dashboard.R            # One-command dashboard launcher
-R/
-  run_pipelineA.R          # Pipeline A entry point
-  run_pipelineB.R          # Pipeline B entry point
-  pipelineA/steps/         # Step scripts 01–07 + step98 (final export)
-  pipelineB/steps/         # Step scripts 01–06
-  analysis/                # Post-run analysis: diagnostics, threshold sweep,
-  │                        #   policy, simulations, plots
-  ablation/                # Pipeline B ablation experiment scripts
-  utils/                   # Shared utilities (config, gene-ID conversion, …)
-config/
-  default.yml              # Dataset selection, pipeline parameters, thresholds
-  ablation/                # Ablation variant configs
-data/
-  dataset_0/ … dataset_3/  # Reference RNA-seq datasets
-  ACTA2KO_iVSMC/           # ACTA2-knockout iVSMC application dataset
-results/                   # Precomputed pipeline + analysis outputs (curated)
-report_assets/             # Publication-ready figures (PNG) and source tables
-shiny/                     # Interactive dashboard (see shiny/README.md)
-renv.lock                  # Locked package versions
-```
-
----
-
-## Datasets
-
-| Dataset | Description | Gene IDs |
-|---|---|---|
-| `dataset_0` | Reference cohort — full transcriptome | SYMBOL |
-| `dataset_1` | GSE199939 — EV / KD groups | ENTREZ |
-| `dataset_2` | GSE243836 — focused panel (~2 200 genes) | ENTREZ |
-| `dataset_3` | GSE247345 | ENTREZ |
-| `ACTA2KO_iVSMC` | ACTA2 knockout vs wild-type in iVSMC | ENSEMBL → SYMBOL |
-
-All datasets share a single pathway annotation,
-`data/dataset_0/processed/Pathway2Gene.csv` (GO-BP + WikiPathways).
-
-> Additional vascular smooth-muscle-cell datasets used during development are
-> **withheld pending publication** and are intentionally not included here.
-
----
-
-## Analysis scripts (`R/analysis/`)
+### Post-run analysis (`R/analysis/`)
 
 | Script | Purpose |
 |---|---|
@@ -140,38 +199,30 @@ All datasets share a single pathway annotation,
 | `02_expressed_fraction.R` | Expression-coverage QC for final pathways |
 | `03_threshold_policy.R` | Dataset classification + recommended thresholds |
 | `04_run_with_policy.R` | Run Pipeline A with auto-selected thresholds |
-| `05_simulation.R` | Simulation studies A (coverage) and B (signal) |
+| `05_simulation.R` | Simulation studies (coverage & signal) for threshold behaviour |
 | `06_plot_stability_vs_significance.R` | Stability-vs-significance figure |
 
-`R/ablation/` contains the Pipeline B component-ablation experiment
-(`run_ablation_B.R` + comparison scripts) with its variant configs under
-`config/ablation/`.
+`R/ablation/` holds the Pipeline B component-ablation experiment
+(`run_ablation_B.R` + comparison scripts), configured by `config/ablation/`.
 
----
-
-## Configuration (`config/default.yml`)
-
-Key parameters under the `pipelineA:` / `pipelineB:` blocks and shared `thresholds:`:
+### Key configuration (`config/default.yml`)
 
 - `dataset:` — the active dataset (expression + metadata + statistics files)
 - `gene_id_type:` — `SYMBOL` | `ENTREZ` | `ENSEMBL` (Pipeline B normalises to SYMBOL)
-- `TAU_STABILITY:` — bootstrap stability threshold (Pipeline A, default 0.70)
-- `CONS_JACCARD_MIN:` — cross-collection consensus Jaccard threshold (default 0.15)
+- `TAU_STABILITY:` — bootstrap stability threshold (Pipeline A, default `0.70`)
+- `CONS_JACCARD_MIN:` — cross-collection consensus Jaccard threshold (default `0.15`)
 - `agreement_mode:` — `intersection` | `relax_fdr_then_topn` (Pipeline B step 03)
 
 ---
 
-## Environment
+## Acknowledgements
 
-Managed with renv. After installing or updating packages, refresh the lockfile:
-
-```r
-renv::snapshot()
-```
-
----
+Carried out within the **MaRBLe 2.0** honours programme at Maastricht
+University, in collaboration with the Department of Biochemistry. Thanks to
+supervisors **Rachel Cavill**, **Jarno Koetsier**, and **Pepijn Saraber** for
+their guidance throughout the project.
 
 ## License
 
-Academic project. Code is shared for review and reference; please get in touch
-before reusing the code or data.
+Academic project shared for review and as a portfolio reference. Please get in
+touch before reusing the code or data.
