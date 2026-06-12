@@ -14,6 +14,12 @@ Supervisors: Rachel Cavill · Jarno Koetsier · Pepijn Saraber
 ![Reproducible](https://img.shields.io/badge/environment-renv-F46800)
 ![Programme](https://img.shields.io/badge/Maastricht-MaRBLe%202.0%20Honours-002b5c)
 
+<br>
+
+<img src="report_assets/dashboard/dashboard_overview.png" alt="MaRBLe pathway dashboard — Pipeline A results view" width="920">
+
+<sub><em>The Shiny dashboard — Pipeline A results for <code>dataset_0</code>: final shortlist, dot plot, and per-pathway detail.</em></sub>
+
 </div>
 
 ---
@@ -71,6 +77,14 @@ as CSV.
 > Optional: installing `org.Hs.eg.db` + `AnnotationDbi` (Bioconductor) additionally
 > shows the gene members behind each GO term. The dashboard works fine without
 > them — it just skips that lookup.
+
+<div align="center">
+
+<img src="report_assets/dashboard/dashboard_comparison.png" alt="Pipeline A ↔ B comparison tab" width="920">
+
+<sub><em>The <strong>A ↔ B</strong> tab (<code>dataset_0</code>): the complementarity summary, shared pathway IDs across both pipelines, and per-pathway detail.</em></sub>
+
+</div>
 
 ---
 
